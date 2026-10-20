@@ -33,7 +33,7 @@
 | [Necesse](https://store.steampowered.com/app/1169040/) | 二维持续生成世界、生态区、聚落与探索 | `reference_only`；无限世界仍需要有意义的地点 |
 | [DREDGE](https://www.dredge.game/) | 鱼获用途、远航、返港与船升级 | 原作三维，借鉴循环与表现；`reference_only` |
 | [Swaggerfall](https://holonaut64.itch.io/swaggerfall) | 统一尺度、模型到字符、镜头、光照、帆船与世界交互 | 可访问网页与运行包不等于源码或美术可复用授权；`reference_only` |
-| ascii-sharks（当前工程底层参考） | 连续游动、银光、尾迹、留白、干净界面 | 上游仓库 URL 未从本轮资料中重新核实，不编造链接；实际复用以工程附带授权为准 |
+| [ascii-sharks](https://github.com/stackedlol/ascii-sharks)（当前工程底层参考） | 连续游动、银光、尾迹、留白、干净界面 | 已核对仓库入口；当前工程记录基于提交 `c521e24a787e6d4cc460d4cf2b9815f25e4fe453`。本轮未确认明确的复用许可，实际复用需核对原始声明 |
 
 ## 本轮选出的三段可读源码动画
 
