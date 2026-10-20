@@ -14,7 +14,7 @@
 ## 拉取资料（示例）
 
 ```sh
-git clone --depth 1 https://github.com/kailashsr38/ascii-magic-art.git work/ascii-magic-art
+git -c core.autocrlf=false clone --depth 1 https://github.com/kailashsr38/ascii-magic-art.git work/ascii-magic-art
 python -c "import urllib.request,pathlib; pathlib.Path('work/ascii-magic-library.html').write_bytes(urllib.request.urlopen('https://www.ascii-magic.com/ascii',timeout=45).read())"
 python scripts/import_library.py
 python scripts/validate.py
