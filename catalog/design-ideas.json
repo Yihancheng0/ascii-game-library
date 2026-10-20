@@ -831,5 +831,105 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:tidebound-migration-story",
+    "name": "借潮而行：六章迁徙与回家",
+    "kind": "design_idea",
+    "status": "approved_experiment",
+    "origin": "用户认可方向后要求制作与审查，设计与版本分开归档",
+    "summary_zh": "从灯鱼出湾、沉船缝合、帆海、夜市和雨岛，走向解除锁鳞、回家启程；区分本版实现和候选。",
+    "tags": [
+      "剧情",
+      "迁徙",
+      "岛鱼",
+      "锁鳞鱼",
+      "针尾鱼",
+      "回声鱼",
+      "家园",
+      "story",
+      "migration"
+    ],
+    "search_text": "借潮而行：六章迁徙与回家 从灯鱼出湾、沉船缝合、帆海、夜市和雨岛，走向解除锁鳞、回家启程；区分本版实现和候选。 剧情 迁徙 岛鱼 锁鳞鱼 针尾鱼 回声鱼 家园 story migration",
+    "document_path": "ideas/tidebound-story.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.4.0",
+    "implementation_note": "Private development build; candidate details remain explicitly marked in the document."
+  },
+  {
+    "id": "design:tidebound-companion-homes",
+    "name": "伙伴鱼住进船和岛：安置与能力互斥",
+    "kind": "design_idea",
+    "status": "approved_experiment",
+    "origin": "用户认可方向后要求制作与审查，设计与版本分开归档",
+    "summary_zh": "同一条伙伴只有一个住处，回家可接回；住在家里的鱼不能同时提供远海能力。",
+    "tags": [
+      "装饰",
+      "安置",
+      "船",
+      "海岛",
+      "伙伴",
+      "窗边",
+      "鱼灯",
+      "companion",
+      "decoration"
+    ],
+    "search_text": "伙伴鱼住进船和岛：安置与能力互斥 同一条伙伴只有一个住处，回家可接回；住在家里的鱼不能同时提供远海能力。 装饰 安置 船 海岛 伙伴 窗边 鱼灯 companion decoration",
+    "document_path": "ideas/tidebound-story.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-story.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.4.0",
+    "implementation_note": "Private development build; candidate details remain explicitly marked in the document."
+  },
+  {
+    "id": "design:tidebound-art-weather",
+    "name": "借潮而行的美：连续大岛与剧情天气",
+    "kind": "design_idea",
+    "status": "approved_experiment",
+    "origin": "用户认可方向后要求制作与审查，设计与版本分开归档",
+    "summary_zh": "保留鱼的微光与负空间，适配四个 MIT 参考的稀疏雨、扫光、局部闪电，禁止直接照搬构图。",
+    "tags": [
+      "美术",
+      "风格",
+      "字符密度",
+      "呼吸",
+      "灯塔",
+      "闪电",
+      "暴雨",
+      "ASCII Magic",
+      "lighthouse",
+      "storm"
+    ],
+    "search_text": "借潮而行的美：连续大岛与剧情天气 保留鱼的微光与负空间，适配四个 MIT 参考的稀疏雨、扫光、局部闪电，禁止直接照搬构图。 美术 风格 字符密度 呼吸 灯塔 闪电 暴雨 ASCII Magic lighthouse storm",
+    "document_path": "ideas/tidebound-art.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-art.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-art.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-art.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.4.0",
+    "implementation_note": "Private development build; candidate details remain explicitly marked in the document."
   }
 ]

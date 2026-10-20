@@ -26,3 +26,7 @@ python scripts/search.py 镜鱼 --kind fish_combo
 ```
 
 这是本项目的设计笔记，不是被引用游戏的源码或美术授权；`reference_only` 的作品保持原有权利归属。设定的原创扩展与用户原话摘要分开标注，避免把编辑建议写成已确认需求。
+
+## 借潮而行 · 可玩版本对接
+
+[六章剧情与伙伴安置](tidebound-story.md) · [美术与天气适配](tidebound-art.md) · [代码版本、审查与交接](../projects/tidebound/README.md)。这些笔记保留设计边界，实际代码与演示见私有开发版本。

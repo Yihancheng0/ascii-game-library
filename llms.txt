@@ -16,3 +16,5 @@
 - [60 fish designs](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-species.json): original candidate abilities, conditions, costs, counters and visual notes; not implemented features.
 - [15 three-fish builds](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-combinations.json): composition sequences, emergent choices, failure cases, dangerous symbioses and small validation ideas.
 - [24 fish interactions](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-interactions.json): pair synergies, conflicts, counters and invalid shortcuts.
+
+Game implementation handoff: projects/tidebound/README.md and projects/tidebound/versions.json. Original story: ideas/tidebound-story.md. Art/weather adaptation: ideas/tidebound-art.md. Actual private code versions are separate from candidate design notes.

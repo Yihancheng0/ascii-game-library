@@ -99,3 +99,7 @@ python scripts/validate.py
 - [更新方法](docs/maintenance.md) · [数据字段](docs/data-model.md) · [复用说明](docs/reuse-guide.md)。
 
 - 这是有日期的整理快照；不包含定时抓取或自动更新任务。
+
+## 借潮而行：游戏制作档案
+
+[游戏版本与交接入口](projects/tidebound/README.md) · [六章剧情](ideas/tidebound-story.md) · [美术与天气适配](ideas/tidebound-art.md)。代码保存在用户的独立私有仓库，素材库不重复分发授权尚未明确的原鱼代码。

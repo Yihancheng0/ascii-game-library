@@ -1,0 +1,29 @@
+{
+  "project": "Tidebound ASCII / 借潮而行",
+  "code_repository": "https://github.com/Yihancheng0/tidebound-ascii",
+  "visibility": "private",
+  "current_version": "v0.4.0",
+  "versions": [
+    {
+      "version": "v0.3.0",
+      "role": "historical opening baseline",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.3.0",
+      "known_limitations": [
+        "Unbounded guardian joints and mouth mask artifacts",
+        "No continuing chapters"
+      ],
+      "commit": "f45df5c96608c6e3f465aee9ef77f26b549935ea"
+    },
+    {
+      "version": "v0.4.0",
+      "role": "migration expansion",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.4.0",
+      "release_url": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.4.0",
+      "story": "ideas/tidebound-story.md",
+      "art": "ideas/tidebound-art.md",
+      "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.4.0/docs/REVIEW-v0.4.md",
+      "commit": "a5290135ceadee7cbd6a6be3332aff3234fe362b",
+      "qa_note": "Behavior/type/build and offline actual-engine input journey passed. Browser device acceptance not completed."
+    }
+  ]
+}

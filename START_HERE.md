@@ -38,3 +38,7 @@
 Python 3.10+；`python scripts/search.py --help`。查询结果包含链接和授权状态，`--json` 可供下一步程序读取。
 
 仅下载 llms.txt 不会让所有 AI 自动记住此库；后续会话请提供本页 URL，或把本仓库加入该项目的上下文。
+
+## 游戏工程与更新版本
+
+本项目后续对接先读 [借潮而行版本入口](projects/tidebound/README.md)，再查 `projects/tidebound/versions.json`。代码保存在独立私有仓库；本库保存原创剧情、美术约束、参考来源和版本链接。不要把剧情候选或素材库其他鱼种当成已经实装。
