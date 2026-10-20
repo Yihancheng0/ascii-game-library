@@ -1,0 +1,752 @@
+[
+  {
+    "id": "design:world-fish-cosmos",
+    "name": "万物皆鱼：天空鱼、海鱼、岛鱼与船鱼",
+    "kind": "design_idea",
+    "status": "user_proposed",
+    "origin": "用户提出",
+    "summary_zh": "天空是鱼腹，昼夜来自翻身；大海、岛、船都是鱼。",
+    "tags": [
+      "天空鱼",
+      "昼夜",
+      "翻身",
+      "鱼世界",
+      "海鱼",
+      "岛鱼",
+      "船鱼",
+      "cosmology",
+      "fish",
+      "world"
+    ],
+    "search_text": "万物皆鱼：天空鱼、海鱼、岛鱼与船鱼 天空是鱼腹，昼夜来自翻身；大海、岛、船都是鱼。 天空鱼 昼夜 翻身 鱼世界 海鱼 岛鱼 船鱼 cosmology fish world",
+    "document_path": "ideas/fish-world.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:rule-fish-against-fish",
+    "name": "只有鱼能对抗鱼：能力与代价",
+    "kind": "design_idea",
+    "status": "user_proposed",
+    "origin": "用户提出，注明小说启发",
+    "summary_zh": "人不能直接杀鱼，通过另一种鱼的能力进行对抗；致死或非致死边界待定。",
+    "tags": [
+      "恐怖复苏",
+      "鱼道具",
+      "能力",
+      "组合",
+      "克制",
+      "限制",
+      "代价",
+      "fish",
+      "versus",
+      "fish"
+    ],
+    "search_text": "只有鱼能对抗鱼：能力与代价 人不能直接杀鱼，通过另一种鱼的能力进行对抗；致死或非致死边界待定。 恐怖复苏 鱼道具 能力 组合 克制 限制 代价 fish versus fish",
+    "document_path": "ideas/fish-world.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:combo-fish-tools",
+    "name": "能力鱼组合：光、影、声、雾、锚与潮",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑扩展",
+    "summary_zh": "十种能力鱼与八个组合事件，明确条件、效果、代价和反制。",
+    "tags": [
+      "灯鱼",
+      "镜鱼",
+      "锚鱼",
+      "回声鱼",
+      "静音鱼",
+      "雾鱼",
+      "吞光鱼",
+      "缝鳍鱼",
+      "逆流鱼",
+      "能力",
+      "组合"
+    ],
+    "search_text": "能力鱼组合：光、影、声、雾、锚与潮 十种能力鱼与八个组合事件，明确条件、效果、代价和反制。 灯鱼 镜鱼 锚鱼 回声鱼 静音鱼 雾鱼 吞光鱼 缝鳍鱼 逆流鱼 能力 组合",
+    "document_path": "ideas/fish-world.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-world.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:proposal-towing",
+    "name": "A 巨鱼拖船远航",
+    "kind": "design_idea",
+    "status": "approved_experiment",
+    "origin": "用户同意尝试",
+    "summary_zh": "松线借力、收线制动、左右引导和主动切线；记录的是试验授权，不是完成声明。",
+    "tags": [
+      "拖船",
+      "牵潮鱼",
+      "大鱼",
+      "航行",
+      "A",
+      "towing",
+      "giant",
+      "fish",
+      "boat"
+    ],
+    "search_text": "A 巨鱼拖船远航 松线借力、收线制动、左右引导和主动切线；记录的是试验授权，不是完成声明。 拖船 牵潮鱼 大鱼 航行 A towing giant fish boat",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:proposal-reflection",
+    "name": "B 只钓倒影",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑提案",
+    "summary_zh": "移动灯、船和饵的倒影，改变鱼的感知与咬钩机会。",
+    "tags": [
+      "倒影",
+      "垂钓",
+      "灯光",
+      "影鱼",
+      "光影",
+      "reflection",
+      "fishing"
+    ],
+    "search_text": "B 只钓倒影 移动灯、船和饵的倒影，改变鱼的感知与咬钩机会。 倒影 垂钓 灯光 影鱼 光影 reflection fishing",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:proposal-living-island",
+    "name": "C 迁徙岛鱼",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑提案；岛鱼设定由用户提出",
+    "summary_zh": "追踪浮出、下潜和迁徙征兆，选择登岛与离岸；移动陆地成本较高。",
+    "tags": [
+      "岛鱼",
+      "迁徙",
+      "巨物",
+      "上岸",
+      "下潜",
+      "living",
+      "island"
+    ],
+    "search_text": "C 迁徙岛鱼 追踪浮出、下潜和迁徙征兆，选择登岛与离岸；移动陆地成本较高。 岛鱼 迁徙 巨物 上岸 下潜 living island",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:loop-fishing-expedition",
+    "name": "捕鱼—回港—升级—远航闭环",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑提案",
+    "summary_zh": "鱼获推动委托、能力和航行进展；需要适配人不能杀鱼的设定。",
+    "tags": [
+      "闭环",
+      "捕鱼",
+      "回港",
+      "升级",
+      "远航",
+      "经济",
+      "purpose",
+      "progression"
+    ],
+    "search_text": "捕鱼—回港—升级—远航闭环 鱼获推动委托、能力和航行进展；需要适配人不能杀鱼的设定。 闭环 捕鱼 回港 升级 远航 经济 purpose progression",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:loop-ecology-collection",
+    "name": "生态观察与收藏",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑提案",
+    "summary_zh": "观察特殊环境中的生物，记录、借用、收藏或放生。",
+    "tags": [
+      "生态",
+      "观察",
+      "图鉴",
+      "收藏",
+      "放生",
+      "aquarium",
+      "ecology"
+    ],
+    "search_text": "生态观察与收藏 观察特殊环境中的生物，记录、借用、收藏或放生。 生态 观察 图鉴 收藏 放生 aquarium ecology",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:loop-chart-mysteries",
+    "name": "海图与岛屿寻秘",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑提案",
+    "summary_zh": "地标、海岸、局部障碍、新连接与旧海域重访。",
+    "tags": [
+      "海图",
+      "秘密",
+      "海洞",
+      "大岛",
+      "探索",
+      "mystery",
+      "exploration"
+    ],
+    "search_text": "海图与岛屿寻秘 地标、海岸、局部障碍、新连接与旧海域重访。 海图 秘密 海洞 大岛 探索 mystery exploration",
+    "document_path": "ideas/ocean-proposals.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/ocean-proposals.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:method-rule-inversion",
+    "name": "翻转常识与六角色头脑风暴",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "编辑方法建议",
+    "summary_zh": "从规则翻转出发，分别审查操作、画面、重复游玩与最小验证。",
+    "tags": [
+      "灵感",
+      "脑洞",
+      "角色扮演",
+      "头脑风暴",
+      "奇葩",
+      "组合",
+      "创意",
+      "brainstorming"
+    ],
+    "search_text": "翻转常识与六角色头脑风暴 从规则翻转出发，分别审查操作、画面、重复游玩与最小验证。 灵感 脑洞 角色扮演 头脑风暴 奇葩 组合 创意 brainstorming",
+    "document_path": "ideas/creative-method.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/creative-method.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/creative-method.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/creative-method.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-terraria",
+    "name": "泰拉瑞亚 Terraria",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "探索、收获与新能力相互推动，让旧海域值得重访。",
+    "tags": [
+      "泰拉瑞啦",
+      "能力",
+      "成长",
+      "探索"
+    ],
+    "search_text": "泰拉瑞亚 Terraria 探索、收获与新能力相互推动，让旧海域值得重访。 泰拉瑞啦 能力 成长 探索",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-dont-starve",
+    "name": "饥荒与海难 Don’t Starve",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "环境、生物和资源关系产生可观察、可利用的事件。",
+    "tags": [
+      "饥荒",
+      "海难",
+      "生态",
+      "关系",
+      "群岛"
+    ],
+    "search_text": "饥荒与海难 Don’t Starve 环境、生物和资源关系产生可观察、可利用的事件。 饥荒 海难 生态 关系 群岛",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-dead-cells",
+    "name": "重生细胞 Dead Cells",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "装备产生不同操作，明确动作节奏和反馈。",
+    "tags": [
+      "重生细胞",
+      "死亡细胞",
+      "装备",
+      "手感"
+    ],
+    "search_text": "重生细胞 Dead Cells 装备产生不同操作，明确动作节奏和反馈。 重生细胞 死亡细胞 装备 手感",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-gris",
+    "name": "GRIS",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "统一色板、构图、留白、音乐与动作共同组织情绪。",
+    "tags": [
+      "gris",
+      "色彩",
+      "美术",
+      "留白"
+    ],
+    "search_text": "GRIS 统一色板、构图、留白、音乐与动作共同组织情绪。 gris 色彩 美术 留白",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-hollow-knight",
+    "name": "空洞骑士 Hollow Knight",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "区域身份、连接、能力阻隔、秘密与重访。",
+    "tags": [
+      "空洞骑士",
+      "海洞",
+      "探索",
+      "地图"
+    ],
+    "search_text": "空洞骑士 Hollow Knight 区域身份、连接、能力阻隔、秘密与重访。 空洞骑士 海洞 探索 地图",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-katana-zero",
+    "name": "武士零 Katana ZERO",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "少数动作与精心设计的情境，形成密集决策与时间节奏。",
+    "tags": [
+      "武士零",
+      "动作",
+      "节奏"
+    ],
+    "search_text": "武士零 Katana ZERO 少数动作与精心设计的情境，形成密集决策与时间节奏。 武士零 动作 节奏",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-little-nightmares-2",
+    "name": "小小梦魇2 Little Nightmares II",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "尺度、遮挡和局部揭示带来巨物震撼。",
+    "tags": [
+      "小小梦魇2",
+      "巨物",
+      "阴影",
+      "尺度"
+    ],
+    "search_text": "小小梦魇2 Little Nightmares II 尺度、遮挡和局部揭示带来巨物震撼。 小小梦魇2 巨物 阴影 尺度",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-how-to-fish",
+    "name": "渔力全开 How to Fish",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "熟悉的钓鱼入口，与物理交互、装备、首领和多人意外组合。",
+    "tags": [
+      "鱼力全开",
+      "渔力全开",
+      "奇葩",
+      "物理",
+      "脑洞"
+    ],
+    "search_text": "渔力全开 How to Fish 熟悉的钓鱼入口，与物理交互、装备、首领和多人意外组合。 鱼力全开 渔力全开 奇葩 物理 脑洞",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-sea-of-stars",
+    "name": "星之海 Sea of Stars",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "水面、岸线、方向控制钓鱼与空间关系。",
+    "tags": [
+      "星之海",
+      "钓鱼",
+      "岸线"
+    ],
+    "search_text": "星之海 Sea of Stars 水面、岸线、方向控制钓鱼与空间关系。 星之海 钓鱼 岸线",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-eastward",
+    "name": "风来之国 Eastward",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "聚落空间、细节疏密、建筑身份和生活痕迹。",
+    "tags": [
+      "风来之国",
+      "聚落",
+      "美术"
+    ],
+    "search_text": "风来之国 Eastward 聚落空间、细节疏密、建筑身份和生活痕迹。 风来之国 聚落 美术",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-spiritfarer",
+    "name": "Spiritfarer 灵魂摆渡人",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "人物姿态、船上生活、鱼获与照顾的联系。",
+    "tags": [
+      "spiritfarer",
+      "船",
+      "人物",
+      "动作"
+    ],
+    "search_text": "Spiritfarer 灵魂摆渡人 人物姿态、船上生活、鱼获与照顾的联系。 spiritfarer 船 人物 动作",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-fishing-paradiso",
+    "name": "Fishing Paradiso",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "捕鱼推动新环境、人物与故事目标。",
+    "tags": [
+      "钓鱼",
+      "天堂",
+      "渔获",
+      "目的"
+    ],
+    "search_text": "Fishing Paradiso 捕鱼推动新环境、人物与故事目标。 钓鱼 天堂 渔获 目的",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-necesse",
+    "name": "Necesse",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "二维持续生成世界，结合生态区、聚落与值得寻找的地点。",
+    "tags": [
+      "necesse",
+      "无限海域",
+      "二维",
+      "世界"
+    ],
+    "search_text": "Necesse 二维持续生成世界，结合生态区、聚落与值得寻找的地点。 necesse 无限海域 二维 世界",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-dredge",
+    "name": "DREDGE 渔帆暗涌",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "远航、鱼获用途、返港和船升级的循环。",
+    "tags": [
+      "dredge",
+      "渔帆暗涌",
+      "钓鱼"
+    ],
+    "search_text": "DREDGE 渔帆暗涌 远航、鱼获用途、返港和船升级的循环。 dredge 渔帆暗涌 钓鱼",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-swaggerfall",
+    "name": "Swaggerfall",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "统一尺度、字符渲染、镜头、光照与世界交互。",
+    "tags": [
+      "swaggerfall",
+      "字符",
+      "船",
+      "美感"
+    ],
+    "search_text": "Swaggerfall 统一尺度、字符渲染、镜头、光照与世界交互。 swaggerfall 字符 船 美感",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-ascii-sharks",
+    "name": "ascii-sharks",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "保留连续游动、鱼身光彩、拖影、留白和干净界面。",
+    "tags": [
+      "ascii-sharks",
+      "美感",
+      "光彩",
+      "拖影"
+    ],
+    "search_text": "ascii-sharks 保留连续游动、鱼身光彩、拖影、留白和干净界面。 ascii-sharks 美感 光彩 拖影",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:reference-selected-ascii-scenes",
+    "name": "三段海洋字符动画与两款完整游戏",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "作品事实链接与本项目设计判断分开",
+    "summary_zh": "灯塔夜景、水上渔村、俯视鱼塘；Stone Story 动作和 Candy Box 2 逐步展开玩法。",
+    "tags": [
+      "灯塔",
+      "渔村",
+      "锦鲤",
+      "Stone",
+      "Story",
+      "Candy",
+      "Box",
+      "素材",
+      "MIT",
+      "GPL"
+    ],
+    "search_text": "三段海洋字符动画与两款完整游戏 灯塔夜景、水上渔村、俯视鱼塘；Stone Story 动作和 Candy Box 2 逐步展开玩法。 灯塔 渔村 锦鲤 Stone Story Candy Box 素材 MIT GPL",
+    "document_path": "ideas/game-references.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/game-references.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  }
+]

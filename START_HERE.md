@@ -13,6 +13,7 @@
 8. `reference_only` 项目用于研究表现与设计；不要把链接当成可复制美术的授权。
 9. 字符模块生成的是 `draw(t)` 帧。要做游戏，需要另外设计输入、角色状态、地图、碰撞、胜负与存档；自动播放的 Arcade 动画不等于完整玩法。
 10. 优先按项目需求选普通 ASCII 或 Unicode 字符集，核对字体、字符单元比例、色板和刷新性能；查看模块 `meta` 里的实际参数。
+11. 用户询问本项目世界观、玩法与前序讨论时，读取 `https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/design-ideas.json`，按 `document_path` 只取相关笔记。入口见 [设定与灵感](ideas/README.md)。保留用户提案、候选和同意试验的状态，不把笔记视为已实现功能。
 
 ## 提示词示例
 

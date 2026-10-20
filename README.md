@@ -17,6 +17,8 @@
 
 ## 如何使用
 
+- 项目讨论存档：[设定与设计灵感](ideas/README.md)。包含万物皆鱼世界观、能力组合、巨鱼拖船提案、作品借鉴和脑洞方法；可用 `python scripts/search.py 天空鱼 --kind design_idea` 检索。
+
 - 浏览入口：[资源卡片](resources/) · [游戏开发场景配方](docs/recipes.md) · [AI 检索说明](START_HERE.md)。
 
 - AI 按需读取：[分类目录](catalog/categories.json) → `catalog/ascii-magic/<分类>.json` → 对应源文件。

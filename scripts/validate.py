@@ -39,6 +39,16 @@ def main():
     assert len(pieces)-mirrored==manifest['website_only_piece_count']
     assert len(list((ROOT/'vendor/ascii-magic-art/pieces').glob('*.js')))==mirrored
     for r in resources:assert (ROOT/'resources'/f"{r['id']}.md").is_file()
+    ideas=read('catalog/design-ideas.json')
+    assert len({r['id'] for r in ideas})==len(ideas)
+    assert not ({r['id'] for r in ideas}&({r['id'] for r in resources}|{p['id'] for p in pieces}))
+    for r in ideas:
+        assert r['kind']=='design_idea'
+        assert r['status'] in ('candidate','user_proposed','approved_experiment','reference_note')
+        assert (ROOT/r['document_path']).is_file()
+        assert r['source_status']=='editorial_design_note'
+        assert r['document_url'].startswith('https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/')
+        assert r['license']['reuse']=='original_notes_only; third_party_works_reference_only'
     notice=(ROOT/'vendor/ascii-magic-art/NOTICE').read_text(encoding='utf-8')
     provenance=read('catalog/provenance.json')
     assert provenance['upstream_commit']==manifest['upstream_commit']
@@ -52,5 +62,5 @@ def main():
         for target in re.findall(r'\]\(([^)]+)\)',md.read_text(encoding='utf-8')):
             if '://' in target or target.startswith('#'):continue
             assert (md.parent/target.split('#')[0]).exists(),(md,target)
-    print(f'OK: {len(resources)} resources, {len(pieces)} pieces, {len(categories)} categories, {mirrored} source modules; JSON, shards, links and notices consistent.')
+    print(f'OK: {len(resources)} resources, {len(pieces)} pieces, {len(categories)} categories, {mirrored} source modules, {len(ideas)} design notes; JSON, shards, links and notices consistent.')
 if __name__=='__main__':main()
