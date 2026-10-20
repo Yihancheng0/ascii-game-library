@@ -13,3 +13,6 @@
 - [Source snapshot](https://github.com/Yihancheng0/ascii-game-library/tree/main/vendor/ascii-magic-art): 634 pinned modules, runtime and toolkit with notices.
 - [Design ideas index](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/design-ideas.json): searchable project ideas, user worldbuilding and game reference notes; status does not imply implementation.
 - [Design notebook](https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/README.md): fish-world rules, giant-fish towing, ability combinations and creative methods.
+- [60 fish designs](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-species.json): original candidate abilities, conditions, costs, counters and visual notes; not implemented features.
+- [15 three-fish builds](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-combinations.json): composition sequences, emergent choices, failure cases, dangerous symbioses and small validation ideas.
+- [24 fish interactions](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/fish-interactions.json): pair synergies, conflicts, counters and invalid shortcuts.

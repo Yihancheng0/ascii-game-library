@@ -1,0 +1,194 @@
+[
+  {
+    "fish_ids": [
+      "fish:lamp",
+      "fish:mirror"
+    ],
+    "relation": "配合",
+    "note": "灯提供真实倒影的来源，镜移动假影；真实灯光也会暴露出发位置。"
+  },
+  {
+    "fish_ids": [
+      "fish:lamp",
+      "fish:light-eater"
+    ],
+    "relation": "冲突",
+    "note": "吞光会吃掉灯的局部照明；储满后吞光鱼漏光，无法无限隐蔽。"
+  },
+  {
+    "fish_ids": [
+      "fish:echo",
+      "fish:silence"
+    ],
+    "relation": "冲突",
+    "note": "静音范围里发回声会削弱探测；适合先发声、离开发声点，再静音。"
+  },
+  {
+    "fish_ids": [
+      "fish:scent-trail",
+      "fish:trace-eater"
+    ],
+    "relation": "克制",
+    "note": "遗忘鱼吞去气味航迹后，嗅路鱼失去原路，但可能改追它带味的腹部。"
+  },
+  {
+    "fish_ids": [
+      "fish:sky-eye",
+      "fish:mist"
+    ],
+    "relation": "有限配合",
+    "note": "窥天鱼能辨薄雾里的天空征兆；浓雾、实体与剧烈晃动仍然阻挡。"
+  },
+  {
+    "fish_ids": [
+      "fish:watchbound",
+      "fish:mirror"
+    ],
+    "relation": "无效捷径",
+    "note": "镜里的眼睛不是活眼直视，无法让守望鱼永久静止。"
+  },
+  {
+    "fish_ids": [
+      "fish:position-swap",
+      "fish:anchor"
+    ],
+    "relation": "冲突",
+    "note": "被锚定的伙伴不能直接借位；必须先承受解除锚定后的风险。"
+  },
+  {
+    "fish_ids": [
+      "fish:tail-tether",
+      "fish:knot-picker"
+    ],
+    "relation": "克制",
+    "note": "解结鱼可拆缠尾形成的主结，也会拆掉玩家自己的有效牵引。"
+  },
+  {
+    "fish_ids": [
+      "fish:fin-stitch",
+      "fish:knot-picker"
+    ],
+    "relation": "克制",
+    "note": "解结可松开鳍结，不能撕裂原本完整的活组织。"
+  },
+  {
+    "fish_ids": [
+      "fish:scale-sand",
+      "fish:shore-spitter"
+    ],
+    "relation": "配合",
+    "note": "旧鳞变沙，再由吐岸鱼布置；总材料量有限。"
+  },
+  {
+    "fish_ids": [
+      "fish:shore-spitter",
+      "fish:slime-net"
+    ],
+    "relation": "配合",
+    "note": "黏丝把散沙暂时黏住，伙伴同样可能被网困住。"
+  },
+  {
+    "fish_ids": [
+      "fish:pocket-belly",
+      "fish:brine-brewer"
+    ],
+    "relation": "双刃配合",
+    "note": "容肚鱼的水可被调节，适合某种乘客也可能伤害另一种乘客。"
+  },
+  {
+    "fish_ids": [
+      "fish:sleep-rhythm",
+      "fish:wake-tide"
+    ],
+    "relation": "克制",
+    "note": "醒潮打断催眠，并可能叫醒不想叫醒的岛鱼局部。"
+  },
+  {
+    "fish_ids": [
+      "fish:hunger-lender",
+      "fish:parasite-sail"
+    ],
+    "relation": "资源牵制",
+    "note": "寄生帆提高船的补给压力；借饥只能转移压力，不能凭空供给。"
+  },
+  {
+    "fish_ids": [
+      "fish:tide-debt",
+      "fish:anchor"
+    ],
+    "relation": "双刃配合",
+    "note": "锚使船不易被还潮拉走，但反向力仍会作用在连接上。"
+  },
+  {
+    "fish_ids": [
+      "fish:name-swap",
+      "fish:promise-keeper"
+    ],
+    "relation": "无效捷径",
+    "note": "换名只改应答声，不能把身体绑定的承诺转给另一条鱼。"
+  },
+  {
+    "fish_ids": [
+      "fish:delay-beat",
+      "fish:repeat-fin"
+    ],
+    "relation": "限制",
+    "note": "各自产生自己的尾拍；不能复制对方、被动受力或重放产物，不能形成无限推力。"
+  },
+  {
+    "fish_ids": [
+      "fish:threshold",
+      "fish:mirror"
+    ],
+    "relation": "无效捷径",
+    "note": "假倒影不算真实生物越线，不能替自己消耗一次通行。"
+  },
+  {
+    "fish_ids": [
+      "fish:mist",
+      "fish:lamp"
+    ],
+    "relation": "冲突",
+    "note": "雾挡住轮廓，同时会把灯光散成可见光团。"
+  },
+  {
+    "fish_ids": [
+      "fish:sleeping-abyss",
+      "fish:wake-tide"
+    ],
+    "relation": "危险关系",
+    "note": "醒潮可能扰动眠渊鱼的睡眠，让原本能落脚的薄海皮重新变水。"
+  },
+  {
+    "fish_ids": [
+      "fish:sky-belly",
+      "fish:light-eater"
+    ],
+    "relation": "尺度限制",
+    "note": "吞光只作用于局部，不能吞掉天空鱼、命令天黑或停止翻身。"
+  },
+  {
+    "fish_ids": [
+      "fish:fin-stitch",
+      "fish:scale-mender"
+    ],
+    "relation": "配合",
+    "note": "先修补可接触的小裂口，再添薄保护鳞；增重与修补时间仍在。"
+  },
+  {
+    "fish_ids": [
+      "fish:island-bearer",
+      "fish:homeward"
+    ],
+    "relation": "冲突",
+    "note": "回港鱼认的是经过的路线；岛鱼迁走后，它只能带到原来的港口位置。"
+  },
+  {
+    "fish_ids": [
+      "fish:lamp-spawn",
+      "fish:homeward"
+    ],
+    "relation": "配合",
+    "note": "灯卵作为短时可见路标辅助回程，孵离后仍要重新定位。"
+  }
+]

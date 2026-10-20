@@ -49,6 +49,34 @@ def main():
         assert r['source_status']=='editorial_design_note'
         assert r['document_url'].startswith('https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/')
         assert r['license']['reuse']=='original_notes_only; third_party_works_reference_only'
+    fish=read('catalog/fish-species.json');combos=read('catalog/fish-combinations.json');interactions=read('catalog/fish-interactions.json')
+    fish_ids={f['id'] for f in fish};combo_ids={c['id'] for c in combos}
+    assert len(fish)==60 and len(fish_ids)==len(fish)
+    assert len({f['name'] for f in fish})==len(fish)
+    assert [f['number'] for f in fish]==list(range(1,61))
+    assert len(combos)==15 and len(combo_ids)==len(combos)
+    assert len(interactions)==24
+    for f in fish:
+        assert f['kind']=='fish_design' and f['status']=='candidate'
+        assert all(f.get(key) for key in ('ability','trigger','cost','counter','visual','scale'))
+        assert set(f['combo_ids'])<=combo_ids
+        assert f['combo_ids']==[c['id'] for c in combos if f['id'] in c['fish_ids']]
+        assert f['interactions']==[r for r in interactions if f['id'] in r['fish_ids']]
+    for c in combos:
+        assert c['kind']=='fish_combo' and c['status']=='candidate'
+        assert len(c['fish_ids'])==len(set(c['fish_ids']))==3
+        assert set(c['fish_ids'])<=fish_ids
+        assert c['fish_names']==[next(f['name'] for f in fish if f['id']==ident) for ident in c['fish_ids']]
+        assert all(c.get(key) for key in ('sequence','result','failure','smallest_validation'))
+    for r in interactions:
+        assert len(r['fish_ids'])==len(set(r['fish_ids']))==2
+        assert set(r['fish_ids'])<=fish_ids and r['relation'] and r['note']
+    for r in fish+combos:
+        assert r['source_status']=='editorial_design_note'
+        assert r['license']['reuse']=='original_notes_only; third_party_works_reference_only'
+        assert (ROOT/r['document_path']).is_file()
+        anchor=r['document_url'].split('#')[1]
+        assert f'id="{anchor}"' in (ROOT/r['document_path']).read_text(encoding='utf-8')
     notice=(ROOT/'vendor/ascii-magic-art/NOTICE').read_text(encoding='utf-8')
     provenance=read('catalog/provenance.json')
     assert provenance['upstream_commit']==manifest['upstream_commit']
@@ -62,5 +90,5 @@ def main():
         for target in re.findall(r'\]\(([^)]+)\)',md.read_text(encoding='utf-8')):
             if '://' in target or target.startswith('#'):continue
             assert (md.parent/target.split('#')[0]).exists(),(md,target)
-    print(f'OK: {len(resources)} resources, {len(pieces)} pieces, {len(categories)} categories, {mirrored} source modules, {len(ideas)} design notes; JSON, shards, links and notices consistent.')
+    print(f'OK: {len(resources)} resources, {len(pieces)} pieces, {mirrored} source modules, {len(ideas)} design notes, {len(fish)} fish, {len(combos)} triples, {len(interactions)} interactions; indexes, links and notices consistent.')
 if __name__=='__main__':main()

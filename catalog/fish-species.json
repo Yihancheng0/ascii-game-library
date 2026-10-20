@@ -1,0 +1,2716 @@
+[
+  {
+    "id": "fish:lamp",
+    "number": 1,
+    "name": "灯鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "发出一小圈稳定光，照出附近真实轮廓，也让追光鱼看见你",
+    "ability": "发出一小圈稳定光，照出附近真实轮廓，也让追光鱼看见你",
+    "trigger": "喂食后展开灯须；可以遮住或转向",
+    "cost": "持续耗食；亮度越高，暴露距离越远",
+    "counter": "吞光鱼能吸走局部光；雾会散射光",
+    "visual": "一根细灯须，一点暖光，身体大部分留暗",
+    "tags": [
+      "光",
+      "照明",
+      "诱饵",
+      "暴露"
+    ],
+    "search_text": "灯鱼 感知与光影 随行 发出一小圈稳定光，照出附近真实轮廓，也让追光鱼看见你 喂食后展开灯须；可以遮住或转向 持续耗食；亮度越高，暴露距离越远 吞光鱼能吸走局部光；雾会散射光 光 照明 诱饵 暴露",
+    "inspiration_sources": [
+      "S1"
+    ],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-01",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-01",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-01",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:lamp",
+          "fish:mirror"
+        ],
+        "relation": "配合",
+        "note": "灯提供真实倒影的来源，镜移动假影；真实灯光也会暴露出发位置。"
+      },
+      {
+        "fish_ids": [
+          "fish:lamp",
+          "fish:light-eater"
+        ],
+        "relation": "冲突",
+        "note": "吞光会吃掉灯的局部照明；储满后吞光鱼漏光，无法无限隐蔽。"
+      },
+      {
+        "fish_ids": [
+          "fish:mist",
+          "fish:lamp"
+        ],
+        "relation": "冲突",
+        "note": "雾挡住轮廓，同时会把灯光散成可见光团。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:shadow-smuggler",
+      "fish-combo:keeper-of-night"
+    ]
+  },
+  {
+    "id": "fish:light-eater",
+    "number": 2,
+    "name": "吞光鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "吞下有限范围的光，藏在腹中，需要时吐回",
+    "ability": "吞下有限范围的光，藏在腹中，需要时吐回",
+    "trigger": "张口朝向已有光源，收口后携带",
+    "cost": "腹部装满就漏光；不能吞掉整个白昼",
+    "counter": "新的多方向光源会超过容量",
+    "visual": "黑色轮廓里有一颗越来越亮的腹灯",
+    "tags": [
+      "黑暗",
+      "储光",
+      "遮蔽",
+      "容量"
+    ],
+    "search_text": "吞光鱼 感知与光影 随行 吞下有限范围的光，藏在腹中，需要时吐回 张口朝向已有光源，收口后携带 腹部装满就漏光；不能吞掉整个白昼 新的多方向光源会超过容量 黑暗 储光 遮蔽 容量",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-02",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-02",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-02",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:lamp",
+          "fish:light-eater"
+        ],
+        "relation": "冲突",
+        "note": "吞光会吃掉灯的局部照明；储满后吞光鱼漏光，无法无限隐蔽。"
+      },
+      {
+        "fish_ids": [
+          "fish:sky-belly",
+          "fish:light-eater"
+        ],
+        "relation": "尺度限制",
+        "note": "吞光只作用于局部，不能吞掉天空鱼、命令天黑或停止翻身。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:keeper-of-night"
+    ]
+  },
+  {
+    "id": "fish:mirror",
+    "number": 3,
+    "name": "镜鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "复制一个真实对象的可见倒影，并拖着它移动",
+    "ability": "复制一个真实对象的可见倒影，并拖着它移动",
+    "trigger": "平静水面上先接住原对象的倒影",
+    "cost": "假影无重量、无气味、无声音；浪大就碎",
+    "counter": "回声、气味和触碰可识破",
+    "visual": "鱼像一小片斜镜，假影边缘偶尔断一格",
+    "tags": [
+      "倒影",
+      "诱导",
+      "假目标"
+    ],
+    "search_text": "镜鱼 感知与光影 随行 复制一个真实对象的可见倒影，并拖着它移动 平静水面上先接住原对象的倒影 假影无重量、无气味、无声音；浪大就碎 回声、气味和触碰可识破 倒影 诱导 假目标",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-03",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-03",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-03",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:lamp",
+          "fish:mirror"
+        ],
+        "relation": "配合",
+        "note": "灯提供真实倒影的来源，镜移动假影；真实灯光也会暴露出发位置。"
+      },
+      {
+        "fish_ids": [
+          "fish:watchbound",
+          "fish:mirror"
+        ],
+        "relation": "无效捷径",
+        "note": "镜里的眼睛不是活眼直视，无法让守望鱼永久静止。"
+      },
+      {
+        "fish_ids": [
+          "fish:threshold",
+          "fish:mirror"
+        ],
+        "relation": "无效捷径",
+        "note": "假倒影不算真实生物越线，不能替自己消耗一次通行。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:shadow-smuggler"
+    ]
+  },
+  {
+    "id": "fish:echo",
+    "number": 4,
+    "name": "回声鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "发出一圈声波，将附近实体边界短暂显成细线",
+    "ability": "发出一圈声波，将附近实体边界短暂显成细线",
+    "trigger": "玩家轻敲鱼背，等待回声返回",
+    "cost": "脉冲会被听声捕食者听见，无法撤回",
+    "counter": "软体褶皱吸声；重叠回声会误导",
+    "visual": "两片大耳鳍，细环只出现一瞬",
+    "tags": [
+      "声波",
+      "探路",
+      "定位",
+      "暴露"
+    ],
+    "search_text": "回声鱼 感知与光影 随行 发出一圈声波，将附近实体边界短暂显成细线 玩家轻敲鱼背，等待回声返回 脉冲会被听声捕食者听见，无法撤回 软体褶皱吸声；重叠回声会误导 声波 探路 定位 暴露",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-04",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-04",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-04",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:echo",
+          "fish:silence"
+        ],
+        "relation": "冲突",
+        "note": "静音范围里发回声会削弱探测；适合先发声、离开发声点，再静音。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:silent-cartographer"
+    ]
+  },
+  {
+    "id": "fish:silence",
+    "number": 5,
+    "name": "静音鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "压低身边新产生的声音，允许缓慢潜行",
+    "ability": "压低身边新产生的声音，允许缓慢潜行",
+    "trigger": "贴在船鱼鳃边，保持低速",
+    "cost": "高速、碰撞与大幅拍水会突破静音；旧声音不会被抹掉",
+    "counter": "嗅探、视觉与直接水压感知仍能追踪",
+    "visual": "嘴边一道很淡的闭合弧线",
+    "tags": [
+      "静音",
+      "潜行",
+      "声音"
+    ],
+    "search_text": "静音鱼 感知与光影 随行 压低身边新产生的声音，允许缓慢潜行 贴在船鱼鳃边，保持低速 高速、碰撞与大幅拍水会突破静音；旧声音不会被抹掉 嗅探、视觉与直接水压感知仍能追踪 静音 潜行 声音",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-05",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-05",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-05",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:echo",
+          "fish:silence"
+        ],
+        "relation": "冲突",
+        "note": "静音范围里发回声会削弱探测；适合先发声、离开发声点，再静音。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:silent-cartographer",
+      "fish-combo:bubble-bridge"
+    ]
+  },
+  {
+    "id": "fish:sky-eye",
+    "number": 6,
+    "name": "窥天鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "隔着薄雾辨认天空鱼腹部的鳞纹与翻身征兆",
+    "ability": "隔着薄雾辨认天空鱼腹部的鳞纹与翻身征兆",
+    "trigger": "让透明头罩朝上，停稳观察",
+    "cost": "观察时几乎看不见前方；不能看穿厚实体",
+    "counter": "遮挡、翻滚和水面剧烈摇晃",
+    "visual": "透明圆头里两点朝上的绿光",
+    "tags": [
+      "天空",
+      "观察",
+      "昼夜",
+      "视线"
+    ],
+    "search_text": "窥天鱼 感知与光影 随行 隔着薄雾辨认天空鱼腹部的鳞纹与翻身征兆 让透明头罩朝上，停稳观察 观察时几乎看不见前方；不能看穿厚实体 遮挡、翻滚和水面剧烈摇晃 天空 观察 昼夜 视线",
+    "inspiration_sources": [
+      "S2"
+    ],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-06",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-06",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-06",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sky-eye",
+          "fish:mist"
+        ],
+        "relation": "有限配合",
+        "note": "窥天鱼能辨薄雾里的天空征兆；浓雾、实体与剧烈晃动仍然阻挡。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:scent-trail",
+    "number": 7,
+    "name": "嗅路鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "沿一条选定鱼的气味航迹带路",
+    "ability": "沿一条选定鱼的气味航迹带路",
+    "trigger": "先嗅到真实黏液、鳞片或近处目标",
+    "cost": "一次只记一种气味；杂味和岔流会让它犹豫",
+    "counter": "遗忘鱼可吞掉新鲜气味痕迹",
+    "visual": "长鼻须，偶尔朝正确方向轻点",
+    "tags": [
+      "气味",
+      "追踪",
+      "迷路"
+    ],
+    "search_text": "嗅路鱼 感知与光影 随行 沿一条选定鱼的气味航迹带路 先嗅到真实黏液、鳞片或近处目标 一次只记一种气味；杂味和岔流会让它犹豫 遗忘鱼可吞掉新鲜气味痕迹 气味 追踪 迷路",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-07",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-07",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-07",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:scent-trail",
+          "fish:trace-eater"
+        ],
+        "relation": "克制",
+        "note": "遗忘鱼吞去气味航迹后，嗅路鱼失去原路，但可能改追它带味的腹部。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:afterimage",
+    "number": 8,
+    "name": "盲烛鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "只照出此处最近三息经过的鱼影，当前位置仍藏在暗处",
+    "ability": "只照出此处最近三息经过的鱼影，当前位置仍藏在暗处",
+    "trigger": "在刚被搅动的水面点亮尾烛",
+    "cost": "看到的是过去，容易误判追兵距离",
+    "counter": "等待痕迹过期或用遗忘鱼清掉",
+    "visual": "无眼小鱼，尾光里逆向飘过一条旧影",
+    "tags": [
+      "残影",
+      "过去",
+      "航迹",
+      "侦察"
+    ],
+    "search_text": "盲烛鱼 感知与光影 随行 只照出此处最近三息经过的鱼影，当前位置仍藏在暗处 在刚被搅动的水面点亮尾烛 看到的是过去，容易误判追兵距离 等待痕迹过期或用遗忘鱼清掉 残影 过去 航迹 侦察",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-08",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-08",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-08",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:mist",
+    "number": 9,
+    "name": "雾鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "吐出一团局部薄雾，切断远处视线",
+    "ability": "吐出一团局部薄雾，切断远处视线",
+    "trigger": "缓慢吐气，需要已有水分",
+    "cost": "自己也看不清；强风会把雾吹向同伴",
+    "counter": "回声和嗅探穿过雾；灯会在雾里显出位置",
+    "visual": "透明圆腹，雾贴水面缓慢铺开",
+    "tags": [
+      "雾",
+      "遮挡",
+      "视线"
+    ],
+    "search_text": "雾鱼 感知与光影 随行 吐出一团局部薄雾，切断远处视线 缓慢吐气，需要已有水分 自己也看不清；强风会把雾吹向同伴 回声和嗅探穿过雾；灯会在雾里显出位置 雾 遮挡 视线",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-09",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-09",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-09",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sky-eye",
+          "fish:mist"
+        ],
+        "relation": "有限配合",
+        "note": "窥天鱼能辨薄雾里的天空征兆；浓雾、实体与剧烈晃动仍然阻挡。"
+      },
+      {
+        "fish_ids": [
+          "fish:mist",
+          "fish:lamp"
+        ],
+        "relation": "冲突",
+        "note": "雾挡住轮廓，同时会把灯光散成可见光团。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:missing-mark",
+    "number": 10,
+    "name": "寻缺鱼",
+    "kind": "fish_design",
+    "category_name": "感知与光影",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "指出重复结构里的缺口，例如少一片的鳞、断开的岸纹",
+    "ability": "指出重复结构里的缺口，例如少一片的鳞、断开的岸纹",
+    "trigger": "先沿完整结构游过一小段作比较",
+    "cost": "在杂乱海域找不到规律，提示不等于安全",
+    "counter": "假缺口可诱导；重复结构改变后需重读",
+    "visual": "体侧刻痕等距排列，缺口处暗一下",
+    "tags": [
+      "缺口",
+      "鳞纹",
+      "谜题",
+      "通道"
+    ],
+    "search_text": "寻缺鱼 感知与光影 随行 指出重复结构里的缺口，例如少一片的鳞、断开的岸纹 先沿完整结构游过一小段作比较 在杂乱海域找不到规律，提示不等于安全 假缺口可诱导；重复结构改变后需重读 缺口 鳞纹 谜题 通道",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-10",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-10",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-10",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:tide-puller",
+    "number": 11,
+    "name": "牵潮鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "借力伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "沿迁徙方向牵引船鱼，玩家可缓慢引导",
+    "ability": "沿迁徙方向牵引船鱼，玩家可缓慢引导",
+    "trigger": "用鱼线建立临时联系，并顺着它发力",
+    "cost": "强行逆拉会断开；不能立刻掉头",
+    "counter": "锚鱼与岸线会抵抗牵引，可能拉伤连接",
+    "visual": "长身大尾，冲刺只加强原有银光尾迹",
+    "tags": [
+      "拖船",
+      "远航",
+      "速度",
+      "拉力"
+    ],
+    "search_text": "牵潮鱼 航行与位置 借力伙伴 沿迁徙方向牵引船鱼，玩家可缓慢引导 用鱼线建立临时联系，并顺着它发力 强行逆拉会断开；不能立刻掉头 锚鱼与岸线会抵抗牵引，可能拉伤连接 拖船 远航 速度 拉力",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-11",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-11",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-11",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:mobile-harbour"
+    ]
+  },
+  {
+    "id": "fish:anchor",
+    "number": 12,
+    "name": "锚鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "咬住已有坚实鳞礁，让船相对附着点固定",
+    "ability": "咬住已有坚实鳞礁，让船相对附着点固定",
+    "trigger": "靠近可咬住的活礁或坚实旧鳞",
+    "cost": "深水无附着点无效；过大拉力会使它脱口",
+    "counter": "解结鱼可解除连接；滑动礁体不是固定地面",
+    "visual": "厚下颌、短尾，落锚时只有一圈涟漪",
+    "tags": [
+      "锚",
+      "停靠",
+      "制动",
+      "受力"
+    ],
+    "search_text": "锚鱼 航行与位置 随行 咬住已有坚实鳞礁，让船相对附着点固定 靠近可咬住的活礁或坚实旧鳞 深水无附着点无效；过大拉力会使它脱口 解结鱼可解除连接；滑动礁体不是固定地面 锚 停靠 制动 受力",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-12",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-12",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-12",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:position-swap",
+          "fish:anchor"
+        ],
+        "relation": "冲突",
+        "note": "被锚定的伙伴不能直接借位；必须先承受解除锚定后的风险。"
+      },
+      {
+        "fish_ids": [
+          "fish:tide-debt",
+          "fish:anchor"
+        ],
+        "relation": "双刃配合",
+        "note": "锚使船不易被还潮拉走，但反向力仍会作用在连接上。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:mobile-harbour",
+      "fish-combo:bubble-bridge",
+      "fish-combo:borrowed-storm",
+      "fish-combo:third-breath"
+    ]
+  },
+  {
+    "id": "fish:countercurrent",
+    "number": 13,
+    "name": "逆流鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "短时反转身边一小段已有水流",
+    "ability": "短时反转身边一小段已有水流",
+    "trigger": "先沿原流游一遍，再翻鳍",
+    "cost": "只能改变局部流向；流越强越累",
+    "counter": "大尺度潮汐很快冲散反流",
+    "visual": "两道相反尾纹，水迹短暂折返",
+    "tags": [
+      "逆流",
+      "转向",
+      "潮汐"
+    ],
+    "search_text": "逆流鱼 航行与位置 随行 短时反转身边一小段已有水流 先沿原流游一遍，再翻鳍 只能改变局部流向；流越强越累 大尺度潮汐很快冲散反流 逆流 转向 潮汐",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-13",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-13",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-13",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:borrowed-storm"
+    ]
+  },
+  {
+    "id": "fish:glide",
+    "number": 14,
+    "name": "滑水鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "用薄膜降低船鱼表面水阻",
+    "ability": "用薄膜降低船鱼表面水阻",
+    "trigger": "贴住船腹并展开滑膜",
+    "cost": "速度容易积累，制动和转弯距离也增大",
+    "counter": "粗糙礁面、黏网会破坏滑膜",
+    "visual": "扁平薄鱼，船底有极淡流线",
+    "tags": [
+      "减阻",
+      "惯性",
+      "速度",
+      "制动"
+    ],
+    "search_text": "滑水鱼 航行与位置 随行 用薄膜降低船鱼表面水阻 贴住船腹并展开滑膜 速度容易积累，制动和转弯距离也增大 粗糙礁面、黏网会破坏滑膜 减阻 惯性 速度 制动",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-14",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-14",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-14",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:mobile-harbour"
+    ]
+  },
+  {
+    "id": "fish:wind-borrower",
+    "number": 15,
+    "name": "借风鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "展开轻鳍借自然风，将轻物短暂托离水面",
+    "ability": "展开轻鳍借自然风，将轻物短暂托离水面",
+    "trigger": "迎风张鳍，已有向前速度",
+    "cost": "承重小；失风立即下降，不能凭空起飞",
+    "counter": "逆风和重载使它合鳍",
+    "visual": "两片纸一样的长胸鳍",
+    "tags": [
+      "风",
+      "滑翔",
+      "承重"
+    ],
+    "search_text": "借风鱼 航行与位置 随行 展开轻鳍借自然风，将轻物短暂托离水面 迎风张鳍，已有向前速度 承重小；失风立即下降，不能凭空起飞 逆风和重载使它合鳍 风 滑翔 承重",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-15",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-15",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-15",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:wind-vault"
+    ]
+  },
+  {
+    "id": "fish:wave-jumper",
+    "number": 16,
+    "name": "跳潮鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "借迎面浪峰的一次弹力，把小船托过低矮障碍",
+    "ability": "借迎面浪峰的一次弹力，把小船托过低矮障碍",
+    "trigger": "在浪峰到达时同时翻鳍",
+    "cost": "有起跳无转向保证，必须预判落水位置",
+    "counter": "平水无浪不可起跳；过重无法带起",
+    "visual": "短身弓背，起跳留下弯月状水痕",
+    "tags": [
+      "跳跃",
+      "浪",
+      "时机",
+      "越障"
+    ],
+    "search_text": "跳潮鱼 航行与位置 随行 借迎面浪峰的一次弹力，把小船托过低矮障碍 在浪峰到达时同时翻鳍 有起跳无转向保证，必须预判落水位置 平水无浪不可起跳；过重无法带起 跳跃 浪 时机 越障",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-16",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-16",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-16",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:wind-vault"
+    ]
+  },
+  {
+    "id": "fish:homeward",
+    "number": 17,
+    "name": "回港鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "沿自己刚经过的真实路线领回最近停靠点",
+    "ability": "沿自己刚经过的真实路线领回最近停靠点",
+    "trigger": "在港口记住气味，再沿途随行",
+    "cost": "会照原路返回，不会跨过新障碍或传送",
+    "counter": "路线断流、港口迁走时只能带到旧位置",
+    "visual": "尾巴分成两条，回程亮起其中一条",
+    "tags": [
+      "返航",
+      "路线",
+      "停靠"
+    ],
+    "search_text": "回港鱼 航行与位置 随行 沿自己刚经过的真实路线领回最近停靠点 在港口记住气味，再沿途随行 会照原路返回，不会跨过新障碍或传送 路线断流、港口迁走时只能带到旧位置 返航 路线 停靠",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-17",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-17",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-17",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:island-bearer",
+          "fish:homeward"
+        ],
+        "relation": "冲突",
+        "note": "回港鱼认的是经过的路线；岛鱼迁走后，它只能带到原来的港口位置。"
+      },
+      {
+        "fish_ids": [
+          "fish:lamp-spawn",
+          "fish:homeward"
+        ],
+        "relation": "配合",
+        "note": "灯卵作为短时可见路标辅助回程，孵离后仍要重新定位。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:position-swap",
+    "number": 18,
+    "name": "借位鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "让两个自愿的同级小型鱼伙伴互换位置",
+    "ability": "让两个自愿的同级小型鱼伙伴互换位置",
+    "trigger": "双方在同一连续水域且短线相连",
+    "cost": "范围有限；交换会暂时失去方向，不能换走岛鱼",
+    "counter": "隔墙、断水、固定锚点会阻止交换",
+    "visual": "鱼身两端像两个朝向相反的头",
+    "tags": [
+      "换位",
+      "水域",
+      "连线"
+    ],
+    "search_text": "借位鱼 航行与位置 随行 让两个自愿的同级小型鱼伙伴互换位置 双方在同一连续水域且短线相连 范围有限；交换会暂时失去方向，不能换走岛鱼 隔墙、断水、固定锚点会阻止交换 换位 水域 连线",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-18",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-18",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-18",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:position-swap",
+          "fish:anchor"
+        ],
+        "relation": "冲突",
+        "note": "被锚定的伙伴不能直接借位；必须先承受解除锚定后的风险。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:third-breath"
+    ]
+  },
+  {
+    "id": "fish:bubble-step",
+    "number": 19,
+    "name": "踏泡鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "吐出几颗可承受轻载的短命水泡，形成临时落脚点",
+    "ability": "吐出几颗可承受轻载的短命水泡，形成临时落脚点",
+    "trigger": "从有空气的浅水逐颗吐出",
+    "cost": "数量少、重量有限；冲击与强声会震破",
+    "counter": "尖锐鱼鳍和巨浪可破坏泡桥",
+    "visual": "圆唇小鱼，水泡边缘仅一圈细字",
+    "tags": [
+      "泡桥",
+      "轻载",
+      "临时路径"
+    ],
+    "search_text": "踏泡鱼 航行与位置 随行 吐出几颗可承受轻载的短命水泡，形成临时落脚点 从有空气的浅水逐颗吐出 数量少、重量有限；冲击与强声会震破 尖锐鱼鳍和巨浪可破坏泡桥 泡桥 轻载 临时路径",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-19",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-19",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-19",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:bubble-bridge"
+    ]
+  },
+  {
+    "id": "fish:tail-tether",
+    "number": 20,
+    "name": "缠尾鱼",
+    "kind": "fish_design",
+    "category_name": "航行与位置",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "用长尾连接两个可缠绕的鱼鳍，传递拉力",
+    "ability": "用长尾连接两个可缠绕的鱼鳍，传递拉力",
+    "trigger": "近距离绕过两处实际鳍根",
+    "cost": "只能一条连接；两端速度差大时会打结或松脱",
+    "counter": "解结鱼可拆开；巨物会直接挣开",
+    "visual": "尾巴像一根缓慢游动的细线",
+    "tags": [
+      "绳索",
+      "牵引",
+      "连接",
+      "反作用"
+    ],
+    "search_text": "缠尾鱼 航行与位置 随行 用长尾连接两个可缠绕的鱼鳍，传递拉力 近距离绕过两处实际鳍根 只能一条连接；两端速度差大时会打结或松脱 解结鱼可拆开；巨物会直接挣开 绳索 牵引 连接 反作用",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-20",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-20",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-20",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:tail-tether",
+          "fish:knot-picker"
+        ],
+        "relation": "克制",
+        "note": "解结鱼可拆缠尾形成的主结，也会拆掉玩家自己的有效牵引。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:turnstile-hunter",
+      "fish-combo:cut-your-own-knot"
+    ]
+  },
+  {
+    "id": "fish:shore-fold",
+    "number": 21,
+    "name": "折岸鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "借力伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "弯起岛鱼一小段柔软岸鳍，让窄水道暂时打开",
+    "ability": "弯起岛鱼一小段柔软岸鳍，让窄水道暂时打开",
+    "trigger": "找到柔软、可活动的岸段，岛鱼保持平静",
+    "cost": "硬岩、建筑和整个岛屿都不能折；松口就缓慢复位",
+    "counter": "惊醒岛鱼会使它夹紧岸鳍",
+    "visual": "薄而宽的鱼嘴，岸线像袖口抬起",
+    "tags": [
+      "岸线",
+      "通道",
+      "地形",
+      "柔软"
+    ],
+    "search_text": "折岸鱼 边界与构造 借力伙伴 弯起岛鱼一小段柔软岸鳍，让窄水道暂时打开 找到柔软、可活动的岸段，岛鱼保持平静 硬岩、建筑和整个岛屿都不能折；松口就缓慢复位 惊醒岛鱼会使它夹紧岸鳍 岸线 通道 地形 柔软",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-21",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-21",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-21",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:gill-door",
+    "number": 22,
+    "name": "门鳃鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "撑住一处已经存在的鳃门，让开口维持片刻",
+    "ability": "撑住一处已经存在的鳃门，让开口维持片刻",
+    "trigger": "等目标吸气，咬住正在张开的鳃缘",
+    "cost": "不能在完整皮肤上造门；大鳃门只能维持一角",
+    "counter": "目标闭鳃发力会把它挤出",
+    "visual": "头尾像两根细门闩",
+    "tags": [
+      "鳃门",
+      "开口",
+      "窗口",
+      "潜入"
+    ],
+    "search_text": "门鳃鱼 边界与构造 随行 撑住一处已经存在的鳃门，让开口维持片刻 等目标吸气，咬住正在张开的鳃缘 不能在完整皮肤上造门；大鳃门只能维持一角 目标闭鳃发力会把它挤出 鳃门 开口 窗口 潜入",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-22",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-22",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-22",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:gill-diver",
+      "fish-combo:wake-the-host"
+    ]
+  },
+  {
+    "id": "fish:fin-stitch",
+    "number": 23,
+    "name": "缝鳍鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把两处愿意接近的活鳍暂时缝合，接桥或修补小裂口",
+    "ability": "把两处愿意接近的活鳍暂时缝合，接桥或修补小裂口",
+    "trigger": "双方平静且活组织能实际接触",
+    "cost": "需要时间；受力过大或组织拒绝会松开",
+    "counter": "解结鱼能松解它形成的鳍结",
+    "visual": "腹下垂细须，连接点是一小串亮字",
+    "tags": [
+      "接桥",
+      "修补",
+      "活组织",
+      "缝合"
+    ],
+    "search_text": "缝鳍鱼 边界与构造 随行 把两处愿意接近的活鳍暂时缝合，接桥或修补小裂口 双方平静且活组织能实际接触 需要时间；受力过大或组织拒绝会松开 解结鱼能松解它形成的鳍结 接桥 修补 活组织 缝合",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-23",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-23",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-23",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:fin-stitch",
+          "fish:knot-picker"
+        ],
+        "relation": "克制",
+        "note": "解结可松开鳍结，不能撕裂原本完整的活组织。"
+      },
+      {
+        "fish_ids": [
+          "fish:fin-stitch",
+          "fish:scale-mender"
+        ],
+        "relation": "配合",
+        "note": "先修补可接触的小裂口，再添薄保护鳞；增重与修补时间仍在。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:knot-picker",
+    "number": 24,
+    "name": "解结鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "找到鱼形成的绳结、缠绕和鳍结并逐一拆开",
+    "ability": "找到鱼形成的绳结、缠绕和鳍结并逐一拆开",
+    "trigger": "沿连接游到真实结点，保持接触",
+    "cost": "一次只拆一结；不能撕裂肉体或解除抽象承诺",
+    "counter": "移动结点、把结藏进鳃门会阻止它",
+    "visual": "尖鼻窄身，游姿像在穿针",
+    "tags": [
+      "解结",
+      "拆除",
+      "连接"
+    ],
+    "search_text": "解结鱼 边界与构造 随行 找到鱼形成的绳结、缠绕和鳍结并逐一拆开 沿连接游到真实结点，保持接触 一次只拆一结；不能撕裂肉体或解除抽象承诺 移动结点、把结藏进鳃门会阻止它 解结 拆除 连接",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-24",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-24",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-24",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:tail-tether",
+          "fish:knot-picker"
+        ],
+        "relation": "克制",
+        "note": "解结鱼可拆缠尾形成的主结，也会拆掉玩家自己的有效牵引。"
+      },
+      {
+        "fish_ids": [
+          "fish:fin-stitch",
+          "fish:knot-picker"
+        ],
+        "relation": "克制",
+        "note": "解结可松开鳍结，不能撕裂原本完整的活组织。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:cut-your-own-knot"
+    ]
+  },
+  {
+    "id": "fish:shadow-shear",
+    "number": 25,
+    "name": "剪影鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把一条真实鱼的影子与身体短暂分离，影子沿旧方向漂移",
+    "ability": "把一条真实鱼的影子与身体短暂分离，影子沿旧方向漂移",
+    "trigger": "存在清楚的实体投影，沿影缘咬一圈",
+    "cost": "只能分离数息；原鱼暂时失去自己的影子",
+    "counter": "吞光会让剪切条件消失；假倒影不能再剪",
+    "visual": "身体像两片贴合的黑叶",
+    "tags": [
+      "影子",
+      "脱身",
+      "诱饵"
+    ],
+    "search_text": "剪影鱼 边界与构造 随行 把一条真实鱼的影子与身体短暂分离，影子沿旧方向漂移 存在清楚的实体投影，沿影缘咬一圈 只能分离数息；原鱼暂时失去自己的影子 吞光会让剪切条件消失；假倒影不能再剪 影子 脱身 诱饵",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-25",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-25",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-25",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:shadow-smuggler"
+    ]
+  },
+  {
+    "id": "fish:pocket-belly",
+    "number": 26,
+    "name": "容肚鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "借力伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "腹中保有一小汪水，携带一条平静小鱼或有限物料",
+    "ability": "腹中保有一小汪水，携带一条平静小鱼或有限物料",
+    "trigger": "被携带者自愿进入，先准备合适水质",
+    "cost": "重量仍在，游得更慢；需持续换水，拒绝嵌套容肚鱼",
+    "counter": "搅动或缺氧会迫使它开口放出乘客",
+    "visual": "圆腹内透出一条小鱼的微光",
+    "tags": [
+      "收纳",
+      "救援",
+      "水质",
+      "容量"
+    ],
+    "search_text": "容肚鱼 边界与构造 借力伙伴 腹中保有一小汪水，携带一条平静小鱼或有限物料 被携带者自愿进入，先准备合适水质 重量仍在，游得更慢；需持续换水，拒绝嵌套容肚鱼 搅动或缺氧会迫使它开口放出乘客 收纳 救援 水质 容量",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-26",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-26",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-26",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:pocket-belly",
+          "fish:brine-brewer"
+        ],
+        "relation": "双刃配合",
+        "note": "容肚鱼的水可被调节，适合某种乘客也可能伤害另一种乘客。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:floating-clinic"
+    ]
+  },
+  {
+    "id": "fish:shore-spitter",
+    "number": 27,
+    "name": "吐岸鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "借力伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把腹中已有沙粒聚到浅水，吐成一小块临时沙岸",
+    "ability": "把腹中已有沙粒聚到浅水，吐成一小块临时沙岸",
+    "trigger": "有浅水支撑且沙量足够",
+    "cost": "沙会被潮冲散；深水填不出无底陆地",
+    "counter": "逆流和海鱼呼吸能冲走沙岸",
+    "visual": "扁嘴鱼，吐沙像一条低低的雾带",
+    "tags": [
+      "造岸",
+      "沙",
+      "临时地形"
+    ],
+    "search_text": "吐岸鱼 边界与构造 借力伙伴 把腹中已有沙粒聚到浅水，吐成一小块临时沙岸 有浅水支撑且沙量足够 沙会被潮冲散；深水填不出无底陆地 逆流和海鱼呼吸能冲走沙岸 造岸 沙 临时地形",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-27",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-27",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-27",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:scale-sand",
+          "fish:shore-spitter"
+        ],
+        "relation": "配合",
+        "note": "旧鳞变沙，再由吐岸鱼布置；总材料量有限。"
+      },
+      {
+        "fish_ids": [
+          "fish:shore-spitter",
+          "fish:slime-net"
+        ],
+        "relation": "配合",
+        "note": "黏丝把散沙暂时黏住，伙伴同样可能被网困住。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:portable-shore"
+    ]
+  },
+  {
+    "id": "fish:clear-scale",
+    "number": 28,
+    "name": "透鳞鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "让贴住的一小片活鳞变透明，看见其内轮廓",
+    "ability": "让贴住的一小片活鳞变透明，看见其内轮廓",
+    "trigger": "鳞片完整且目标没有剧烈挣扎",
+    "cost": "透明不等于能穿过；只能看浅层，需保持贴合",
+    "counter": "厚鳞、翻身、内层遮挡会挡住视线",
+    "visual": "扁透明身体，有极细的边框",
+    "tags": [
+      "透视",
+      "观察",
+      "鳞片",
+      "内部"
+    ],
+    "search_text": "透鳞鱼 边界与构造 随行 让贴住的一小片活鳞变透明，看见其内轮廓 鳞片完整且目标没有剧烈挣扎 透明不等于能穿过；只能看浅层，需保持贴合 厚鳞、翻身、内层遮挡会挡住视线 透视 观察 鳞片 内部",
+    "inspiration_sources": [
+      "S2"
+    ],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-28",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-28",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-28",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:gill-diver"
+    ]
+  },
+  {
+    "id": "fish:borrowed-gill",
+    "number": 29,
+    "name": "借鳃鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "用共享气囊维持短暂水下呼吸",
+    "ability": "用共享气囊维持短暂水下呼吸",
+    "trigger": "贴近伙伴口鼻，先在有氧水域充满气囊",
+    "cost": "氧气储量有限；需回有氧水域补充",
+    "counter": "浑水、缺氧与超深压力会缩短持续时间",
+    "visual": "两侧鳃像一对柔软扇面",
+    "tags": [
+      "潜水",
+      "呼吸",
+      "氧气"
+    ],
+    "search_text": "借鳃鱼 边界与构造 随行 用共享气囊维持短暂水下呼吸 贴近伙伴口鼻，先在有氧水域充满气囊 氧气储量有限；需回有氧水域补充 浑水、缺氧与超深压力会缩短持续时间 潜水 呼吸 氧气",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-29",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-29",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-29",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:gill-diver",
+      "fish-combo:wake-the-host"
+    ]
+  },
+  {
+    "id": "fish:sea-page",
+    "number": 30,
+    "name": "页海鱼",
+    "kind": "fish_design",
+    "category_name": "边界与构造",
+    "scale": "借力伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把一薄片柔软海皮翻起，露出下层水道",
+    "ability": "把一薄片柔软海皮翻起，露出下层水道",
+    "trigger": "找到已翘起的海皮边缘，在浅水衔住",
+    "cost": "只可翻局部薄层；复位会关闭通道，需要留返程路",
+    "counter": "强潮将海皮压平，不能翻动整片海鱼",
+    "visual": "长扁身，背鳍像书签",
+    "tags": [
+      "翻页",
+      "海皮",
+      "下层",
+      "通道"
+    ],
+    "search_text": "页海鱼 边界与构造 借力伙伴 把一薄片柔软海皮翻起，露出下层水道 找到已翘起的海皮边缘，在浅水衔住 只可翻局部薄层；复位会关闭通道，需要留返程路 强潮将海皮压平，不能翻动整片海鱼 翻页 海皮 下层 通道",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-30",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-30",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-30",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:scale-sand",
+    "number": 31,
+    "name": "鳞砂鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把收集的脱落旧鳞磨成粗细不同的沙",
+    "ability": "把收集的脱落旧鳞磨成粗细不同的沙",
+    "trigger": "吞入真实旧鳞，按节奏磨碎",
+    "cost": "保留材料体积上限，无法凭空增殖；研磨有声",
+    "counter": "砂中混入软组织会使它拒食",
+    "visual": "钝喙鼓额，嘴边偶有细砂",
+    "tags": [
+      "材料",
+      "转换",
+      "沙",
+      "旧鳞"
+    ],
+    "search_text": "鳞砂鱼 生态与材料 随行 把收集的脱落旧鳞磨成粗细不同的沙 吞入真实旧鳞，按节奏磨碎 保留材料体积上限，无法凭空增殖；研磨有声 砂中混入软组织会使它拒食 材料 转换 沙 旧鳞",
+    "inspiration_sources": [
+      "S4"
+    ],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-31",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-31",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-31",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:scale-sand",
+          "fish:shore-spitter"
+        ],
+        "relation": "配合",
+        "note": "旧鳞变沙，再由吐岸鱼布置；总材料量有限。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:portable-shore"
+    ]
+  },
+  {
+    "id": "fish:slime-net",
+    "number": 32,
+    "name": "黏网鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "吐出有限黏丝，在浅水织网或把散沙暂时黏结",
+    "ability": "吐出有限黏丝，在浅水织网或把散沙暂时黏结",
+    "trigger": "受到近处威胁或被轻按背部",
+    "cost": "友军也会被黏住；会耗尽黏液并需要休息",
+    "counter": "高速水流冲散，解结鱼拆网的主结",
+    "visual": "柔软细长，黏丝只有逆光时可见",
+    "tags": [
+      "黏液",
+      "网",
+      "缓速",
+      "筑岸"
+    ],
+    "search_text": "黏网鱼 生态与材料 随行 吐出有限黏丝，在浅水织网或把散沙暂时黏结 受到近处威胁或被轻按背部 友军也会被黏住；会耗尽黏液并需要休息 高速水流冲散，解结鱼拆网的主结 黏液 网 缓速 筑岸",
+    "inspiration_sources": [
+      "S3"
+    ],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-32",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-32",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-32",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:shore-spitter",
+          "fish:slime-net"
+        ],
+        "relation": "配合",
+        "note": "黏丝把散沙暂时黏住，伙伴同样可能被网困住。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:portable-shore"
+    ]
+  },
+  {
+    "id": "fish:scale-mender",
+    "number": 33,
+    "name": "补鳞鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把食物中的矿物变为一层薄保护鳞，承受一次擦碰",
+    "ability": "把食物中的矿物变为一层薄保护鳞，承受一次擦碰",
+    "trigger": "贴住平静伙伴的裸露表面，先喂食",
+    "cost": "不是瞬间治疗，不能复活；薄鳞会增重",
+    "counter": "尖锐集中撞击或第二次强撞可击穿",
+    "visual": "小而厚实，补好的鳞光泽偏哑",
+    "tags": [
+      "保护",
+      "修补",
+      "矿物",
+      "重量"
+    ],
+    "search_text": "补鳞鱼 生态与材料 随行 把食物中的矿物变为一层薄保护鳞，承受一次擦碰 贴住平静伙伴的裸露表面，先喂食 不是瞬间治疗，不能复活；薄鳞会增重 尖锐集中撞击或第二次强撞可击穿 保护 修补 矿物 重量",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-33",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-33",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-33",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:fin-stitch",
+          "fish:scale-mender"
+        ],
+        "relation": "配合",
+        "note": "先修补可接触的小裂口，再添薄保护鳞；增重与修补时间仍在。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:floating-clinic"
+    ]
+  },
+  {
+    "id": "fish:brine-brewer",
+    "number": 34,
+    "name": "酿潮鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "调节一小汪水的盐度，引导不同偏好的鱼靠近或离开",
+    "ability": "调节一小汪水的盐度，引导不同偏好的鱼靠近或离开",
+    "trigger": "先摄入盐或淡水，再缓慢吐出",
+    "cost": "材料守恒，范围小；换错水会让己方不适",
+    "counter": "开放大水流会迅速混匀",
+    "visual": "腹中深浅两层水线",
+    "tags": [
+      "盐度",
+      "水质",
+      "生态",
+      "引导"
+    ],
+    "search_text": "酿潮鱼 生态与材料 随行 调节一小汪水的盐度，引导不同偏好的鱼靠近或离开 先摄入盐或淡水，再缓慢吐出 材料守恒，范围小；换错水会让己方不适 开放大水流会迅速混匀 盐度 水质 生态 引导",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-34",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-34",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-34",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:pocket-belly",
+          "fish:brine-brewer"
+        ],
+        "relation": "双刃配合",
+        "note": "容肚鱼的水可被调节，适合某种乘客也可能伤害另一种乘客。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:sleep-rhythm",
+    "number": 35,
+    "name": "催眠鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "重复稳定的拍鳍节奏，使愿意听的附近鱼逐渐放松",
+    "ability": "重复稳定的拍鳍节奏，使愿意听的附近鱼逐渐放松",
+    "trigger": "连续维持同样节拍，目标未受惊",
+    "cost": "受惊、饥饿或警戒中的鱼很难安抚；巨物只可能放松局部",
+    "counter": "突变声、伤害、醒潮鱼会打断",
+    "visual": "眼皮低垂，尾鳍像钟摆",
+    "tags": [
+      "安抚",
+      "节奏",
+      "睡眠"
+    ],
+    "search_text": "催眠鱼 生态与材料 随行 重复稳定的拍鳍节奏，使愿意听的附近鱼逐渐放松 连续维持同样节拍，目标未受惊 受惊、饥饿或警戒中的鱼很难安抚；巨物只可能放松局部 突变声、伤害、醒潮鱼会打断 安抚 节奏 睡眠",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-35",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-35",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-35",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sleep-rhythm",
+          "fish:wake-tide"
+        ],
+        "relation": "克制",
+        "note": "醒潮打断催眠，并可能叫醒不想叫醒的岛鱼局部。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:choirmaster"
+    ]
+  },
+  {
+    "id": "fish:wake-tide",
+    "number": 36,
+    "name": "醒潮鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "发出穿透静水的短促震动，唤醒沉睡或恍惚的鱼",
+    "ability": "发出穿透静水的短促震动，唤醒沉睡或恍惚的鱼",
+    "trigger": "蓄气后用腹部敲水一次",
+    "cost": "会同时惊醒友军、守卫和局部岛鱼，不能指定只醒好鱼",
+    "counter": "远距离、软质隔层会削弱震动；小范围静音无法包住整次震动",
+    "visual": "小圆腹，敲水时波纹突然齐整",
+    "tags": [
+      "唤醒",
+      "声",
+      "震动",
+      "惊动"
+    ],
+    "search_text": "醒潮鱼 生态与材料 随行 发出穿透静水的短促震动，唤醒沉睡或恍惚的鱼 蓄气后用腹部敲水一次 会同时惊醒友军、守卫和局部岛鱼，不能指定只醒好鱼 远距离、软质隔层会削弱震动；小范围静音无法包住整次震动 唤醒 声 震动 惊动",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-36",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-36",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-36",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sleep-rhythm",
+          "fish:wake-tide"
+        ],
+        "relation": "克制",
+        "note": "醒潮打断催眠，并可能叫醒不想叫醒的岛鱼局部。"
+      },
+      {
+        "fish_ids": [
+          "fish:sleeping-abyss",
+          "fish:wake-tide"
+        ],
+        "relation": "危险关系",
+        "note": "醒潮可能扰动眠渊鱼的睡眠，让原本能落脚的薄海皮重新变水。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:choirmaster",
+      "fish-combo:wake-the-host"
+    ]
+  },
+  {
+    "id": "fish:hunger-lender",
+    "number": 37,
+    "name": "借饥鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "在两条自愿连接的鱼之间重新分配饥饿负担",
+    "ability": "在两条自愿连接的鱼之间重新分配饥饿负担",
+    "trigger": "双方近距离同意，借饥鱼从中游过",
+    "cost": "总需求不减少；更饿的一方可能停止工作",
+    "counter": "食物不足或一方拒绝就无法交换",
+    "visual": "腹部两点光一明一暗交换",
+    "tags": [
+      "饥饿",
+      "代价",
+      "补给",
+      "共生"
+    ],
+    "search_text": "借饥鱼 生态与材料 随行 在两条自愿连接的鱼之间重新分配饥饿负担 双方近距离同意，借饥鱼从中游过 总需求不减少；更饿的一方可能停止工作 食物不足或一方拒绝就无法交换 饥饿 代价 补给 共生",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-37",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-37",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-37",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:hunger-lender",
+          "fish:parasite-sail"
+        ],
+        "relation": "资源牵制",
+        "note": "寄生帆提高船的补给压力；借饥只能转移压力，不能凭空供给。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:floating-clinic"
+    ]
+  },
+  {
+    "id": "fish:parasite-sail",
+    "number": 38,
+    "name": "寄生帆鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "附在船鱼背上，展开可调整角度的活帆",
+    "ability": "附在船鱼背上，展开可调整角度的活帆",
+    "trigger": "船鱼接纳它，并有足够食物",
+    "cost": "与船共享体力；受惊时会缩帆，一船只能接纳一片大帆",
+    "counter": "逆风、饥饿与急转弯降低效率",
+    "visual": "细根部、大叶鳍，帆边微微呼吸",
+    "tags": [
+      "帆",
+      "共生",
+      "航行",
+      "风"
+    ],
+    "search_text": "寄生帆鱼 生态与材料 随行 附在船鱼背上，展开可调整角度的活帆 船鱼接纳它，并有足够食物 与船共享体力；受惊时会缩帆，一船只能接纳一片大帆 逆风、饥饿与急转弯降低效率 帆 共生 航行 风",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-38",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-38",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-38",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:hunger-lender",
+          "fish:parasite-sail"
+        ],
+        "relation": "资源牵制",
+        "note": "寄生帆提高船的补给压力；借饥只能转移压力，不能凭空供给。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:wind-vault"
+    ]
+  },
+  {
+    "id": "fish:borrowed-pattern",
+    "number": 39,
+    "name": "换鳞鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "模仿一份已采集鳞样的视觉花纹，覆盖身边同意的伙伴",
+    "ability": "模仿一份已采集鳞样的视觉花纹，覆盖身边同意的伙伴",
+    "trigger": "先观察或收集目标脱落鳞样",
+    "cost": "只改外观，气味、体型、声音和能力不变",
+    "counter": "嗅探与回声能识破；强光下边缘露出旧纹",
+    "visual": "鱼身花纹像墨缓慢流动",
+    "tags": [
+      "伪装",
+      "花纹",
+      "模仿"
+    ],
+    "search_text": "换鳞鱼 生态与材料 随行 模仿一份已采集鳞样的视觉花纹，覆盖身边同意的伙伴 先观察或收集目标脱落鳞样 只改外观，气味、体型、声音和能力不变 嗅探与回声能识破；强光下边缘露出旧纹 伪装 花纹 模仿",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-39",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-39",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-39",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:lamp-spawn",
+    "number": 40,
+    "name": "孵灯鱼",
+    "kind": "fish_design",
+    "category_name": "生态与材料",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "在愿意承载的活鳞上留下少量定时亮起的灯卵",
+    "ability": "在愿意承载的活鳞上留下少量定时亮起的灯卵",
+    "trigger": "先喂食，轻贴目标数息",
+    "cost": "卵数有限，亮起有延迟；孵出后会离开，不会无限增殖",
+    "counter": "目标清理黏液或翻滚会抖落；可被吞光遮住",
+    "visual": "细腹，卵如几颗遥远星点",
+    "tags": [
+      "信标",
+      "延迟",
+      "光",
+      "标记"
+    ],
+    "search_text": "孵灯鱼 生态与材料 随行 在愿意承载的活鳞上留下少量定时亮起的灯卵 先喂食，轻贴目标数息 卵数有限，亮起有延迟；孵出后会离开，不会无限增殖 目标清理黏液或翻滚会抖落；可被吞光遮住 信标 延迟 光 标记",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-40",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-40",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-40",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:lamp-spawn",
+          "fish:homeward"
+        ],
+        "relation": "配合",
+        "note": "灯卵作为短时可见路标辅助回程，孵离后仍要重新定位。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:tide-debt",
+    "number": 41,
+    "name": "欠潮鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "提前借来下一次局部潮推，稍后必须承受同等反向拉力",
+    "ability": "提前借来下一次局部潮推，稍后必须承受同等反向拉力",
+    "trigger": "水域确有下一次潮推，只可欠一笔",
+    "cost": "欠账跟随连接的船鱼；退场或锚定都不会抹掉反向力",
+    "counter": "没有可借潮汐时无效；负重会使还潮更难",
+    "visual": "半边鳞亮、半边鳞暗，欠潮后对调",
+    "tags": [
+      "借贷",
+      "潮汐",
+      "代价",
+      "反作用"
+    ],
+    "search_text": "欠潮鱼 承诺与时序 随行 提前借来下一次局部潮推，稍后必须承受同等反向拉力 水域确有下一次潮推，只可欠一笔 欠账跟随连接的船鱼；退场或锚定都不会抹掉反向力 没有可借潮汐时无效；负重会使还潮更难 借贷 潮汐 代价 反作用",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-41",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-41",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-41",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:tide-debt",
+          "fish:anchor"
+        ],
+        "relation": "双刃配合",
+        "note": "锚使船不易被还潮拉走，但反向力仍会作用在连接上。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:borrowed-storm"
+    ]
+  },
+  {
+    "id": "fish:promise-keeper",
+    "number": 42,
+    "name": "守约鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "维持一条双方自愿接受、可观察的简单行动约定，违约时缠住违约鱼片刻",
+    "ability": "维持一条双方自愿接受、可观察的简单行动约定，违约时缠住违约鱼片刻",
+    "trigger": "双方触碰它的约鳍，选定如三拍内不越线的明确条件",
+    "cost": "不能强迫陌生巨物签约；自己也必须遵守，约只绑定参与的真实身体",
+    "counter": "条件不明确就拒绝成立；必须让对方自愿解除或履行约定",
+    "visual": "侧鳍一对对称刻痕，约成时合拢",
+    "tags": [
+      "约定",
+      "条件",
+      "身体",
+      "限制"
+    ],
+    "search_text": "守约鱼 承诺与时序 随行 维持一条双方自愿接受、可观察的简单行动约定，违约时缠住违约鱼片刻 双方触碰它的约鳍，选定如三拍内不越线的明确条件 不能强迫陌生巨物签约；自己也必须遵守，约只绑定参与的真实身体 条件不明确就拒绝成立；必须让对方自愿解除或履行约定 约定 条件 身体 限制",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-42",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-42",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-42",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:name-swap",
+          "fish:promise-keeper"
+        ],
+        "relation": "无效捷径",
+        "note": "换名只改应答声，不能把身体绑定的承诺转给另一条鱼。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:borrowed-call",
+    "number": 43,
+    "name": "反口鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "从自己的位置重放最近吞入的一次真实鱼鸣",
+    "ability": "从自己的位置重放最近吞入的一次真实鱼鸣",
+    "trigger": "先听完整鱼鸣，再含住一息吐出",
+    "cost": "只存一段，不理解含义；播放方位真实可被追踪",
+    "counter": "声音与气味不符会让警戒鱼怀疑",
+    "visual": "嘴上下颠倒，发声时尾端微亮",
+    "tags": [
+      "鱼鸣",
+      "模仿",
+      "诱导",
+      "声源"
+    ],
+    "search_text": "反口鱼 承诺与时序 随行 从自己的位置重放最近吞入的一次真实鱼鸣 先听完整鱼鸣，再含住一息吐出 只存一段，不理解含义；播放方位真实可被追踪 声音与气味不符会让警戒鱼怀疑 鱼鸣 模仿 诱导 声源",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-43",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-43",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-43",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": [
+      "fish-combo:choirmaster",
+      "fish-combo:turnstile-hunter"
+    ]
+  },
+  {
+    "id": "fish:delay-beat",
+    "number": 44,
+    "name": "漏刻鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把自己一次自主尾拍的推水延后三息释放",
+    "ability": "把自己一次自主尾拍的推水延后三息释放",
+    "trigger": "先原地蓄一次尾拍，选择释放方向",
+    "cost": "只能存一次；没有即时推力，三息到会照原方向释放",
+    "counter": "换位、转向和阻挡能让延迟推力打空",
+    "visual": "身边三点水珠依次熄灭",
+    "tags": [
+      "延迟",
+      "推力",
+      "时机",
+      "三息"
+    ],
+    "search_text": "漏刻鱼 承诺与时序 随行 把自己一次自主尾拍的推水延后三息释放 先原地蓄一次尾拍，选择释放方向 只能存一次；没有即时推力，三息到会照原方向释放 换位、转向和阻挡能让延迟推力打空 延迟 推力 时机 三息",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-44",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-44",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-44",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:delay-beat",
+          "fish:repeat-fin"
+        ],
+        "relation": "限制",
+        "note": "各自产生自己的尾拍；不能复制对方、被动受力或重放产物，不能形成无限推力。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:third-breath"
+    ]
+  },
+  {
+    "id": "fish:repeat-fin",
+    "number": 45,
+    "name": "复鳍鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "把自己刚刚一次自主尾拍以半强度再做一次",
+    "ability": "把自己刚刚一次自主尾拍以半强度再做一次",
+    "trigger": "原始尾拍后十息内，再轻敲它的背",
+    "cost": "重放也消耗体力；不能复制被动受力或再次复制重放",
+    "counter": "两次动作间位移会使第二次落点不同",
+    "visual": "重放时出现一层极淡双尾",
+    "tags": [
+      "重放",
+      "动作",
+      "体力"
+    ],
+    "search_text": "复鳍鱼 承诺与时序 随行 把自己刚刚一次自主尾拍以半强度再做一次 原始尾拍后十息内，再轻敲它的背 重放也消耗体力；不能复制被动受力或再次复制重放 两次动作间位移会使第二次落点不同 重放 动作 体力",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-45",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-45",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-45",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:delay-beat",
+          "fish:repeat-fin"
+        ],
+        "relation": "限制",
+        "note": "各自产生自己的尾拍；不能复制对方、被动受力或重放产物，不能形成无限推力。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:watchbound",
+    "number": 46,
+    "name": "守望鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "遭遇或伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "被活眼直接看着时保持静止，视线移开便沿原朝向游一截",
+    "ability": "被活眼直接看着时保持静止，视线移开便沿原朝向游一截",
+    "trigger": "必须看见它的真实眼睛，照片与倒影无效",
+    "cost": "携带者也要分神看守；闭眼或遮挡会让它突然移动",
+    "counter": "雾、吞光与挡住视线都会解除静止",
+    "visual": "只有一只很亮的侧眼，身体像小石像",
+    "tags": [
+      "注视",
+      "视线",
+      "静止",
+      "追逐"
+    ],
+    "search_text": "守望鱼 承诺与时序 遭遇或伙伴 被活眼直接看着时保持静止，视线移开便沿原朝向游一截 必须看见它的真实眼睛，照片与倒影无效 携带者也要分神看守；闭眼或遮挡会让它突然移动 雾、吞光与挡住视线都会解除静止 注视 视线 静止 追逐",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-46",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-46",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-46",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:watchbound",
+          "fish:mirror"
+        ],
+        "relation": "无效捷径",
+        "note": "镜里的眼睛不是活眼直视，无法让守望鱼永久静止。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:keeper-of-night"
+    ]
+  },
+  {
+    "id": "fish:backward-gaze",
+    "number": 47,
+    "name": "背身鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "遭遇或伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "受到注视时沿与注视方向相反的方向退游",
+    "ability": "受到注视时沿与注视方向相反的方向退游",
+    "trigger": "看见它的眼纹并保持视线",
+    "cost": "只能控制它的退游趋势；多双眼睛会使它僵持或乱转",
+    "counter": "遮挡、改变观察位置能解除或反转趋势",
+    "visual": "头尾花纹相似，真正眼睛在尾端",
+    "tags": [
+      "背向",
+      "注视",
+      "方向",
+      "操纵"
+    ],
+    "search_text": "背身鱼 承诺与时序 遭遇或伙伴 受到注视时沿与注视方向相反的方向退游 看见它的眼纹并保持视线 只能控制它的退游趋势；多双眼睛会使它僵持或乱转 遮挡、改变观察位置能解除或反转趋势 背向 注视 方向 操纵",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-47",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-47",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-47",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:name-swap",
+    "number": 48,
+    "name": "换名鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "交换两条自愿伙伴对鱼鸣名字的应答，让呼唤对象改变",
+    "ability": "交换两条自愿伙伴对鱼鸣名字的应答，让呼唤对象改变",
+    "trigger": "双方都已学会各自的应答声，接触换名鱼",
+    "cost": "只换应答，不换能力、身体、气味或已经签下的约",
+    "counter": "看身体、闻气味能识别；约定仍绑定原身体",
+    "visual": "鱼身两个名字状鳞纹缓慢交换",
+    "tags": [
+      "名字",
+      "呼唤",
+      "应答",
+      "身份"
+    ],
+    "search_text": "换名鱼 承诺与时序 随行 交换两条自愿伙伴对鱼鸣名字的应答，让呼唤对象改变 双方都已学会各自的应答声，接触换名鱼 只换应答，不换能力、身体、气味或已经签下的约 看身体、闻气味能识别；约定仍绑定原身体 名字 呼唤 应答 身份",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-48",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-48",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-48",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:name-swap",
+          "fish:promise-keeper"
+        ],
+        "relation": "无效捷径",
+        "note": "换名只改应答声，不能把身体绑定的承诺转给另一条鱼。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:trace-eater",
+    "number": 49,
+    "name": "遗忘鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "吞去附近十息内的气味与水纹痕迹，把它们暂存腹中",
+    "ability": "吞去附近十息内的气味与水纹痕迹，把它们暂存腹中",
+    "trigger": "跟在船后慢游，逐段吃掉新痕迹",
+    "cost": "不会改变任何记忆或已听到的声音；吃饱后自己带着浓重痕迹",
+    "counter": "嗅路鱼会改追它；过旧、过大的痕迹吃不完",
+    "visual": "透明腹中反复游过一条小航线",
+    "tags": [
+      "遗忘",
+      "航迹",
+      "气味",
+      "清理"
+    ],
+    "search_text": "遗忘鱼 承诺与时序 随行 吞去附近十息内的气味与水纹痕迹，把它们暂存腹中 跟在船后慢游，逐段吃掉新痕迹 不会改变任何记忆或已听到的声音；吃饱后自己带着浓重痕迹 嗅路鱼会改追它；过旧、过大的痕迹吃不完 遗忘 航迹 气味 清理",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-49",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-49",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-49",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:scent-trail",
+          "fish:trace-eater"
+        ],
+        "relation": "克制",
+        "note": "遗忘鱼吞去气味航迹后，嗅路鱼失去原路，但可能改追它带味的腹部。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:silent-cartographer"
+    ]
+  },
+  {
+    "id": "fish:threshold",
+    "number": 50,
+    "name": "门槛鱼",
+    "kind": "fish_design",
+    "category_name": "承诺与时序",
+    "scale": "随行",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "画一条细水线，同一生物第二次越线时把它弹回",
+    "ability": "画一条细水线，同一生物第二次越线时把它弹回",
+    "trigger": "在平静连续水面画成一条有限长度的线",
+    "cost": "最多一线，自己和同伴也计数；弹回力量有上限",
+    "counter": "大浪冲掉线；绕开端点可避开；假影不计越线",
+    "visual": "长身贴水，线端各留一片小鳍影",
+    "tags": [
+      "门槛",
+      "次数",
+      "越线",
+      "弹回"
+    ],
+    "search_text": "门槛鱼 承诺与时序 随行 画一条细水线，同一生物第二次越线时把它弹回 在平静连续水面画成一条有限长度的线 最多一线，自己和同伴也计数；弹回力量有上限 大浪冲掉线；绕开端点可避开；假影不计越线 门槛 次数 越线 弹回",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-50",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-50",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-50",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:threshold",
+          "fish:mirror"
+        ],
+        "relation": "无效捷径",
+        "note": "假倒影不算真实生物越线，不能替自己消耗一次通行。"
+      }
+    ],
+    "combo_ids": [
+      "fish-combo:turnstile-hunter",
+      "fish-combo:cut-your-own-knot"
+    ]
+  },
+  {
+    "id": "fish:sky-belly",
+    "number": 51,
+    "name": "天腹鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "世界巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "腹部覆盖可见天空，缓慢翻身形成昼夜",
+    "ability": "腹部覆盖可见天空，缓慢翻身形成昼夜",
+    "trigger": "依其自身长周期活动，翻身前出现细鳞纹与气流",
+    "cost": "玩家不能携带或命令它；翻身影响整片可见世界",
+    "counter": "只能读取征兆安排路线，局部工具无法停止其周期",
+    "visual": "极淡腹鳞铺满天空，偶尔一片鳍遮过星光",
+    "tags": [
+      "天空",
+      "昼夜",
+      "翻身",
+      "巨物"
+    ],
+    "search_text": "天腹鱼 世界生物 世界巨鱼 腹部覆盖可见天空，缓慢翻身形成昼夜 依其自身长周期活动，翻身前出现细鳞纹与气流 玩家不能携带或命令它；翻身影响整片可见世界 只能读取征兆安排路线，局部工具无法停止其周期 天空 昼夜 翻身 巨物",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-51",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-51",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-51",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sky-belly",
+          "fish:light-eater"
+        ],
+        "relation": "尺度限制",
+        "note": "吞光只作用于局部，不能吞掉天空鱼、命令天黑或停止翻身。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:sea-body",
+    "number": 52,
+    "name": "覆海鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "世界巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "以流动海皮承载水域，呼吸形成大潮和海流",
+    "ability": "以流动海皮承载水域，呼吸形成大潮和海流",
+    "trigger": "周期呼吸，沿海脊逐段传递",
+    "cost": "局部鳞褶可受影响，整体不可由工具鱼搬动",
+    "counter": "提前找湾避潮或借鱼顺势，逆流只能影响支流",
+    "visual": "平常像海，长波偶尔连成一片鳞",
+    "tags": [
+      "海鱼",
+      "潮汐",
+      "海流",
+      "呼吸"
+    ],
+    "search_text": "覆海鱼 世界生物 世界巨鱼 以流动海皮承载水域，呼吸形成大潮和海流 周期呼吸，沿海脊逐段传递 局部鳞褶可受影响，整体不可由工具鱼搬动 提前找湾避潮或借鱼顺势，逆流只能影响支流 海鱼 潮汐 海流 呼吸",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-52",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-52",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-52",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:island-bearer",
+    "number": 53,
+    "name": "负岛鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "世界巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "背负陆地与聚落，沿季节路线迁徙并偶尔下潜",
+    "ability": "背负陆地与聚落，沿季节路线迁徙并偶尔下潜",
+    "trigger": "背鳍鸣响、岸线起伏预告活动",
+    "cost": "登岛要保留返航方案，不能钩走整个岛",
+    "counter": "观察路线、安抚局部、借牵潮鱼撤离",
+    "visual": "岛边几条岸纹最终合成一只鳍",
+    "tags": [
+      "岛鱼",
+      "迁徙",
+      "下潜",
+      "陆地"
+    ],
+    "search_text": "负岛鱼 世界生物 世界巨鱼 背负陆地与聚落，沿季节路线迁徙并偶尔下潜 背鳍鸣响、岸线起伏预告活动 登岛要保留返航方案，不能钩走整个岛 观察路线、安抚局部、借牵潮鱼撤离 岛鱼 迁徙 下潜 陆地",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-53",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-53",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-53",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:island-bearer",
+          "fish:homeward"
+        ],
+        "relation": "冲突",
+        "note": "回港鱼认的是经过的路线；岛鱼迁走后，它只能带到原来的港口位置。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:cabin-ferry",
+    "number": 54,
+    "name": "渡舱鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "载具伙伴",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "用背部凹舱载人，接受喂养与引导，在水上航行",
+    "ability": "用背部凹舱载人，接受喂养与引导，在水上航行",
+    "trigger": "自愿接纳乘客，建立停靠习惯",
+    "cost": "饥饿会变慢，受惊会缩鳍；不同个体承载不同",
+    "counter": "安抚和补给优于强行拉扯，护鳞也会增加重量",
+    "visual": "船舷就是鳍，停船时船底轻轻呼吸",
+    "tags": [
+      "船鱼",
+      "船",
+      "载具",
+      "共生"
+    ],
+    "search_text": "渡舱鱼 世界生物 载具伙伴 用背部凹舱载人，接受喂养与引导，在水上航行 自愿接纳乘客，建立停靠习惯 饥饿会变慢，受惊会缩鳍；不同个体承载不同 安抚和补给优于强行拉扯，护鳞也会增加重量 船鱼 船 载具 共生",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-54",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-54",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-54",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:bay-swallower",
+    "number": 55,
+    "name": "吞湾鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "区域巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "张口时像一座港湾，口中另有一片腹内水域",
+    "ability": "张口时像一座港湾，口中另有一片腹内水域",
+    "trigger": "满潮张口，退潮前鳃边发出低鸣",
+    "cost": "进出有时间窗；门鳃鱼仅能撑住旁边的小鳃路",
+    "counter": "读潮、留灯卵路标，不能把整张巨口撑住",
+    "visual": "远处像弧形海堤，合口才显出唇线",
+    "tags": [
+      "港湾",
+      "腹中",
+      "内海",
+      "巨口"
+    ],
+    "search_text": "吞湾鱼 世界生物 区域巨鱼 张口时像一座港湾，口中另有一片腹内水域 满潮张口，退潮前鳃边发出低鸣 进出有时间窗；门鳃鱼仅能撑住旁边的小鳃路 读潮、留灯卵路标，不能把整张巨口撑住 港湾 腹中 内海 巨口",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-55",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-55",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-55",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:lighthouse-back",
+    "number": 56,
+    "name": "灯塔鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "区域巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "背脊扫光使被照鱼的隐藏外轮廓显形一瞬",
+    "ability": "背脊扫光使被照鱼的隐藏外轮廓显形一瞬",
+    "trigger": "按固定节拍转动背鳍，必须有视线通路",
+    "cost": "扫光也暴露玩家；离开照区后轮廓消失",
+    "counter": "躲进遮挡或雾，吞光鱼只能遮一小束",
+    "visual": "细长背脊如塔，扫光不过曝",
+    "tags": [
+      "灯塔",
+      "显形",
+      "扫光",
+      "隐藏"
+    ],
+    "search_text": "灯塔鱼 世界生物 区域巨鱼 背脊扫光使被照鱼的隐藏外轮廓显形一瞬 按固定节拍转动背鳍，必须有视线通路 扫光也暴露玩家；离开照区后轮廓消失 躲进遮挡或雾，吞光鱼只能遮一小束 灯塔 显形 扫光 隐藏",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-56",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-56",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-56",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:star-school",
+    "number": 57,
+    "name": "星群鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "世界鱼群",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "在天空鱼腹部迁徙，队形提前映出下一次翻身的风向",
+    "ability": "在天空鱼腹部迁徙，队形提前映出下一次翻身的风向",
+    "trigger": "夜间队形逐渐变化，需要多次观察辨认",
+    "cost": "只是预告，不会替玩家导航；白昼很难看见",
+    "counter": "云遮挡或误认队形会误判",
+    "visual": "少量星点缓慢结成鱼群而非满屏闪烁",
+    "tags": [
+      "星空",
+      "预告",
+      "翻身",
+      "风向"
+    ],
+    "search_text": "星群鱼 世界生物 世界鱼群 在天空鱼腹部迁徙，队形提前映出下一次翻身的风向 夜间队形逐渐变化，需要多次观察辨认 只是预告，不会替玩家导航；白昼很难看见 云遮挡或误认队形会误判 星空 预告 翻身 风向",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-57",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-57",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-57",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:funeral-tide",
+    "number": 58,
+    "name": "葬潮鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "区域巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "收集已死鱼留下的旧鳞，排列出生前迁徙路径的微光回放",
+    "ability": "收集已死鱼留下的旧鳞，排列出生前迁徙路径的微光回放",
+    "trigger": "在平静深水接纳真实遗鳞",
+    "cost": "回放不能捕食、施法或复活；只能反映旧路径",
+    "counter": "新地形可能已堵住旧路，活鱼会与残影混淆",
+    "visual": "暗水中一串空鳞排成短暂鱼形",
+    "tags": [
+      "死亡",
+      "遗鳞",
+      "迁徙",
+      "残影"
+    ],
+    "search_text": "葬潮鱼 世界生物 区域巨鱼 收集已死鱼留下的旧鳞，排列出生前迁徙路径的微光回放 在平静深水接纳真实遗鳞 回放不能捕食、施法或复活；只能反映旧路径 新地形可能已堵住旧路，活鱼会与残影混淆 死亡 遗鳞 迁徙 残影",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-58",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-58",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-58",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:sleeping-abyss",
+    "number": 59,
+    "name": "眠渊鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "区域巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "睡眠时让周围薄海皮绷紧如地面，醒来后又化成水",
+    "ability": "睡眠时让周围薄海皮绷紧如地面，醒来后又化成水",
+    "trigger": "呼吸进入平稳长间隔，海面出现细密绷纹",
+    "cost": "表面只承有限重量，必须预留下水的载具",
+    "counter": "醒潮鱼、强噪和惊动会让落脚地消失",
+    "visual": "几乎看不见身体，水面像缓慢起伏的床单",
+    "tags": [
+      "睡眠",
+      "海面",
+      "地面",
+      "唤醒"
+    ],
+    "search_text": "眠渊鱼 世界生物 区域巨鱼 睡眠时让周围薄海皮绷紧如地面，醒来后又化成水 呼吸进入平稳长间隔，海面出现细密绷纹 表面只承有限重量，必须预留下水的载具 醒潮鱼、强噪和惊动会让落脚地消失 睡眠 海面 地面 唤醒",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-59",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-59",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-59",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [
+      {
+        "fish_ids": [
+          "fish:sleeping-abyss",
+          "fish:wake-tide"
+        ],
+        "relation": "危险关系",
+        "note": "醒潮可能扰动眠渊鱼的睡眠，让原本能落脚的薄海皮重新变水。"
+      }
+    ],
+    "combo_ids": []
+  },
+  {
+    "id": "fish:world-ring",
+    "number": 60,
+    "name": "环世鱼",
+    "kind": "fish_design",
+    "category_name": "世界生物",
+    "scale": "世界巨鱼",
+    "status": "candidate",
+    "origin": "原创设计扩展；世界巨鱼基于用户提出的万物皆鱼设定",
+    "summary_zh": "身体围成环形航道，内外两侧连着不同海域",
+    "ability": "身体围成环形航道，内外两侧连着不同海域",
+    "trigger": "找到尾部重叠的一小处缺口，顺环航行",
+    "cost": "整圈航行后会吞掉最旧的一枚实体路标，需要新的定位方法",
+    "counter": "寻缺鱼可找重叠缝；回港鱼只能认得仍存在的路线",
+    "visual": "远处海岸回环，尾尖与头部悄悄相接",
+    "tags": [
+      "环路",
+      "世界",
+      "边界",
+      "航道",
+      "路标"
+    ],
+    "search_text": "环世鱼 世界生物 世界巨鱼 身体围成环形航道，内外两侧连着不同海域 找到尾部重叠的一小处缺口，顺环航行 整圈航行后会吞掉最旧的一枚实体路标，需要新的定位方法 寻缺鱼可找重叠缝；回港鱼只能认得仍存在的路线 环路 世界 边界 航道 路标",
+    "inspiration_sources": [],
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-60",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-60",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md#fish-60",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "interactions": [],
+    "combo_ids": []
+  }
+]

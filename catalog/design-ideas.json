@@ -748,5 +748,88 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:fish-codex",
+    "name": "六十种鱼：规则、征兆与代价",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "原创编辑扩展",
+    "summary_zh": "六十种原创候选鱼的能力、触发条件、代价、克制与外形，包含十种旧提案的细化和五十种新增。",
+    "tags": [
+      "60种鱼",
+      "六十种",
+      "鱼图鉴",
+      "能力鱼",
+      "遗忘鱼",
+      "守望鱼",
+      "门槛鱼"
+    ],
+    "search_text": "六十种鱼：规则、征兆与代价 60种鱼、六十种、鱼图鉴、能力鱼、遗忘鱼、守望鱼、门槛鱼 六十种原创候选鱼的能力、触发条件、代价、克制与外形，包含十种旧提案的细化和五十种新增。",
+    "document_path": "ideas/fish-codex.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-codex.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:fish-loadouts",
+    "name": "带着三种鱼会发生什么",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "原创编辑扩展",
+    "summary_zh": "十五套三鱼组合，包含三种危险共生，推演具体操作、玩法选择、失败方式与最小验证。",
+    "tags": [
+      "三鱼组合",
+      "搭配",
+      "能力组合",
+      "组合技",
+      "构筑"
+    ],
+    "search_text": "带着三种鱼会发生什么 三鱼组合、搭配、能力组合、组合技、构筑 十五套三鱼组合，包含三种危险共生，推演具体操作、玩法选择、失败方式与最小验证。",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "design:fish-relations",
+    "name": "鱼之间的二十四条配合与互克",
+    "kind": "design_idea",
+    "status": "candidate",
+    "origin": "原创编辑扩展",
+    "summary_zh": "鱼的作用对象、尺度、能量、信息和代价不因组合而自动消失。",
+    "tags": [
+      "配合",
+      "互克",
+      "冲突",
+      "反制",
+      "无效捷径"
+    ],
+    "search_text": "鱼之间的二十四条配合与互克 配合、互克、冲突、反制、无效捷径 鱼的作用对象、尺度、能量、信息和代价不因组合而自动消失。",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
   }
 ]

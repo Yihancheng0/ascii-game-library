@@ -8,7 +8,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('query',nargs='*',help='Chinese or English keywords; OR by default')
     parser.add_argument('--category',help='ASCII Magic category ID, e.g. weather / mascots')
-    parser.add_argument('--kind',help='Resource kind, or piece for animations')
+    parser.add_argument('--kind',help='Resource kind, piece, design_idea, fish_design or fish_combo')
     parser.add_argument('--source-only',action='store_true',help='Only locally vendored animation modules')
     parser.add_argument('--all',action='store_true',help='Require every query token')
     parser.add_argument('--limit',type=int,default=10)
@@ -21,6 +21,8 @@ def main():
     records=json.loads((ROOT/'catalog/resources.json').read_text(encoding='utf-8'))
     records+=json.loads((ROOT/'catalog/ascii-magic.json').read_text(encoding='utf-8'))
     records+=json.loads((ROOT/'catalog/design-ideas.json').read_text(encoding='utf-8'))
+    records+=json.loads((ROOT/'catalog/fish-species.json').read_text(encoding='utf-8'))
+    records+=json.loads((ROOT/'catalog/fish-combinations.json').read_text(encoding='utf-8'))
     terms=[s.casefold() for q in args.query for s in q.split() if s]
     found=[]
     for record in records:
@@ -28,7 +30,7 @@ def main():
         if args.category and (not is_piece or record['category']!=args.category):continue
         if args.kind and ('piece' if is_piece else record['kind'])!=args.kind:continue
         if args.source_only and not record.get('local_source_path'):continue
-        fields=[record.get(k) for k in ('name','slug','summary_zh','description','tags','aliases_zh','search_text','study_points','category_zh','technology','status')]
+        fields=[record.get(k) for k in ('name','slug','summary_zh','description','tags','aliases_zh','search_text','study_points','category_zh','technology','status','category_name','scale','visual','fish_names')]
         hay=json.dumps(fields,ensure_ascii=False).casefold()
         hits=[t in hay for t in terms]
         if terms and not (all(hits) if args.all else any(hits)):continue
@@ -46,7 +48,7 @@ def main():
             print('Preview:',r.get('preview_url') or r['url'])
             print('Source:',r.get('local_source_path') or r.get('source_url') or 'not collected / reference only')
             print('License:',r['license']['id'])
-            if r.get('kind')=='design_idea':print('Status:',r['status'],'| Notes:',r['document_url'])
+            if r.get('kind') in ('design_idea','fish_design','fish_combo'):print('Status:',r['status'],'| Notes:',r['document_url'])
     return 0
 
 if __name__=='__main__':raise SystemExit(main())

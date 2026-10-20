@@ -1,0 +1,632 @@
+[
+  {
+    "id": "fish-combo:mobile-harbour",
+    "number": 1,
+    "name": "会急刹的远航者",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:tide-puller",
+      "fish:anchor",
+      "fish:glide"
+    ],
+    "fish_names": [
+      "牵潮鱼",
+      "锚鱼",
+      "滑水鱼"
+    ],
+    "summary_zh": "快速穿越危险水道，并在有限位置停下",
+    "sequence": "滑水鱼降低水阻，牵潮鱼把船带入高速；提前收膜减速，接近可咬礁点后让锚鱼附着",
+    "result": "玩家读海岸、挑制动点；同一速度既是优势也是负担，可选择滑过危险或停下来探索",
+    "failure": "深水没有锚点；不收滑膜就强锚，会让拉力骤增、锚鱼脱口，不能无限固定巨物",
+    "smallest_validation": "一个弯道、两个锚点、一条牵潮鱼，验证两条不同路线",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "会急刹的远航者",
+      "牵潮鱼",
+      "锚鱼",
+      "滑水鱼"
+    ],
+    "search_text": "会急刹的远航者 快速穿越危险水道，并在有限位置停下 滑水鱼降低水阻，牵潮鱼把船带入高速；提前收膜减速，接近可咬礁点后让锚鱼附着 玩家读海岸、挑制动点；同一速度既是优势也是负担，可选择滑过危险或停下来探索 深水没有锚点；不收滑膜就强锚，会让拉力骤增、锚鱼脱口，不能无限固定巨物 一个弯道、两个锚点、一条牵潮鱼，验证两条不同路线 牵潮鱼 锚鱼 滑水鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-01",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-01",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-01",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:shadow-smuggler",
+    "number": 2,
+    "name": "把自己的影子卖给海",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:lamp",
+      "fish:mirror",
+      "fish:shadow-shear"
+    ],
+    "fish_names": [
+      "灯鱼",
+      "镜鱼",
+      "剪影鱼"
+    ],
+    "summary_zh": "穿过只追逐可见影子的捕食者领地",
+    "sequence": "用灯鱼照出船鱼真实影子，再由剪影鱼分离它；镜鱼拖走另一份可见倒影，引开第二个方向的视线",
+    "result": "玩家在几息内没有自己的影子，要决定朝哪个方向撤离，哪份影先暴露给追兵",
+    "failure": "灯、真实影和假倒影作用不同；假影没有气味和声音；剪影结束前没离开，真实身体重新暴露",
+    "smallest_validation": "一盏灯、一个影猎者、一小段平静水面",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "把自己的影子卖给海",
+      "灯鱼",
+      "镜鱼",
+      "剪影鱼"
+    ],
+    "search_text": "把自己的影子卖给海 穿过只追逐可见影子的捕食者领地 用灯鱼照出船鱼真实影子，再由剪影鱼分离它；镜鱼拖走另一份可见倒影，引开第二个方向的视线 玩家在几息内没有自己的影子，要决定朝哪个方向撤离，哪份影先暴露给追兵 灯、真实影和假倒影作用不同；假影没有气味和声音；剪影结束前没离开，真实身体重新暴露 一盏灯、一个影猎者、一小段平静水面 灯鱼 镜鱼 剪影鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-02",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-02",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-02",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:silent-cartographer",
+    "number": 3,
+    "name": "会暴露自己的测绘师",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:echo",
+      "fish:silence",
+      "fish:trace-eater"
+    ],
+    "fish_names": [
+      "回声鱼",
+      "静音鱼",
+      "遗忘鱼"
+    ],
+    "summary_zh": "在雾里探路后摆脱多感官追踪",
+    "sequence": "先用回声读取实体边界，听声鱼得到一次位置线索；船离开发声点后低速静音，遗忘鱼再逐段吞去气味与尾迹",
+    "result": "一次主动探测换来信息和追兵；玩家要决定下一次脉冲何时值得冒险",
+    "failure": "静音不能抹掉已经发出的声，遗忘鱼也不会删除敌方记忆；吃饱后遗忘鱼自己成了气味目标",
+    "smallest_validation": "一处雾中岔道，一只听声鱼和一只嗅路鱼",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "会暴露自己的测绘师",
+      "回声鱼",
+      "静音鱼",
+      "遗忘鱼"
+    ],
+    "search_text": "会暴露自己的测绘师 在雾里探路后摆脱多感官追踪 先用回声读取实体边界，听声鱼得到一次位置线索；船离开发声点后低速静音，遗忘鱼再逐段吞去气味与尾迹 一次主动探测换来信息和追兵；玩家要决定下一次脉冲何时值得冒险 静音不能抹掉已经发出的声，遗忘鱼也不会删除敌方记忆；吃饱后遗忘鱼自己成了气味目标 一处雾中岔道，一只听声鱼和一只嗅路鱼 回声鱼 静音鱼 遗忘鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-03",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-03",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-03",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:bubble-bridge",
+    "number": 4,
+    "name": "安静地走过一座会破的桥",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:bubble-step",
+      "fish:anchor",
+      "fish:silence"
+    ],
+    "fish_names": [
+      "踏泡鱼",
+      "锚鱼",
+      "静音鱼"
+    ],
+    "summary_zh": "短距离离船探索，在回程前保持落脚点",
+    "sequence": "锚鱼固定起点，踏泡鱼依次吐出承重水泡；静音鱼让伙伴小幅移动时不轻易惊动声源",
+    "result": "出发前分配泡数与重量，可把装备留在船上，回程需要预留泡和体力",
+    "failure": "静音只能压低自身新声，不能挡外界巨响；大浪、过重或尖鳍仍会破泡",
+    "smallest_validation": "四颗水泡、轻重两件货物、一次可预告的外部冲击",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "安静地走过一座会破的桥",
+      "踏泡鱼",
+      "锚鱼",
+      "静音鱼"
+    ],
+    "search_text": "安静地走过一座会破的桥 短距离离船探索，在回程前保持落脚点 锚鱼固定起点，踏泡鱼依次吐出承重水泡；静音鱼让伙伴小幅移动时不轻易惊动声源 出发前分配泡数与重量，可把装备留在船上，回程需要预留泡和体力 静音只能压低自身新声，不能挡外界巨响；大浪、过重或尖鳍仍会破泡 四颗水泡、轻重两件货物、一次可预告的外部冲击 踏泡鱼 锚鱼 静音鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-04",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-04",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-04",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:portable-shore",
+    "number": 5,
+    "name": "随身携带一小段海岸",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:scale-sand",
+      "fish:shore-spitter",
+      "fish:slime-net"
+    ],
+    "fish_names": [
+      "鳞砂鱼",
+      "吐岸鱼",
+      "黏网鱼"
+    ],
+    "summary_zh": "为救援或休息造一处短命浅滩",
+    "sequence": "鳞砂鱼把已有旧鳞磨成沙，吐岸鱼在浅水堆起小岸，黏网鱼把易散部分暂时黏住",
+    "result": "玩家选择沙量、落脚位置和保存时间；退潮后可以回收一部分材料",
+    "failure": "黏网会困住伙伴，深水没有足够材料；黏结只延缓冲散，不能永久创造土地",
+    "smallest_validation": "一块浅滩，固定沙量，两种潮流强度",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "随身携带一小段海岸",
+      "鳞砂鱼",
+      "吐岸鱼",
+      "黏网鱼"
+    ],
+    "search_text": "随身携带一小段海岸 为救援或休息造一处短命浅滩 鳞砂鱼把已有旧鳞磨成沙，吐岸鱼在浅水堆起小岸，黏网鱼把易散部分暂时黏住 玩家选择沙量、落脚位置和保存时间；退潮后可以回收一部分材料 黏网会困住伙伴，深水没有足够材料；黏结只延缓冲散，不能永久创造土地 一块浅滩，固定沙量，两种潮流强度 鳞砂鱼 吐岸鱼 黏网鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-05",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-05",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-05",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:gill-diver",
+    "number": 6,
+    "name": "从一条鱼的鳃里进去",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:clear-scale",
+      "fish:gill-door",
+      "fish:borrowed-gill"
+    ],
+    "fish_names": [
+      "透鳞鱼",
+      "门鳃鱼",
+      "借鳃鱼"
+    ],
+    "summary_zh": "进入有既存鳃隙的局部巨鱼体表水道",
+    "sequence": "透鳞鱼先观察内层活动与危险，等吸气窗口让门鳃鱼撑住已有开口，借鳃鱼供给短时呼吸",
+    "result": "玩家先侦察再决定进不进，氧气和开口时间共同限制深入距离",
+    "failure": "透明不移除碰撞；门鳃撑不住整张巨口；氧气用尽前必须返回有氧区",
+    "smallest_validation": "一处随呼吸开合的小鳃门，一段有限水道",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "从一条鱼的鳃里进去",
+      "透鳞鱼",
+      "门鳃鱼",
+      "借鳃鱼"
+    ],
+    "search_text": "从一条鱼的鳃里进去 进入有既存鳃隙的局部巨鱼体表水道 透鳞鱼先观察内层活动与危险，等吸气窗口让门鳃鱼撑住已有开口，借鳃鱼供给短时呼吸 玩家先侦察再决定进不进，氧气和开口时间共同限制深入距离 透明不移除碰撞；门鳃撑不住整张巨口；氧气用尽前必须返回有氧区 一处随呼吸开合的小鳃门，一段有限水道 透鳞鱼 门鳃鱼 借鳃鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-06",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-06",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-06",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:choirmaster",
+    "number": 7,
+    "name": "一人指挥一整湾的睡意",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:borrowed-call",
+      "fish:sleep-rhythm",
+      "fish:wake-tide"
+    ],
+    "fish_names": [
+      "反口鱼",
+      "催眠鱼",
+      "醒潮鱼"
+    ],
+    "summary_zh": "引开守卫、安抚目标，并主动打破原来的沉睡格局",
+    "sequence": "反口鱼在选定位置重放真实鱼鸣，引来能识别这段声的鱼；催眠鱼在安全节拍中慢慢安抚；醒潮鱼在需要转移注意时敲水",
+    "result": "声音的方位、重复与突变分别影响目标；玩家可制造分流，也可能惊动整片湾",
+    "failure": "反口鱼不懂鸣叫含义，可能招来另一种鱼；醒潮会打断己方催眠并惊醒附近生物",
+    "smallest_validation": "两只对声音反应不同的鱼，一小片水域",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "一人指挥一整湾的睡意",
+      "反口鱼",
+      "催眠鱼",
+      "醒潮鱼"
+    ],
+    "search_text": "一人指挥一整湾的睡意 引开守卫、安抚目标，并主动打破原来的沉睡格局 反口鱼在选定位置重放真实鱼鸣，引来能识别这段声的鱼；催眠鱼在安全节拍中慢慢安抚；醒潮鱼在需要转移注意时敲水 声音的方位、重复与突变分别影响目标；玩家可制造分流，也可能惊动整片湾 反口鱼不懂鸣叫含义，可能招来另一种鱼；醒潮会打断己方催眠并惊醒附近生物 两只对声音反应不同的鱼，一小片水域 反口鱼 催眠鱼 醒潮鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-07",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-07",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-07",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:borrowed-storm",
+    "number": 8,
+    "name": "向下一次海潮借一脚油门",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:tide-debt",
+      "fish:countercurrent",
+      "fish:anchor"
+    ],
+    "fish_names": [
+      "欠潮鱼",
+      "逆流鱼",
+      "锚鱼"
+    ],
+    "summary_zh": "提前越过险流，并有计划地承受还潮",
+    "sequence": "欠潮鱼借来下一次潮推，逆流鱼短时调整出口支流；找到真实礁点后锚住，等反向力到来",
+    "result": "同一笔债可在不同地点偿还，玩家选择把风险放在航程的哪一段",
+    "failure": "逆流只改局部水流，锚只承受力；两者都不会取消债务，超载仍会脱口或断联",
+    "smallest_validation": "一次前推与一次反拉，一个安全湾和一个危险出口",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "向下一次海潮借一脚油门",
+      "欠潮鱼",
+      "逆流鱼",
+      "锚鱼"
+    ],
+    "search_text": "向下一次海潮借一脚油门 提前越过险流，并有计划地承受还潮 欠潮鱼借来下一次潮推，逆流鱼短时调整出口支流；找到真实礁点后锚住，等反向力到来 同一笔债可在不同地点偿还，玩家选择把风险放在航程的哪一段 逆流只改局部水流，锚只承受力；两者都不会取消债务，超载仍会脱口或断联 一次前推与一次反拉，一个安全湾和一个危险出口 欠潮鱼 逆流鱼 锚鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-08",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-08",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-08",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:turnstile-hunter",
+    "number": 9,
+    "name": "让追你的鱼撞上自己的第二次",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:threshold",
+      "fish:tail-tether",
+      "fish:borrowed-call"
+    ],
+    "fish_names": [
+      "门槛鱼",
+      "缠尾鱼",
+      "反口鱼"
+    ],
+    "summary_zh": "在小范围内摆脱可被有限拉力影响的追兵",
+    "sequence": "反口鱼引目标第一次跨过门槛线；缠尾鱼在短暂近距牵动它转向，让它第二次跨同一线",
+    "result": "利用位置与计数弹回目标，可把对抗做成路线谜题，玩家也要记得自己的越线次数",
+    "failure": "大鱼会挣开缠尾；敌人可绕线端；队友误跨第二次也会被弹回，假影不计次数",
+    "smallest_validation": "一条门槛线，两条绕行路线，一只中小追兵",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "让追你的鱼撞上自己的第二次",
+      "门槛鱼",
+      "缠尾鱼",
+      "反口鱼"
+    ],
+    "search_text": "让追你的鱼撞上自己的第二次 在小范围内摆脱可被有限拉力影响的追兵 反口鱼引目标第一次跨过门槛线；缠尾鱼在短暂近距牵动它转向，让它第二次跨同一线 利用位置与计数弹回目标，可把对抗做成路线谜题，玩家也要记得自己的越线次数 大鱼会挣开缠尾；敌人可绕线端；队友误跨第二次也会被弹回，假影不计次数 一条门槛线，两条绕行路线，一只中小追兵 门槛鱼 缠尾鱼 反口鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-09",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-09",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-09",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:floating-clinic",
+    "number": 10,
+    "name": "一座会饿的移动救护站",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:pocket-belly",
+      "fish:hunger-lender",
+      "fish:scale-mender"
+    ],
+    "fish_names": [
+      "容肚鱼",
+      "借饥鱼",
+      "补鳞鱼"
+    ],
+    "summary_zh": "护送受惊后已被安抚的小鱼通过危险水域",
+    "sequence": "容肚鱼提供适合水质的临时避难水；补鳞鱼给乘客或载体做薄保护；借饥鱼在愿意承担的伙伴间转移补给负担",
+    "result": "救援让载具更重、更饿，玩家决定先救谁、把最后一口食物给谁",
+    "failure": "借饥不会创造食物；保护鳞不能治愈重伤或复活；容肚鱼需要换水，重量照常存在",
+    "smallest_validation": "一条自愿登舱的鱼，一次可预告擦碰，有限食物",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "一座会饿的移动救护站",
+      "容肚鱼",
+      "借饥鱼",
+      "补鳞鱼"
+    ],
+    "search_text": "一座会饿的移动救护站 护送受惊后已被安抚的小鱼通过危险水域 容肚鱼提供适合水质的临时避难水；补鳞鱼给乘客或载体做薄保护；借饥鱼在愿意承担的伙伴间转移补给负担 救援让载具更重、更饿，玩家决定先救谁、把最后一口食物给谁 借饥不会创造食物；保护鳞不能治愈重伤或复活；容肚鱼需要换水，重量照常存在 一条自愿登舱的鱼，一次可预告擦碰，有限食物 容肚鱼 借饥鱼 补鳞鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-10",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-10",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-10",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:wind-vault",
+    "number": 11,
+    "name": "把一条船借给风",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:parasite-sail",
+      "fish:wind-borrower",
+      "fish:wave-jumper"
+    ],
+    "fish_names": [
+      "寄生帆鱼",
+      "借风鱼",
+      "跳潮鱼"
+    ],
+    "summary_zh": "越过低矮礁脊，并准确落回可通航水面",
+    "sequence": "寄生帆鱼调角积累前速，跳潮鱼在浪峰托起小船，借风鱼在离水后短时稳定轻载滑行",
+    "result": "玩家在载重、风向、起跳点和落点之间做取舍，能放弃部分货物换一条路线",
+    "failure": "自然风会变，借风承重有限；三鱼共享补给，起跳成功也可能落到礁上",
+    "smallest_validation": "一处低礁，两种风向，一条轻船与有限货物",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "把一条船借给风",
+      "寄生帆鱼",
+      "借风鱼",
+      "跳潮鱼"
+    ],
+    "search_text": "把一条船借给风 越过低矮礁脊，并准确落回可通航水面 寄生帆鱼调角积累前速，跳潮鱼在浪峰托起小船，借风鱼在离水后短时稳定轻载滑行 玩家在载重、风向、起跳点和落点之间做取舍，能放弃部分货物换一条路线 自然风会变，借风承重有限；三鱼共享补给，起跳成功也可能落到礁上 一处低礁，两种风向，一条轻船与有限货物 寄生帆鱼 借风鱼 跳潮鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-11",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-11",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-11",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:third-breath",
+    "number": 12,
+    "name": "三息之后，它在另一边拍水",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:delay-beat",
+      "fish:position-swap",
+      "fish:anchor"
+    ],
+    "fish_names": [
+      "漏刻鱼",
+      "借位鱼",
+      "锚鱼"
+    ],
+    "summary_zh": "在开阔水域改变一次延迟推力的发生位置",
+    "sequence": "锚鱼把船固定在实际附着点；漏刻鱼蓄下原方向的一次尾拍；三息到来前借位鱼让漏刻鱼与自己互换位置，推力在新位置按旧方向释放",
+    "result": "玩家预判方向、距离和倒计时，能从侧面推开障碍鱼或把伙伴送向出口",
+    "failure": "不能隔墙交换；不能交换世界巨鱼；方向已经锁定，换错位置会把伙伴推入危险，也不能复制能量",
+    "smallest_validation": "两处互相可见的水点，一块可被鱼推力带动的软障碍",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "三息之后，它在另一边拍水",
+      "漏刻鱼",
+      "借位鱼",
+      "锚鱼"
+    ],
+    "search_text": "三息之后，它在另一边拍水 在开阔水域改变一次延迟推力的发生位置 锚鱼把船固定在实际附着点；漏刻鱼蓄下原方向的一次尾拍；三息到来前借位鱼让漏刻鱼与自己互换位置，推力在新位置按旧方向释放 玩家预判方向、距离和倒计时，能从侧面推开障碍鱼或把伙伴送向出口 不能隔墙交换；不能交换世界巨鱼；方向已经锁定，换错位置会把伙伴推入危险，也不能复制能量 两处互相可见的水点，一块可被鱼推力带动的软障碍 漏刻鱼 借位鱼 锚鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-12",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-12",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-12",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:keeper-of-night",
+    "number": 13,
+    "name": "你得亲自看守自己的黑夜",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:lamp",
+      "fish:light-eater",
+      "fish:watchbound"
+    ],
+    "fish_names": [
+      "灯鱼",
+      "吞光鱼",
+      "守望鱼"
+    ],
+    "summary_zh": "同时携带照明、遮光与一条靠注视保持静止的鱼",
+    "sequence": "灯鱼让你看见守望鱼的真实眼睛；吞光鱼一旦遮住这束光，直视中断，守望鱼就沿旧朝向移动；重新放光后才能再次看住",
+    "result": "玩家想隐蔽就要先安排守望鱼朝向，把它短暂活动当作可利用的位移，也要决定何时值得暴露光",
+    "failure": "三鱼不自动抵消代价；吞光鱼储满又会漏光，守望鱼可能在视线被挡的一刻撞乱布置，其他活眼直视可暂时接替看守",
+    "smallest_validation": "一盏可控灯、一只守望鱼、一个能藏身也会挡视线的礁点",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "你得亲自看守自己的黑夜",
+      "灯鱼",
+      "吞光鱼",
+      "守望鱼"
+    ],
+    "search_text": "你得亲自看守自己的黑夜 同时携带照明、遮光与一条靠注视保持静止的鱼 灯鱼让你看见守望鱼的真实眼睛；吞光鱼一旦遮住这束光，直视中断，守望鱼就沿旧朝向移动；重新放光后才能再次看住 玩家想隐蔽就要先安排守望鱼朝向，把它短暂活动当作可利用的位移，也要决定何时值得暴露光 三鱼不自动抵消代价；吞光鱼储满又会漏光，守望鱼可能在视线被挡的一刻撞乱布置，其他活眼直视可暂时接替看守 一盏可控灯、一只守望鱼、一个能藏身也会挡视线的礁点 灯鱼 吞光鱼 守望鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-13",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-13",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-13",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:cut-your-own-knot",
+    "number": 14,
+    "name": "你布的陷阱，会沿鱼线传回自己身上",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:tail-tether",
+      "fish:threshold",
+      "fish:knot-picker"
+    ],
+    "fish_names": [
+      "缠尾鱼",
+      "门槛鱼",
+      "解结鱼"
+    ],
+    "summary_zh": "利用有限弹回力摆脱追兵，同时避免被同一连接拖回去",
+    "sequence": "门槛鱼画线，缠尾鱼连接船鱼与追兵可缠绕的鳍；目标第二次越线被弹回时，拉力会沿连接传向船；玩家要派解结鱼在恰当时刻拆掉主结",
+    "result": "陷阱成功不等于自己安全，玩家在保持牵制与提前解除连接之间取舍，也可故意借反拉改变船向",
+    "failure": "解结需要到真实结点，可能来不及；太早拆结追兵可绕线，太晚则自己也被拉走或触发己方门槛计数",
+    "smallest_validation": "一根实际连接、一条门槛线、一处可以接近也可能被挡住的主结",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "你布的陷阱，会沿鱼线传回自己身上",
+      "缠尾鱼",
+      "门槛鱼",
+      "解结鱼"
+    ],
+    "search_text": "你布的陷阱，会沿鱼线传回自己身上 利用有限弹回力摆脱追兵，同时避免被同一连接拖回去 门槛鱼画线，缠尾鱼连接船鱼与追兵可缠绕的鳍；目标第二次越线被弹回时，拉力会沿连接传向船；玩家要派解结鱼在恰当时刻拆掉主结 陷阱成功不等于自己安全，玩家在保持牵制与提前解除连接之间取舍，也可故意借反拉改变船向 解结需要到真实结点，可能来不及；太早拆结追兵可绕线，太晚则自己也被拉走或触发己方门槛计数 一根实际连接、一条门槛线、一处可以接近也可能被挡住的主结 缠尾鱼 门槛鱼 解结鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-14",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-14",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-14",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  },
+  {
+    "id": "fish-combo:wake-the-host",
+    "number": 15,
+    "name": "救醒一条鱼，先惊醒了装着你的那条",
+    "kind": "fish_combo",
+    "status": "candidate",
+    "fish_ids": [
+      "fish:gill-door",
+      "fish:borrowed-gill",
+      "fish:wake-tide"
+    ],
+    "fish_names": [
+      "门鳃鱼",
+      "借鳃鱼",
+      "醒潮鱼"
+    ],
+    "summary_zh": "进入宿主鳃路救出一条沉睡小鱼",
+    "sequence": "等吸气时门鳃鱼撑住小开口，借鳃鱼提供有限氧气；醒潮鱼把小鱼唤醒，也可能惊动宿主的局部呼吸，使鳃门提前收紧",
+    "result": "玩家可以先引导沉睡小鱼靠近出口再唤醒，或先唤醒争取它自行游出；救援顺序改变逃生难度",
+    "failure": "开口不是永久门，氧气与门鳃承受力都有限；宿主惊动后的收鳃不能靠继续敲水解决",
+    "smallest_validation": "一处会被惊动收紧的鳃门、一条愿意被引导的睡鱼、有限氧气",
+    "tags": [
+      "三鱼组合",
+      "能力组合",
+      "救醒一条鱼，先惊醒了装着你的那条",
+      "门鳃鱼",
+      "借鳃鱼",
+      "醒潮鱼"
+    ],
+    "search_text": "救醒一条鱼，先惊醒了装着你的那条 进入宿主鳃路救出一条沉睡小鱼 等吸气时门鳃鱼撑住小开口，借鳃鱼提供有限氧气；醒潮鱼把小鱼唤醒，也可能惊动宿主的局部呼吸，使鳃门提前收紧 玩家可以先引导沉睡小鱼靠近出口再唤醒，或先唤醒争取它自行游出；救援顺序改变逃生难度 开口不是永久门，氧气与门鳃承受力都有限；宿主惊动后的收鳃不能靠继续敲水解决 一处会被惊动收紧的鳃门、一条愿意被引导的睡鱼、有限氧气 门鳃鱼 借鳃鱼 醒潮鱼",
+    "document_path": "ideas/fish-combinations.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-15",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-15",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/fish-combinations.md#combo-15",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20"
+  }
+]

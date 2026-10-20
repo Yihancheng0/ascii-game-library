@@ -18,6 +18,7 @@
 ## 如何使用
 
 - 项目讨论存档：[设定与设计灵感](ideas/README.md)。包含万物皆鱼世界观、能力组合、巨鱼拖船提案、作品借鉴和脑洞方法；可用 `python scripts/search.py 天空鱼 --kind design_idea` 检索。
+- 新增：[60 种鱼设定](ideas/fish-codex.md) · [15 套三鱼组合与 24 条关系](ideas/fish-combinations.md)。可以检索 `python scripts/search.py 遗忘鱼 --kind fish_design` 或 `python scripts/search.py 镜鱼 --kind fish_combo`；这些条目是原创候选规则，不是已实现素材。
 
 - 浏览入口：[资源卡片](resources/) · [游戏开发场景配方](docs/recipes.md) · [AI 检索说明](START_HERE.md)。
 
