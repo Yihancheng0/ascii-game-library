@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "updated_on": "2026-10-20",
+  "repository": "https://github.com/Yihancheng0/ascii-game-library",
+  "resource_count": 12,
+  "piece_count": 734,
+  "vendored_piece_count": 634,
+  "website_only_piece_count": 100,
+  "upstream_commit": "de88962156057cbef583bd265bf55e23d6c5e30d",
+  "upstream_repository": "https://github.com/kailashsr38/ascii-magic-art",
+  "source_observation": "Website has 734 entries; pinned repository contains 634 piece files. No source files invented for missing entries."
+}

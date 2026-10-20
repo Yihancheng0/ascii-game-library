@@ -1,0 +1,401 @@
+[
+  {
+    "id": "stone-story-rpg",
+    "name": "Stone Story RPG",
+    "kind": "game",
+    "url": "https://stonestoryrpg.com/",
+    "source_url": null,
+    "demo_url": "https://stonestoryrpg.com/",
+    "summary_zh": "横版 ASCII RPG，以角色、怪物与场景动画为重点的作品参考。",
+    "tags": [
+      "角色",
+      "怪物",
+      "Boss",
+      "横版",
+      "逐帧动画",
+      "RPG"
+    ],
+    "study_points": [
+      "轮廓在动作中的可读性",
+      "攻击前摇与命中反馈",
+      "背景与角色的字符密度分配"
+    ],
+    "technology": [
+      "Unity",
+      "C#"
+    ],
+    "reuse": "reference_only",
+    "license": {
+      "id": "unknown",
+      "evidence_url": "https://stonestoryrpg.com/faq.html",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "ascii-patrol",
+    "name": "ASCII Patrol",
+    "kind": "game",
+    "url": "https://ascii-patrol.com/",
+    "source_url": "https://github.com/msokalski/ascii-patrol",
+    "demo_url": "https://ascii-patrol.com/area53/ascii-patrol-html5.html",
+    "summary_zh": "受 Moon Patrol 启发的字符横版街机游戏，提供浏览器版本和 C++ 源码。",
+    "tags": [
+      "横版",
+      "动作",
+      "射击",
+      "跳跃",
+      "滚屏",
+      "街机"
+    ],
+    "study_points": [
+      "滚屏速度与角色定位",
+      "跳跃、障碍、弹道的可读性",
+      "素材编辑到代码的工作流"
+    ],
+    "technology": [
+      "C++",
+      "Emscripten",
+      "REXPaint"
+    ],
+    "reuse": "copyleft_review_required",
+    "license": {
+      "id": "GPL-3.0 (repository reported)",
+      "evidence_url": "https://github.com/msokalski/ascii-patrol/blob/master/LICENSE",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "cogmind",
+    "name": "Cogmind",
+    "kind": "game",
+    "url": "https://www.gridsagegames.com/cogmind/",
+    "source_url": null,
+    "demo_url": "https://www.gridsagegames.com/cogmind/",
+    "summary_zh": "科幻机器人 Roguelike，适合借鉴终端界面、粒子效果和高密度战斗反馈。",
+    "tags": [
+      "科幻",
+      "机器人",
+      "地牢",
+      "Roguelike",
+      "UI",
+      "粒子",
+      "战斗"
+    ],
+    "study_points": [
+      "信息层级与操作反馈",
+      "粒子如何引导注意力",
+      "爆炸与可破坏环境的表达"
+    ],
+    "technology": [],
+    "reuse": "reference_only",
+    "license": {
+      "id": "unknown",
+      "evidence_url": null,
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "brogue-ce",
+    "name": "Brogue CE",
+    "kind": "game",
+    "url": "https://github.com/tmewett/BrogueCE",
+    "source_url": "https://github.com/tmewett/BrogueCE",
+    "demo_url": null,
+    "summary_zh": "开源地牢 Roguelike，可作为字符地图、地形和视野系统的实现参考。",
+    "tags": [
+      "地牢",
+      "地图",
+      "视野",
+      "Roguelike",
+      "探索"
+    ],
+    "study_points": [
+      "用颜色和字符区分地形",
+      "地图生成与视野系统",
+      "字符与图块表现之间的切换"
+    ],
+    "technology": [
+      "C",
+      "SDL2"
+    ],
+    "reuse": "copyleft_review_required",
+    "license": {
+      "id": "AGPL-3.0 (repository reported)",
+      "evidence_url": "https://github.com/tmewett/BrogueCE/blob/master/LICENSE.txt",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "candy-box-2",
+    "name": "Candy Box 2",
+    "kind": "game",
+    "url": "https://candybox2.github.io/",
+    "source_url": "https://github.com/candybox2/candybox2.github.io",
+    "demo_url": "https://candybox2.github.io/",
+    "summary_zh": "浏览器文字与 ASCII 探索游戏，可研究逐步展开的玩法和场景组织。",
+    "tags": [
+      "文字",
+      "探索",
+      "增量",
+      "RPG",
+      "界面",
+      "浏览器"
+    ],
+    "study_points": [
+      "从极简界面逐步引入系统",
+      "文本、场景和操作的组织",
+      "低素材成本的探索体验"
+    ],
+    "technology": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "reuse": "copyleft_review_required",
+    "license": {
+      "id": "GPL-3.0-or-later (JavaScript code notice)",
+      "evidence_url": "https://github.com/candybox2/candybox2.github.io/blob/master/candybox2_sourceCodeLicense.txt",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "asciicker",
+    "name": "Asciicker",
+    "kind": "game",
+    "url": "https://asciicker.com/",
+    "source_url": null,
+    "demo_url": "https://asciicker.com/y9/",
+    "summary_zh": "浏览器三维字符世界演示，适合研究镜头、空间和地形表现。",
+    "tags": [
+      "三维",
+      "3D",
+      "探索",
+      "地形",
+      "镜头"
+    ],
+    "study_points": [
+      "镜头运动时的字符稳定性",
+      "地形遮挡与角色辨识",
+      "立体空间的明暗和配色"
+    ],
+    "technology": [],
+    "reuse": "reference_only",
+    "license": {
+      "id": "unknown",
+      "evidence_url": null,
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "asciiart-animations",
+    "name": "ASCII Art Archive · Animations",
+    "kind": "animation_collection",
+    "url": "https://www.asciiart.eu/animations",
+    "source_url": null,
+    "demo_url": "https://www.asciiart.eu/animations",
+    "summary_zh": "可直接在网页查看火焰、星空、隧道、数字雨等字符动画。",
+    "tags": [
+      "特效",
+      "火焰",
+      "星空",
+      "数字雨",
+      "隧道",
+      "天气"
+    ],
+    "study_points": [
+      "比较不同字符密度",
+      "环境循环与特效参数",
+      "寻找同一题材的视觉变体"
+    ],
+    "technology": [],
+    "reuse": "reference_only",
+    "license": {
+      "id": "unknown",
+      "evidence_url": "https://www.asciiart.eu/animations",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "terminaltexteffects",
+    "name": "TerminalTextEffects",
+    "kind": "animation_engine",
+    "url": "https://github.com/ChrisBuilds/terminaltexteffects",
+    "source_url": "https://github.com/ChrisBuilds/terminaltexteffects",
+    "demo_url": null,
+    "summary_zh": "Python 终端字符特效引擎，支持运动路径、颜色变化和场景动画。",
+    "tags": [
+      "文字",
+      "标题",
+      "转场",
+      "粒子",
+      "路径",
+      "终端"
+    ],
+    "study_points": [
+      "文字聚合和消散",
+      "运动轨迹与缓动",
+      "动画和状态事件的组织"
+    ],
+    "technology": [
+      "Python",
+      "ANSI"
+    ],
+    "reuse": "permissive_with_notice",
+    "license": {
+      "id": "MIT",
+      "evidence_url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/main/LICENSE",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "donut-c",
+    "name": "donut.c / Donut math",
+    "kind": "technical_demo",
+    "url": "https://www.a1k0n.net/2011/07/20/donut-math.html",
+    "source_url": null,
+    "demo_url": "https://www.a1k0n.net/2011/07/20/donut-math.html",
+    "summary_zh": "作者提供旋转字符圆环的动画、代码和数学推导。",
+    "tags": [
+      "三维",
+      "3D",
+      "明暗",
+      "投影",
+      "圆环",
+      "甜甜圈"
+    ],
+    "study_points": [
+      "透视投影",
+      "深度缓冲与遮挡",
+      "表面亮度映射到字符"
+    ],
+    "technology": [
+      "C",
+      "JavaScript"
+    ],
+    "reuse": "reference_only",
+    "license": {
+      "id": "unknown",
+      "evidence_url": null,
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "ascii-splash",
+    "name": "ascii-splash",
+    "kind": "animation_engine",
+    "url": "https://github.com/reowens/ascii-splash",
+    "source_url": "https://github.com/reowens/ascii-splash",
+    "demo_url": null,
+    "summary_zh": "TypeScript 终端动画项目，含波浪、粒子和自然场景等程序动画。",
+    "tags": [
+      "背景",
+      "天气",
+      "粒子",
+      "波浪",
+      "终端",
+      "程序生成"
+    ],
+    "study_points": [
+      "动画模式与预设组织",
+      "色板复用",
+      "动态背景的参数化"
+    ],
+    "technology": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "reuse": "permissive_with_notice",
+    "license": {
+      "id": "MIT",
+      "evidence_url": "https://github.com/reowens/ascii-splash/blob/main/LICENSE",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "rexpaint",
+    "name": "REXPaint",
+    "kind": "authoring_tool",
+    "url": "https://www.gridsagegames.com/rexpaint/",
+    "source_url": null,
+    "demo_url": null,
+    "summary_zh": "免费的 Windows 字符画编辑器，支持图层、前景色、背景色和多种导出。",
+    "tags": [
+      "编辑器",
+      "素材制作",
+      "图层",
+      "地图",
+      "UI",
+      "角色"
+    ],
+    "study_points": [
+      "先在网格中绘制角色和界面",
+      "调色板与图层规划",
+      "导出到游戏资源流程"
+    ],
+    "technology": [],
+    "reuse": "reference_only",
+    "license": {
+      "id": "freeware; source/art reuse not implied",
+      "evidence_url": "https://www.gridsagegames.com/rexpaint/",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  },
+  {
+    "id": "ascii-magic",
+    "name": "ASCII Magic Art Library",
+    "kind": "asset_library",
+    "url": "https://www.ascii-magic.com/ascii",
+    "source_url": "https://github.com/kailashsr38/ascii-magic-art",
+    "demo_url": "https://www.ascii-magic.com/ascii",
+    "summary_zh": "大型字符动画库，提供单项 ES 模块、网页播放器和终端播放工具。",
+    "tags": [
+      "素材库",
+      "场景",
+      "角色",
+      "特效",
+      "UI",
+      "三维",
+      "程序生成"
+    ],
+    "study_points": [
+      "直接按主题检索单项动画",
+      "通过 draw(t) 生成时间驱动的帧",
+      "将装饰动画与游戏逻辑分离"
+    ],
+    "technology": [
+      "JavaScript",
+      "ES modules",
+      "Canvas",
+      "Node.js"
+    ],
+    "reuse": "per_item_license",
+    "license": {
+      "id": "MIT; two photo data exceptions",
+      "evidence_url": "https://github.com/kailashsr38/ascii-magic-art/blob/de88962156057cbef583bd265bf55e23d6c5e30d/NOTICE",
+      "scope": "上游代码/素材的具体适用范围以原始授权文件为准；这里的分类不是授权替代品。"
+    },
+    "checked_on": "2026-10-20",
+    "verification": "official_page_or_repository_read; interaction_not_tested"
+  }
+]

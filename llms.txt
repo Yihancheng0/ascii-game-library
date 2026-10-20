@@ -1,0 +1,13 @@
+# ASCII 游戏素材与灵感库 / ASCII Game Library
+> 中文开发参考、双语标签、可读源码、逐项授权来源。Updated: 2026-10-20.
+
+- [Start here](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/START_HERE.md): AI retrieval procedure and examples.
+- [Resource catalog](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/resources.json): 12 games, tools, libraries and collections.
+- [Category index](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/categories.json): 24 categories; fetch one shard after choosing a category.
+- [Manifest](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/manifest.json): source revision and coverage.
+- [All animation metadata](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/ascii-magic.json): 734 entries; prefer category shards to save context.
+- [Full combined JSON](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/catalog/catalog.json): all machine-readable metadata.
+- [Text digest](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/llms-full.txt): compact one-line-per-piece text index.
+- [Recipes](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/docs/recipes.md): game-oriented search routes and design prompts.
+- [Reuse](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/docs/reuse-guide.md): distinguish inspiration, code and reusable art.
+- [Source snapshot](https://github.com/Yihancheng0/ascii-game-library/tree/main/vendor/ascii-magic-art): 634 pinned modules, runtime and toolkit with notices.

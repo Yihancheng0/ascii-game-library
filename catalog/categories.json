@@ -1,0 +1,218 @@
+[
+  {
+    "id": "landscapes",
+    "name": "Landscapes",
+    "blurb": "Hand-built places and skies that move: coasts, peaks, cities at night.",
+    "name_zh": "场景与地形",
+    "game_uses_zh": "关卡背景、营地、探索地图",
+    "count": 89,
+    "index_path": "catalog/ascii-magic/landscapes.json"
+  },
+  {
+    "id": "screens",
+    "name": "UI",
+    "blurb": "Working interfaces in text: apps, terminals, tools and system screens.",
+    "name_zh": "界面与终端",
+    "game_uses_zh": "游戏菜单、终端交互、任务面板",
+    "count": 79,
+    "index_path": "catalog/ascii-magic/screens.json"
+  },
+  {
+    "id": "live-data",
+    "name": "Live Data",
+    "blurb": "Charts, gauges and tables that keep updating.",
+    "name_zh": "数据与仪表",
+    "game_uses_zh": "属性面板、排行榜、战斗仪表",
+    "count": 29,
+    "index_path": "catalog/ascii-magic/live-data.json"
+  },
+  {
+    "id": "explainers",
+    "name": "Explainers",
+    "blurb": "Animated diagrams that show how something works, step by step.",
+    "name_zh": "流程与图解",
+    "game_uses_zh": "教程、任务树、系统关系图",
+    "count": 36,
+    "index_path": "catalog/ascii-magic/explainers.json"
+  },
+  {
+    "id": "lettering",
+    "name": "Lettering",
+    "blurb": "Words that move: big letterforms, credits, tickers and reading effects.",
+    "name_zh": "标题与文字动画",
+    "game_uses_zh": "标题、字幕、解密文字、片尾",
+    "count": 49,
+    "index_path": "catalog/ascii-magic/lettering.json"
+  },
+  {
+    "id": "solids",
+    "name": "Solids",
+    "blurb": "Rotating 3D forms, shaded in characters.",
+    "name_zh": "三维形体",
+    "game_uses_zh": "道具展示、立体徽标、旋转拾取物",
+    "count": 25,
+    "index_path": "catalog/ascii-magic/solids.json"
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "blurb": "Planets, stars, orbits and the craft that visit them.",
+    "name_zh": "宇宙与星空",
+    "game_uses_zh": "太空背景、星图、飞行场景",
+    "count": 18,
+    "index_path": "catalog/ascii-magic/cosmos.json"
+  },
+  {
+    "id": "motion-lab",
+    "name": "Motion Lab",
+    "blurb": "Simulations: pendulums, waves, particles and fields.",
+    "name_zh": "运动与模拟",
+    "game_uses_zh": "弹道、波动、运动规律参考",
+    "count": 18,
+    "index_path": "catalog/ascii-magic/motion-lab.json"
+  },
+  {
+    "id": "weather",
+    "name": "Weather & Wild",
+    "blurb": "Rain, fire, wind, plants and the elements.",
+    "name_zh": "天气与自然",
+    "game_uses_zh": "雨雪、火焰、水面、植物动态",
+    "count": 16,
+    "index_path": "catalog/ascii-magic/weather.json"
+  },
+  {
+    "id": "animals",
+    "name": "Animals",
+    "blurb": "Living things, from cats to whales.",
+    "name_zh": "动物",
+    "game_uses_zh": "生物外观、待机循环、生态场景",
+    "count": 20,
+    "index_path": "catalog/ascii-magic/animals.json"
+  },
+  {
+    "id": "things",
+    "name": "Things",
+    "blurb": "Everyday objects with moving parts.",
+    "name_zh": "物件",
+    "game_uses_zh": "交互物件、装置、道具图标",
+    "count": 23,
+    "index_path": "catalog/ascii-magic/things.json"
+  },
+  {
+    "id": "algorithms",
+    "name": "Algorithms",
+    "blurb": "Maths and code that draw: fractals, automata, attractors.",
+    "name_zh": "算法与生成",
+    "game_uses_zh": "程序背景、分形、细胞自动机",
+    "count": 25,
+    "index_path": "catalog/ascii-magic/algorithms.json"
+  },
+  {
+    "id": "demoscene",
+    "name": "Demoscene",
+    "blurb": "Classic demo effects: fire, plasma, tunnels and warps.",
+    "name_zh": "演示场景与特效",
+    "game_uses_zh": "技能背景、传送、火焰、隧道",
+    "count": 24,
+    "index_path": "catalog/ascii-magic/demoscene.json"
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "blurb": "Little games that play themselves.",
+    "name_zh": "街机演示",
+    "game_uses_zh": "观察规则与节奏；自动播放动画不代表可操作游戏",
+    "count": 18,
+    "index_path": "catalog/ascii-magic/arcade.json"
+  },
+  {
+    "id": "frames",
+    "name": "Rules & Frames",
+    "blurb": "Animated dividers, borders and frames for layouts.",
+    "name_zh": "边框与分隔",
+    "game_uses_zh": "对话框、面板、界面分隔",
+    "count": 12,
+    "index_path": "catalog/ascii-magic/frames.json"
+  },
+  {
+    "id": "occasions",
+    "name": "Occasions",
+    "blurb": "Festivals, holidays and celebrations.",
+    "name_zh": "节庆与庆祝",
+    "game_uses_zh": "通关、奖励、庆典",
+    "count": 16,
+    "index_path": "catalog/ascii-magic/occasions.json"
+  },
+  {
+    "id": "cities",
+    "name": "Cities of the World",
+    "blurb": "Famous places around the world, hand-built and alive.",
+    "name_zh": "城市与建筑",
+    "game_uses_zh": "城市关卡、地标、环境气氛",
+    "count": 54,
+    "index_path": "catalog/ascii-magic/cities.json"
+  },
+  {
+    "id": "mascots",
+    "name": "Mascots & Characters",
+    "blurb": "Original characters with personality, for 404s, empty states and READMEs.",
+    "name_zh": "角色与吉祥物",
+    "game_uses_zh": "角色设计、待机、情绪表达",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/mascots.json"
+  },
+  {
+    "id": "empty-states",
+    "name": "Empty States & Feedback",
+    "blurb": "No results, all done, offline, success, error: the moments every app needs.",
+    "name_zh": "状态与反馈",
+    "game_uses_zh": "成功、失败、离线、加载反馈",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/empty-states.json"
+  },
+  {
+    "id": "retro",
+    "name": "Retro Computing",
+    "blurb": "Boot screens, teletypes, tapes and the machines that started it all.",
+    "name_zh": "复古计算机",
+    "game_uses_zh": "开机、黑客关卡、电脑交互",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/retro.json"
+  },
+  {
+    "id": "science",
+    "name": "Science & Learning",
+    "blurb": "How things work, from cells to the water cycle.",
+    "name_zh": "科学与教学",
+    "game_uses_zh": "机制教学、科学题材、可视化",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/science.json"
+  },
+  {
+    "id": "music",
+    "name": "Music & Sound",
+    "blurb": "Equalisers, turntables, sequencers and waveforms.",
+    "name_zh": "音乐与声音",
+    "game_uses_zh": "节奏游戏、音频可视化、乐器",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/music.json"
+  },
+  {
+    "id": "food",
+    "name": "Food & Drink",
+    "blurb": "Steam, sizzle and pour: food that moves.",
+    "name_zh": "食物与饮料",
+    "game_uses_zh": "烹饪、商店、经营场景",
+    "count": 22,
+    "index_path": "catalog/ascii-magic/food.json"
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "blurb": "Festivals, streets, monsoons and moments from across India.",
+    "name_zh": "印度主题场景",
+    "game_uses_zh": "地域题材环境与节庆气氛",
+    "count": 51,
+    "index_path": "catalog/ascii-magic/india.json"
+  }
+]
