@@ -2,7 +2,7 @@
   "project": "Tidebound ASCII / 借潮而行",
   "code_repository": "https://github.com/Yihancheng0/tidebound-ascii",
   "visibility": "private",
-  "current_version": "v0.4.0",
+  "current_version": "v0.5.1",
   "versions": [
     {
       "version": "v0.3.0",
@@ -24,6 +24,32 @@
       "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.4.0/docs/REVIEW-v0.4.md",
       "commit": "a5290135ceadee7cbd6a6be3332aff3234fe362b",
       "qa_note": "Behavior/type/build and offline actual-engine input journey passed. Browser device acceptance not completed."
+    },
+    {
+      "version": "v0.5.0",
+      "role": "internal production checkpoint before demo-query hardening",
+      "status": "historical_checkpoint",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.5.0",
+      "story": "ideas/tidebound-story.md",
+      "art": "ideas/tidebound-art.md",
+      "opening_standard": "ideas/tidebound-opening-standard.md",
+      "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.5.0/docs/REVIEW-v0.5.md",
+      "qa_note": "Rules, save isolation, continuous camera and actual-engine input flow checked offline. No browser device or unaided user acceptance. Later six chapters remain v0.4 prototype.",
+      "commit": "a422c8ca39e46712d147ae097ca084e888bf4679"
+    },
+    {
+      "version": "v0.5.1",
+      "role": "guided harbor opening rework",
+      "status": "development_preview",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.5.1",
+      "release_url": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.5.1",
+      "story": "ideas/tidebound-story.md",
+      "art": "ideas/tidebound-art.md",
+      "opening_standard": "ideas/tidebound-opening-standard.md",
+      "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.5.1/docs/REVIEW-v0.5.md",
+      "qa_note": "Rules, save isolation, continuous camera and actual-engine input flow checked offline. No browser device or unaided user acceptance. Later six chapters remain v0.4 prototype.",
+      "commit": "5c4b045c15bf7e73c8ad63b5f7ea00909c726eba"
     }
-  ]
+  ],
+  "current_status": "development_preview; browser/user aesthetic acceptance pending"
 }
