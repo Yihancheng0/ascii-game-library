@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**借潮而行的当前制作入口：** [整体框架与执行规范](ideas/tidebound-framework/README.md)（1.0.0-draft.1）。先按任务阅读路线取所需章节；规则、参数、基准、场景均有机器索引。本文档草案不代表游戏已实现这些要求；运行版本仍为 v0.6.1。
+
 固定入口：https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/llms.txt
 仓库：https://github.com/Yihancheng0/ascii-game-library
 
@@ -43,4 +45,4 @@ Python 3.10+；`python scripts/search.py --help`。查询结果包含链接和�
 
 本项目后续对接先读 [借潮而行版本入口](projects/tidebound/README.md)，再查 `projects/tidebound/versions.json`。代码保存在独立私有仓库；本库保存原创剧情、美术约束、参考来源和版本链接。不要把剧情候选或素材库其他鱼种当成已经实装。
 
-借潮而行当前开发版本为 v0.6.1，新增 [严格制作门槛](ideas/tidebound-production-gates.md)，保留 [开场制作标准](ideas/tidebound-opening-standard.md)。自动流程通过不等于真人/美术验收通过；先查版本审查与边界。
+借潮而行当前开发版本为 v0.6.1。后续按 [整体框架](ideas/tidebound-framework/README.md) 制作；[旧门槛](ideas/tidebound-production-gates.md) 与 [旧开场标准](ideas/tidebound-opening-standard.md) 保留历史范围。自动流程通过不等于真人/美术验收通过；先查版本审查与边界。

@@ -998,5 +998,42 @@
     "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.1",
     "implementation_note": "Development preview. Offline actual engine checks only; browser and user aesthetic acceptance pending.",
     "implementation_status": "development_preview_pending_user_acceptance"
+  },
+  {
+    "id": "design:tidebound-framework-v1",
+    "name": "借潮而行整体制作框架与执行规范",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "用户要求先写严密长篇框架，并确认原鱼气质、岛鱼上的人类建筑植物、体型候选对照三项方向",
+    "summary_zh": "13 章制作规范草案：形体、字符、受光、动作、世界、交互、公共系统、对象卡、验收、任务模板和迁移；保留原鱼气质，以证据约束后续模型。仅文档，非游戏功能发布。",
+    "tags": [
+      "ASCII",
+      "美术框架",
+      "动作",
+      "贴图感",
+      "岛鱼",
+      "灯鱼",
+      "公共组件",
+      "验收",
+      "任务模板",
+      "production",
+      "framework",
+      "art direction"
+    ],
+    "search_text": "整体框架 严格规则 原鱼 美感 贴纸 贴图 字符 受光 动画 岛鱼结构 人类建筑 灯鱼 大海域 交互 引导 模型执行 验收 参数 基准 48条规则 13章 framework art motion architecture",
+    "document_path": "ideas/tidebound-framework/README.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "framework_version": "1.0.0-draft.1",
+    "implementation_status": "documentation_only; visual baselines and proposed systems pending",
+    "implementation_note": "User direction choices are confirmed; detailed framework remains a draft for review. No runtime change, no new aesthetic acceptance; third-party videos are not distributed."
   }
 ]

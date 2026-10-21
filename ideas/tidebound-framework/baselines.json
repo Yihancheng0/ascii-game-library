@@ -1,0 +1,83 @@
+{
+  "framework_version": "1.0.0-draft.1",
+  "baselines": [
+    {
+      "id": "BL-FISH",
+      "reference_id": "REF-FISH",
+      "scope": "原鱼静止、缓游、转弯",
+      "status": "pending_capture_and_review",
+      "direction_recognized": true,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-SHORE",
+      "reference_id": "REF-V1",
+      "scope": "岩面、浅水、植被与鱼同屏",
+      "status": "pending_capture_and_review",
+      "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-SKIFF",
+      "reference_id": "REF-FISH",
+      "scope": "船、人、推进和水的完整动作",
+      "status": "pending_capture_and_review",
+      "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-LAMP",
+      "reference_id": "REF-V3",
+      "scope": "派遣、抵达、工作、召回",
+      "status": "pending_capture_and_review",
+      "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-ISLAND",
+      "reference_id": "REF-V2",
+      "scope": "无眼睛装饰的结构、地形与呼吸",
+      "status": "pending_capture_and_review",
+      "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-ENCOUNTER",
+      "reference_id": "REF-V3",
+      "scope": "一次完整两鱼协作",
+      "status": "pending_capture_and_review",
+      "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    }
+  ]
+}

@@ -77,5 +77,24 @@
       "qa_note": "Actual-engine overlap preserves 1432 opaque hull pixels; replaying former order corrupts 889 pixels. Type/build/behavior/save and input journey checked offline. Browser/device and user aesthetic acceptance remain pending. No later chapter expansion."
     }
   ],
-  "current_status": "development_preview; final browser/device and user aesthetic acceptance pending"
+  "current_status": "development_preview; final browser/device and user aesthetic acceptance pending",
+  "current_framework_version": "1.0.0-draft.1",
+  "framework_versions": [
+    {
+      "version": "1.0.0-draft.1",
+      "tag": "framework-v1.0.0-draft.1",
+      "status": "draft_for_user_review",
+      "runtime_changed": false,
+      "runtime_version": "v0.6.1",
+      "canonical_commit": "2809dfe17fe419304baa17b27fed86e461dbf91a",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.0.0-draft.1/docs/framework",
+      "mirror_path": "ideas/tidebound-framework",
+      "entry_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
+      "chapters": 13,
+      "rules": 48,
+      "scenarios": 16,
+      "parameter_records": 17,
+      "qa_note": "Framework and library validation passed; three negative metadata checks rejected invalid claims. Documentation only; six formal visual baselines still pending. No runtime change or new browser/aesthetic acceptance."
+    }
+  ]
 }

@@ -1,4 +1,6 @@
 # ASCII 游戏素材与灵感库 / ASCII Game Library
+
+- [Tidebound production framework](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-framework/README.md): current draft 1.0.0-draft.1, role-based reading routes, 13 chapters, rules, object specs, calibration states and evidence gates. Documentation only; runtime stays v0.6.1. Do not treat proposed systems or pending visual baselines as implemented or accepted.
 > 中文开发参考、双语标签、可读源码、逐项授权来源。Updated: 2026-10-20.
 
 - [Start here](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/START_HERE.md): AI retrieval procedure and examples.

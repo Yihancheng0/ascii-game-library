@@ -1,0 +1,194 @@
+{
+  "framework_version": "1.0.0-draft.1",
+  "parameters": [
+    {
+      "id": "P-FONT",
+      "label": "字体、字符允许表与回退",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "原鱼与环境同屏近看，验证字宽、基线、重量和缺字",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-GRID",
+      "label": "采样层级、字格比例、切换",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "固定姿态拖动与多距离对照，检查轮廓跳变",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-PALETTE",
+      "label": "色盘、主明暗与强调色",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "原鱼同屏的灰度/缩略图/正常图对照",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-SHIMMER",
+      "label": "表面字符变化幅度与节律",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "固定光、镜头和姿态检查大形稳定与局部变化",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-LIGHT",
+      "label": "灯鱼范围、衰减与聚光过渡",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "水面/湿岩/船体同时受光的实际场景",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-BODY",
+      "label": "鱼体截面、弯曲和挂点误差",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "全身左右转弯，逐帧检查连接",
+      "decision_due": "M1",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-MASS",
+      "label": "不同大小鱼的加速、尾摆、转弯",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "同一路径尺寸对照与原鱼基准比较",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-WAKE",
+      "label": "尾迹生成、衰减与速度关系",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "巡游/冲刺/减速和镜头拖动对照",
+      "decision_due": "M2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-CAMERA",
+      "label": "跟随、手动切换与采样策略",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "固定路线与相机/世界坐标诊断",
+      "decision_due": "M1",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-BREATH",
+      "label": "呼吸幅度、节律与响应延迟",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "同一岛鱼地标、水线、附着物的完整周期",
+      "decision_due": "M3",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-HINT",
+      "label": "首次和停滞提示层级/延迟",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "记录首次玩家误解、停滞点与恢复路径",
+      "decision_due": "M4",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-DAY",
+      "label": "昼夜与大型世界鱼事件节律",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "安静观察与事件前后片段对照",
+      "decision_due": "M5",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-WEATHER",
+      "label": "天气频率、强度与闪光",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "多系统响应，低闪烁信息等价检查",
+      "decision_due": "M5",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-PERF",
+      "label": "设备、分辨率和帧时间预算",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "实机分项测量，确认目标设备与体验取舍",
+      "decision_due": "M6",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-COLLISION",
+      "label": "可见表面与碰撞代理容差",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "脚底、水线、鳍尾接岸的多角度对照",
+      "decision_due": "M1",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-STREAM",
+      "label": "活动窗口、缓存预算与精度范围",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "边界往返、远坐标、内存和帧耗时测量",
+      "decision_due": "M5",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-HINT-LEGACY",
+      "label": "旧港湾后续停滞提示回显",
+      "status": "existing_observation",
+      "target_value": null,
+      "observed_value": 12,
+      "unit": "seconds",
+      "source": "v0.6.1 src/harbor-guide.ts and historical implementation notes",
+      "method": "Historical fact only; not a calibrated design target",
+      "decision_due": "M4",
+      "evidence": [],
+      "decision": null
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "framework_version": "1.0.0-draft.1",
+  "authority": "Rule prose in owner_file at anchor; index contains no alternative requirements",
+  "rules": [
+    {
+      "id": "GOV-01",
+      "owner_file": "01-CONSTITUTION.md",
+      "anchor": "GOV-01",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "GOV-02",
+      "owner_file": "01-CONSTITUTION.md",
+      "anchor": "GOV-02",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "owner_file": "01-CONSTITUTION.md",
+      "anchor": "GOV-03",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "GOV-04",
+      "owner_file": "01-CONSTITUTION.md",
+      "anchor": "GOV-04",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "REF-01",
+      "owner_file": "02-REFERENCES.md",
+      "anchor": "REF-01",
+      "scenarios": [
+        "SC-DOC",
+        "SC-SHAPE"
+      ]
+    },
+    {
+      "id": "REF-02",
+      "owner_file": "02-REFERENCES.md",
+      "anchor": "REF-02",
+      "scenarios": [
+        "SC-DOC",
+        "SC-SHAPE"
+      ]
+    },
+    {
+      "id": "REF-03",
+      "owner_file": "02-REFERENCES.md",
+      "anchor": "REF-03",
+      "scenarios": [
+        "SC-DOC",
+        "SC-SHAPE"
+      ]
+    },
+    {
+      "id": "ART-01",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-01",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "ART-02",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-02",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "ART-03",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-03",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "ART-04",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-04",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "ART-05",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-05",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "ART-06",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-06",
+      "scenarios": [
+        "SC-SHAPE",
+        "SC-CHAR",
+        "SC-DEPTH",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "WORLD-01",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-01",
+      "scenarios": [
+        "SC-ISLAND",
+        "SC-WORLD",
+        "SC-WEATHER",
+        "SC-DEPTH"
+      ]
+    },
+    {
+      "id": "WORLD-02",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-02",
+      "scenarios": [
+        "SC-ISLAND",
+        "SC-WORLD",
+        "SC-WEATHER",
+        "SC-DEPTH"
+      ]
+    },
+    {
+      "id": "WORLD-03",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-03",
+      "scenarios": [
+        "SC-ISLAND",
+        "SC-WORLD",
+        "SC-WEATHER",
+        "SC-DEPTH"
+      ]
+    },
+    {
+      "id": "WORLD-04",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-04",
+      "scenarios": [
+        "SC-ISLAND",
+        "SC-WORLD",
+        "SC-WEATHER",
+        "SC-DEPTH"
+      ]
+    },
+    {
+      "id": "WORLD-05",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-05",
+      "scenarios": [
+        "SC-ISLAND",
+        "SC-WORLD",
+        "SC-WEATHER",
+        "SC-DEPTH"
+      ]
+    },
+    {
+      "id": "MOTION-01",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-01",
+      "scenarios": [
+        "SC-TURN",
+        "SC-PAN",
+        "SC-LAMP",
+        "SC-ISLAND"
+      ]
+    },
+    {
+      "id": "MOTION-02",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-02",
+      "scenarios": [
+        "SC-TURN",
+        "SC-PAN",
+        "SC-LAMP",
+        "SC-ISLAND"
+      ]
+    },
+    {
+      "id": "MOTION-03",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-03",
+      "scenarios": [
+        "SC-TURN",
+        "SC-PAN",
+        "SC-LAMP",
+        "SC-ISLAND"
+      ]
+    },
+    {
+      "id": "MOTION-04",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-04",
+      "scenarios": [
+        "SC-TURN",
+        "SC-PAN",
+        "SC-LAMP",
+        "SC-ISLAND"
+      ]
+    },
+    {
+      "id": "MOTION-05",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-05",
+      "scenarios": [
+        "SC-TURN",
+        "SC-PAN",
+        "SC-LAMP",
+        "SC-ISLAND"
+      ]
+    },
+    {
+      "id": "FX-01",
+      "owner_file": "05-MOTION.md",
+      "anchor": "FX-01",
+      "scenarios": [
+        "SC-GILL",
+        "SC-WEATHER",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "PLAY-01",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-01",
+      "scenarios": [
+        "SC-UI",
+        "SC-GILL",
+        "SC-FISHING",
+        "SC-DOCK",
+        "SC-SAVE"
+      ]
+    },
+    {
+      "id": "PLAY-02",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-02",
+      "scenarios": [
+        "SC-UI",
+        "SC-GILL",
+        "SC-FISHING",
+        "SC-DOCK",
+        "SC-SAVE"
+      ]
+    },
+    {
+      "id": "PLAY-03",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-03",
+      "scenarios": [
+        "SC-UI",
+        "SC-GILL",
+        "SC-FISHING",
+        "SC-DOCK",
+        "SC-SAVE"
+      ]
+    },
+    {
+      "id": "PLAY-04",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-04",
+      "scenarios": [
+        "SC-UI",
+        "SC-GILL",
+        "SC-FISHING",
+        "SC-DOCK",
+        "SC-SAVE"
+      ]
+    },
+    {
+      "id": "PLAY-05",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-05",
+      "scenarios": [
+        "SC-UI",
+        "SC-GILL",
+        "SC-FISHING",
+        "SC-DOCK",
+        "SC-SAVE"
+      ]
+    },
+    {
+      "id": "UI-01",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "UI-01",
+      "scenarios": [
+        "SC-UI"
+      ]
+    },
+    {
+      "id": "ENG-01",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-01",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-02",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-02",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-03",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-03",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-04",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-04",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-05",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-05",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-06",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-06",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-07",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-07",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "ENG-08",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-08",
+      "scenarios": [
+        "SC-PAN",
+        "SC-DEPTH",
+        "SC-SAVE",
+        "SC-WORLD",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "QA-01",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-01",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "QA-02",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-02",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "QA-03",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-03",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "QA-04",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-04",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "QA-05",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-05",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "PROC-01",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-01",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "PROC-02",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-02",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "PROC-03",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-03",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "PROC-04",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-04",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    },
+    {
+      "id": "PROC-05",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-05",
+      "scenarios": [
+        "SC-DOC"
+      ]
+    }
+  ]
+}

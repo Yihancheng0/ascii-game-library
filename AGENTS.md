@@ -1,6 +1,7 @@
 # Working with this library
 
 Read START_HERE.md first. catalog/ is UTF-8 JSON and Markdown is bilingual where useful.
+For Tidebound production, use `ideas/tidebound-framework/README.md` and its task reading route. It mirrors the private game's `docs/framework`; edit the canonical source first, then mirror and validate. Framework versions are separate from runtime versions. Do not promote pending baselines/parameters to accepted values without evidence, or redistribute the reference videos/screenshots.
 Prefer category shards over the full catalog. Keep stable IDs and original source URLs.
 Distinguish reference_only / copyleft_review_required / permissive_with_notice / per_item_license.
 The 634 vendored ASCII Magic modules are unchanged upstream source; preserve LICENSE and NOTICE.

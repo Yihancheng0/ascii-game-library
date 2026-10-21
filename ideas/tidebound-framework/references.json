@@ -1,0 +1,119 @@
+{
+  "framework_version": "1.0.0-draft.1",
+  "reference_policy": "Original analysis only; no video or screenshots distributed; unknown implementation is not asserted",
+  "references": [
+    {
+      "id": "REF-FISH",
+      "label": "原 ascii-sharks 鱼及用户认可方向",
+      "media_file": null,
+      "sha256": null,
+      "source_url": null,
+      "source_status": "local_existing_project; upstream identity and license not re-established here",
+      "license_status": "unidentified; no public source redistribution",
+      "acceptance_scope": "User-approved direction only; formal BL-FISH remains pending",
+      "observations": [
+        "连续鱼体和游姿",
+        "银灰体积与稀疏微光",
+        "水中拖影与留白"
+      ],
+      "segments": []
+    },
+    {
+      "id": "REF-V1",
+      "label": "ASCII1",
+      "media_file": "ASCII1.mp4",
+      "sha256": "0507c60cbcfdaf1218256927ab4960f4f524525b752159cad75588a5c61bb746",
+      "duration_seconds": 30.465,
+      "width": 720,
+      "height": 1280,
+      "nominal_fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_analyzed": false,
+      "source_url": null,
+      "author": null,
+      "license_status": "unknown; analysis only",
+      "segments": [
+        {
+          "start": 4,
+          "end": 6,
+          "observation": "接触水面、扩散波纹与倒影变化"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "observation": "水面横向笔画、暗区和不同材料字符组织"
+        }
+      ],
+      "implementation_inference": "No engine or algorithm attribution"
+    },
+    {
+      "id": "REF-V2",
+      "label": "ASCII2",
+      "media_file": "ASCII2.mp4",
+      "sha256": "3a0f1516008d81c7a1ac711c5898fc5ee983ac8b69e8e6b0aca12f5fa24af40f",
+      "duration_seconds": 60.302,
+      "width": 720,
+      "height": 1280,
+      "nominal_fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_analyzed": false,
+      "source_url": null,
+      "author": null,
+      "license_status": "unknown; analysis only",
+      "segments": [
+        {
+          "start": 24,
+          "end": 27,
+          "observation": "翼面、躯干、头颈与尾部的姿态和遮挡"
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "observation": "预示、落点、爆发、附近物体变暖"
+        }
+      ],
+      "implementation_inference": "Observed pose changes do not prove a specific rig or 3D engine"
+    },
+    {
+      "id": "REF-V3",
+      "label": "ASCII3",
+      "media_file": "ASCII3.mp4",
+      "sha256": "9b9f40209eedf7399ba6550e999c698ad87fe426b912023e4d9f925358ca5678",
+      "duration_seconds": 55.194,
+      "width": 720,
+      "height": 1280,
+      "nominal_fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_analyzed": false,
+      "source_url": null,
+      "author": null,
+      "license_status": "unknown; analysis only",
+      "segments": [
+        {
+          "start": 3,
+          "end": 6,
+          "observation": "闪电方向、节点、接触散开"
+        },
+        {
+          "start": 8,
+          "end": 14,
+          "observation": "火焰核心、稀疏余烬、消退"
+        },
+        {
+          "start": 15,
+          "end": 18,
+          "observation": "冰刺高低与持续占据空间"
+        },
+        {
+          "start": 47,
+          "end": 49,
+          "observation": "装备界面保留字符物品轮廓"
+        }
+      ],
+      "implementation_inference": "No source implementation or audio analysis"
+    }
+  ]
+}

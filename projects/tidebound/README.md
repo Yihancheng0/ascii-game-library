@@ -1,5 +1,7 @@
 # 借潮而行 · 代码、剧情与版本入口
 
+**当前规范：** [整体制作框架 1.0.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
+
 游戏代码：[Yihancheng0/tidebound-ascii](https://github.com/Yihancheng0/tidebound-ascii)（私有，需要仓库权限）。
 
 当前开发样片为 [v0.6.1 港湾遮挡与动作可读性](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.1)。先读 [严格制作门槛](../../ideas/tidebound-production-gates.md)、[本版自查](https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.1/docs/REVIEW-v0.6.1.md)。新增几何港湾、连续小船、全身避岸和灯鱼/针尾配合解除一只锁鳞。没有自动接回旧六章；浏览器设备和用户美术验收待完成。
@@ -20,7 +22,7 @@
 
 ## 后续开发怎么衔接
 
-先看对应 tag 的 README、STORY_BIBLE、ART_DIRECTION、IMPLEMENTATION 和 REVIEW。确认真实完成范围，再修改。每次更新保留 commit/tag、剧情变化、未实现边界、来源授权、检查范围和对应演示。代码与故事各有一个权威来源，不要只保存聊天摘要。
+先读整体框架的任务路线，再看对应 tag 的实现与审查记录；剧情和旧美术笔记按本次任务需要读取。确认真实完成范围，再修改。每次更新保留 commit/tag、剧情变化、未实现边界、来源授权、检查范围和对应演示。代码与规范各有一个权威来源，不要只保存聊天摘要。
 
 `v0.3.0` 是之前“借光出湾”的原样归档，含当时的动作缺陷。`v0.4.0` 是本次迁徙扩展。查历史请使用 tag，不要把旧预览当成最新画面。
 
@@ -43,3 +45,7 @@
 离线行为、完整输入流程和画布画面已自查。浏览器工具当前在应用设置中关闭；未完成最终设备帧率、DOM 布局或真人无陪同试玩。自动控制器的约 82 秒模拟流程不等于真人时长。旧六章与广阔多海域仍不是本轮精修范围。
 
 v0.6.1 修正水下鱼覆盖船体、实体灯前后排序与安置时叠灯架。锁鳞颌部有厚度和真实开口，眼齿随动；修复缝线读档后保留。初次提示不提前消失，后续停留十二秒恢复。像素回归含旧顺序负向对照；没有把离线检查写成浏览器或用户美术验收。
+
+## 规范发布记录
+
+[framework-v1.0.0-draft.1 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.0.0-draft.1/docs/framework) · 提交 2809dfe17fe419304baa17b27fed86e461dbf91a。公共镜像为原创文档逐文件同步，详细状态见版本索引；运行版本仍为 v0.6.1。

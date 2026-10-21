@@ -1,0 +1,146 @@
+{
+  "framework_version": "1.0.0-draft.1",
+  "scope": "新规范场景定义；本轮除文档校验外未执行游戏检查",
+  "scenarios": [
+    {
+      "id": "SC-SHAPE",
+      "title": "轮廓与结构",
+      "procedure": "关闭标签、附加眼睛与特效，近中远查看岛鱼、船鱼、灯鱼。",
+      "expected": "主形、承托与生物结构可读；不能靠装饰补足。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-CHAR",
+      "title": "字符与采样",
+      "procedure": "固定光与姿态，平移镜头，切换已支持的采样层级和像素比。",
+      "expected": "材质方向、比例、主明暗连续，缺字与字格抖动可见。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-PAN",
+      "title": "完整视觉裁切",
+      "procedure": "将大鱼头移出四边，保留躯干和尾迹，再返回。",
+      "expected": "屏内部分连续存在；独立层不突然出现或消失。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-TURN",
+      "title": "全身动作",
+      "procedure": "沿岸左右转弯、加速、减速、取消追踪、等待。",
+      "expected": "身体、器官、尾迹连续，全身避岸，回稳自然。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-DEPTH",
+      "title": "遮挡与接触",
+      "procedure": "鱼在码头下、岸边和船后通过；人走上栈道。",
+      "expected": "分层与承托可信，无穿模或以透明度掩饰。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-LAMP",
+      "title": "灯鱼完整状态",
+      "procedure": "靠近、关注、照明、取消、受阻、走远、栖息。",
+      "expected": "身体与光照共同响应，等待有生命感且不抢目标。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-ISLAND",
+      "title": "岛鱼呼吸",
+      "procedure": "观察一个完整呼吸，再穿过岸边地标与栈道。",
+      "expected": "器官、水线、附着物和通行区一致。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-DOCK",
+      "title": "上下岸",
+      "procedure": "多方向靠泊、登岸、返回、取消与无合法落点尝试。",
+      "expected": "不困住、不穿透、不传到非法位置。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-GILL",
+      "title": "协作闭环",
+      "procedure": "完成灯鱼和针尾协作；各阶段离开、返回或中断。",
+      "expected": "前提可读、结构有变化、失败恢复、结果保留。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-SAVE",
+      "title": "持久化隔离",
+      "procedure": "关键阶段重载、旧档、损坏档和临时演示进出。",
+      "expected": "阶段与物理状态一致、旧档保留、演示不污染进度。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-WORLD",
+      "title": "大海域边界",
+      "procedure": "跨区往返、巨物跨区、远坐标、改动后重载。",
+      "expected": "生成稳定，实体完整，改动可重访，无接缝。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-WEATHER",
+      "title": "天气共同响应",
+      "procedure": "从平静进入事件再消退，重复低闪烁选项。",
+      "expected": "光、水、物体响应一致，主要信息等价。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-UI",
+      "title": "首次使用与帮助",
+      "procedure": "第一次进入、停滞、打开帮助、暂停、改变窗口。",
+      "expected": "目标与动作可理解，帮助可发现，无调试占位符。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-FISHING",
+      "title": "钓鱼与用途",
+      "procedure": "试探、咬合、主动操作、取消/脱钩，检查结果。",
+      "expected": "反馈有因果，失败可恢复，结果进入现有循环。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-PERF",
+      "title": "设备性能",
+      "procedure": "在记录的设备/分辨率/质量档中运行固定路线和峰值事件。",
+      "expected": "对照已确认预算；尚无预算时只记录测量，不宣称通过。",
+      "status": "not_run",
+      "evidence": []
+    },
+    {
+      "id": "SC-DOC",
+      "title": "规范一致性",
+      "procedure": "运行 validate.py 并人工阅读内容、差异和公开资料。",
+      "expected": "链接、编号、状态、版本一致，无虚构验收。",
+      "status": "passed",
+      "evidence": [
+        {
+          "kind": "command",
+          "command": "python validate.py",
+          "exit_code": 0,
+          "scope": "文件/规则/引用/状态元数据校验，不评价画面"
+        },
+        {
+          "kind": "self_review",
+          "path": "REVIEW.md",
+          "scope": "本轮助手正文自查及三项反向检查；不是用户验收"
+        }
+      ]
+    }
+  ]
+}
