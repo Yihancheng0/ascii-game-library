@@ -288,7 +288,20 @@
       "status": "feedback_driven_revision; browser layout/input/performance, art and fun acceptance pending",
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
-      "qa_note": "Offline actual DOM/native Canvas: 14162 step calls and 1917 pose frames. Pointer-anchored zoom, transformed clicks, pan/state isolation, portrait DPR2 and wide view, non-pivot turns/rear adjustment, two strategies, failure/retry and old-save checks passed. Explicit distance, body-blocked attack and mouth/side/tail/window fixtures passed. E1/type/behavior regression passed. Browser control remains disabled; no actual browser FPS, device feel or user acceptance claimed."
+      "qa_note": "Offline actual DOM/native Canvas: 14162 step calls and 1917 pose frames. Pointer-anchored zoom, transformed clicks, pan/state isolation, portrait DPR2 and wide view, non-pivot turns/rear adjustment, two strategies, failure/retry and old-save checks passed. Explicit distance, body-blocked attack and mouth/side/tail/window fixtures passed. E1/type/behavior regression passed. Browser control remains disabled; no actual browser FPS, device feel or user acceptance claimed.",
+      "feedback_status": "User reported blur and weaker environment composition than the old harbor; requested clearer native glyphs and better spatial layout without importing picture assets. Addressed as a candidate revision in 0.4.0; acceptance pending."
+    },
+    {
+      "version": "0.4.0",
+      "tag": "cove-escort-v0.4.0",
+      "title": "Clear glyphs and a continuous bay / 清晰字符与连续海湾",
+      "commit": "27c868f02b38509e4d76277d2669d44371c04f32",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.4.0",
+      "notes": "ideas/tidebound-cove-bay.md",
+      "status": "feedback_driven_revision; browser/device, art and fun acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline actual DOM/native Canvas: 14162 steps and 1917 pose frames, two strategies, negative crossings, interruption/retry and save isolation passed. Native viewport pixels, transparent compositing, noninteger zoom/anchored sampling, light-only controls and hidden-target-independent multi-second search passed; E1 14862 steps/572 poses and existing type/behavior/save regression passed. Browser/device and user acceptance pending."
     }
   ]
 }
