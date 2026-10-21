@@ -275,7 +275,20 @@
       "status": "feedback_driven_revision; browser/device, responsiveness, art and fun acceptance pending",
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
-      "qa_note": "Offline actual DOM/native Canvas: 13766 step calls, 1788 pose frames; rapid clicks, light-only school/predator controls, real pursuit, LOS/memory and retreat recovery, two strategies and negative inputs passed. E1/type/behavior/save/document regression passed. Same-pose environment comparison reviewed; overall darkness remains subject to feedback. No browser FPS or user acceptance claimed."
+      "qa_note": "Offline actual DOM/native Canvas: 13766 step calls, 1788 pose frames; rapid clicks, light-only school/predator controls, real pursuit, LOS/memory and retreat recovery, two strategies and negative inputs passed. E1/type/behavior/save/document regression passed. Same-pose environment comparison reviewed; overall darkness remains subject to feedback. No browser FPS or user acceptance claimed.",
+      "feedback_status": "User still found predator dull, rejected centre-pivot lamp rotations, requested immersive viewport/zoom; small-fish appearance low priority. Rock-light interaction specifically appreciated; escort fun not accepted."
+    },
+    {
+      "version": "0.3.0",
+      "tag": "cove-escort-v0.3.0",
+      "title": "Immersive observation and travelling turns / 沉浸观察与游动转弯",
+      "commit": "f1f50c7d823908d4a5058c7e1fa547207d2179b0",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.3.0",
+      "notes": "ideas/tidebound-cove-immersion.md",
+      "status": "feedback_driven_revision; browser layout/input/performance, art and fun acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline actual DOM/native Canvas: 14162 step calls and 1917 pose frames. Pointer-anchored zoom, transformed clicks, pan/state isolation, portrait DPR2 and wide view, non-pivot turns/rear adjustment, two strategies, failure/retry and old-save checks passed. Explicit distance, body-blocked attack and mouth/side/tail/window fixtures passed. E1/type/behavior regression passed. Browser control remains disabled; no actual browser FPS, device feel or user acceptance claimed."
     }
   ]
 }
