@@ -108,6 +108,17 @@
       "runtime_changed": false,
       "discussion_status": "eight_cards_pending; no new decisions accepted",
       "checks": "8 cards; canonical/mirror/local identical; framework and library validation passed"
+    },
+    {
+      "version": "1.0.1",
+      "tag": "review-guide-v1.0.1",
+      "canonical_commit": "96ccc59ecb9a90e3a6201aee8601d775ee73a515",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/review-guide-v1.0.1/docs/HUMAN_REVIEW.md",
+      "mirror_path": "ideas/tidebound-human-review.md",
+      "framework_version": "1.0.0-draft.1",
+      "runtime_changed": false,
+      "discussion_status": "card_01 provisionally sparse because differences were not apparent; cards 02-08 pending; no visual acceptance",
+      "decision": "D-09"
     }
   ]
 }

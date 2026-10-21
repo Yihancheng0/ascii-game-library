@@ -1,6 +1,6 @@
 # 借潮而行 · 代码、剧情与版本入口
 
-作者先读 [八张审阅卡](../../ideas/tidebound-human-review.md)：每次讨论一个主题，不必通读工程规范。尚无新一轮逐项审阅结论。
+作者先读 [八张审阅卡](../../ideas/tidebound-human-review.md)：每次讨论一个主题，不必通读工程规范。第 01 卡暂按疏朗方向推进（对照差异不明显，优先简单）；其余七项待讨论。未新增环境美术验收。
 
 **当前规范：** [整体制作框架 1.0.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
 
