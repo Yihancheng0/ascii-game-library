@@ -1,5 +1,7 @@
 # 借潮而行 · 代码、剧情与版本入口
 
+新研究线程先读 [权威交接镜像](../../ideas/tidebound-research-handoff.md)，再取所需框架章节。当前初始工作是读取与研究，具体运行代码开发依用户后续指令。
+
 作者先读 [八张审阅卡](../../ideas/tidebound-human-review.md)：每次讨论一个主题，不必通读工程规范。八张卡的建议均获用户方向认可，后续直接按 D-10 执行；第 01 卡保留简单优先的疏朗取向。开放问题、具体造型和效果仍待样片，不再重复询问同一原则。
 
 **当前规范：** [整体制作框架 1.0.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。

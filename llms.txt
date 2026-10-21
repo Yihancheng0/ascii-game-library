@@ -1,5 +1,7 @@
 # ASCII 游戏素材与灵感库 / ASCII Game Library
 
+- [Tidebound research handoff](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-research-handoff.md): confirmed D-10 directions, current runtime, unresolved defects, references, verification boundaries and research-only initial scope for a new thread.
+
 - [Tidebound production framework](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-framework/README.md): current draft 1.0.0-draft.1, role-based reading routes, 13 chapters, rules, object specs, calibration states and evidence gates. Documentation only; runtime stays v0.6.1. Do not treat proposed systems or pending visual baselines as implemented or accepted.
 > 中文开发参考、双语标签、可读源码、逐项授权来源。Updated: 2026-10-20.
 

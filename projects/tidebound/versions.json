@@ -132,5 +132,20 @@
       "decision": "D-10"
     }
   ],
-  "current_author_review_version": "1.0.2"
+  "current_author_review_version": "1.0.2",
+  "current_research_handoff_version": "1.0.0",
+  "research_handoffs": [
+    {
+      "version": "1.0.0",
+      "tag": "research-handoff-v1.0.0",
+      "canonical_commit": "45a389cbf5c7c5395610372cd6e9eb6ecbd2f013",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/research-handoff-v1.0.0/docs/RESEARCH_HANDOFF.md",
+      "mirror_path": "ideas/tidebound-research-handoff.md",
+      "runtime_changed": false,
+      "runtime_version": "v0.6.1",
+      "framework_version": "1.0.0-draft.1",
+      "author_review_version": "1.0.2",
+      "initial_scope": "read handoff and research; no automatic runtime changes"
+    }
+  ]
 }

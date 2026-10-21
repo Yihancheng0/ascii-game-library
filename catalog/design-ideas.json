@@ -1065,5 +1065,34 @@
     "recorded_on": "2026-10-20",
     "implementation_status": "review_guide_only; recommendations of all eight cards endorsed as directions; open questions and visual acceptance remain pending",
     "review_decision": "D-10"
+  },
+  {
+    "id": "design:tidebound-research-handoff",
+    "name": "借潮而行后续研究交接",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "用户要求新开线程继续研究，并准备必要记忆与交接",
+    "summary_zh": "新线程最小上下文：八项建议方向认可、当前版本、K-01 等未解决问题、真实证据、参考材料、待定项和后续研究次序；初始只读研究，不自动开发。",
+    "tags": [
+      "交接",
+      "记忆",
+      "新线程",
+      "研究",
+      "D-10",
+      "handoff"
+    ],
+    "search_text": "新线程 记忆 交接 研究 已确认 建议 D-09 D-10 K-01 框架 源码 版本 验收",
+    "document_path": "ideas/tidebound-research-handoff.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-research-handoff.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-research-handoff.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-research-handoff.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "implementation_status": "handoff_only; runtime unchanged; new thread starts with reading and research"
   }
 ]
