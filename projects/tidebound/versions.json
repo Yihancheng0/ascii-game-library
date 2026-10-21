@@ -251,6 +251,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "Offline DOM input/native Canvas: 14862 fixed steps, 572 full-body frames; six-fish gathering, detour, light/clue/regroup, interruption and legacy-save isolation passed. Typecheck and existing behavior checks passed. Browser control disabled by settings; no browser FPS or user art acceptance claimed. Predator patrol only; full E2 escort not implemented."
+    },
+    {
+      "version": "0.1.0",
+      "tag": "cove-escort-v0.1.0",
+      "title": "A short crossing / 岩间微光·护送一程",
+      "commit": "eedf0e5fdea50621fe9d1f3342d0feec4335a2cc",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.1.0",
+      "notes": "ideas/tidebound-cove-escort.md",
+      "status": "independent_E2_escort_research; browser/device and user acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline DOM/native Canvas: 13801 fixed-step calls, 1690 pose frames; two played-through strategies, exposed crossing/flashing controls, telegraph/contact, darkness memory, unique arrivals, settled observation, interruption/retry and old-save isolation passed. E1 regression, typecheck, existing behavior and document checks passed. No actual browser/device or first-player/fun acceptance claimed."
     }
   ]
 }

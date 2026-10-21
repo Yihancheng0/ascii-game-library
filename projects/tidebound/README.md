@@ -1,6 +1,8 @@
 # 借潮而行 · 代码、剧情与版本入口
 
-最新独立研究为 [岩间微光 0.1.0](../../ideas/tidebound-cove-study.md)，私有标签 `cove-study-v0.1.0`。一屏可操作浅湾，属于 E1；完整捕食护送、浏览器设备和用户艺术验收待验证。版本与证据范围见 versions.json 的 research_studies，默认游戏仍 v0.6.1。
+最新护送研究为 [岩间微光·护送一程 0.1.0](../../ideas/tidebound-cove-escort.md)，私有标签 `cove-escort-v0.1.0`。旧 E1 保留；新切片的实现/离线/设备/用户验收分开记录，默认 v0.6.1 不变。
+
+先前 E1 研究为 [岩间微光 0.1.0](../../ideas/tidebound-cove-study.md)，私有标签 `cove-study-v0.1.0`。一屏可操作浅湾，属于 E1；完整捕食护送、浏览器设备和用户艺术验收待验证。版本与证据范围见 versions.json 的 research_studies，默认游戏仍 v0.6.1。
 
 新研究线程先读 [权威交接镜像](../../ideas/tidebound-research-handoff.md)，再取所需框架章节。首次只读之后，用户已授权制作 [借一束光 0.1.0 局部样片](../../ideas/tidebound-shore-study.md)：独立可操作入口，研究湿岩、灯鱼与共同光照；默认游戏仍为 v0.6.1，用户效果验收待定。
 
