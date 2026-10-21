@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**给作者看：** [八张审阅卡](ideas/tidebound-human-review.md)。用普通话讨论审美与关键交互，一次一项；它是整体框架的阅读导览，卡中建议尚未逐项确认。
+
 **借潮而行的当前制作入口：** [整体框架与执行规范](ideas/tidebound-framework/README.md)（1.0.0-draft.1）。先按任务阅读路线取所需章节；规则、参数、基准、场景均有机器索引。本文档草案不代表游戏已实现这些要求；运行版本仍为 v0.6.1。
 
 固定入口：https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/llms.txt

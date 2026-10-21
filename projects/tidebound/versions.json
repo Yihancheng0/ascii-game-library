@@ -96,5 +96,18 @@
       "parameter_records": 17,
       "qa_note": "Framework and library validation passed; three negative metadata checks rejected invalid claims. Documentation only; six formal visual baselines still pending. No runtime change or new browser/aesthetic acceptance."
     }
+  ],
+  "author_review_guides": [
+    {
+      "version": "1.0.0",
+      "tag": "review-guide-v1.0.0",
+      "canonical_commit": "495b756ecd64540774d6e0055e217c5fb6fa7829",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/review-guide-v1.0.0/docs/HUMAN_REVIEW.md",
+      "mirror_path": "ideas/tidebound-human-review.md",
+      "framework_version": "1.0.0-draft.1",
+      "runtime_changed": false,
+      "discussion_status": "eight_cards_pending; no new decisions accepted",
+      "checks": "8 cards; canonical/mirror/local identical; framework and library validation passed"
+    }
   ]
 }

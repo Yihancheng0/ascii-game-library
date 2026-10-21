@@ -1035,5 +1035,34 @@
     "framework_version": "1.0.0-draft.1",
     "implementation_status": "documentation_only; visual baselines and proposed systems pending",
     "implementation_note": "User direction choices are confirmed; detailed framework remains a draft for review. No runtime change, no new aesthetic acceptance; third-party videos are not distributed."
+  },
+  {
+    "id": "design:tidebound-human-review",
+    "name": "一起看借潮而行：作者审阅八个关键点",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "用户要求筛选能看懂、需要其判断的审美与关键交互内容，逐项带领审阅",
+    "summary_zh": "八张普通话审阅卡：环境密度、字符变化、岛鱼显露、伙伴关系、提示、协作、钓鱼与探索。区分技术底线和作者偏好，不提前确认候选。",
+    "tags": [
+      "作者审阅",
+      "审美",
+      "画面风格",
+      "交互",
+      "导览",
+      "human review"
+    ],
+    "search_text": "作者 人类 可读 审阅 导览 八个关键点 美感 画面 风格 动画 交互 整体框架",
+    "document_path": "ideas/tidebound-human-review.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-human-review.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-human-review.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-human-review.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-20",
+    "implementation_status": "review_guide_only; eight cards pending user discussion"
   }
 ]
