@@ -79,6 +79,12 @@
   ],
   "current_status": "development_preview; final browser/device and user aesthetic acceptance pending",
   "current_framework_version": "1.1.0-draft.2",
+  "current_framework_revision": {
+    "tag": "framework-v1.1.0-draft.2-errata.1",
+    "canonical_commit": "46c5d837503798311c99c1dd1e01cd6f6d4037eb",
+    "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.1.0-draft.2-errata.1/docs/framework",
+    "note": "Receiving thread confirmed draft.2; one migration-chapter reference corrected from handoff 1.1.0 to 1.1.1. No rule, parameter, acceptance or runtime change."
+  },
   "framework_versions": [
     {
       "version": "1.0.0-draft.1",
