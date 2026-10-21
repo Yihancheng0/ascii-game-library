@@ -119,6 +119,18 @@
       "runtime_changed": false,
       "discussion_status": "card_01 provisionally sparse because differences were not apparent; cards 02-08 pending; no visual acceptance",
       "decision": "D-09"
+    },
+    {
+      "version": "1.0.2",
+      "tag": "review-guide-v1.0.2",
+      "canonical_commit": "1d2af3183dafd305861231d8453238ff7808aa3b",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/review-guide-v1.0.2/docs/HUMAN_REVIEW.md",
+      "mirror_path": "ideas/tidebound-human-review.md",
+      "framework_version": "1.0.0-draft.1",
+      "runtime_changed": false,
+      "discussion_status": "recommendations in all eight cards endorsed as directions; open questions, parameters and visual/gameplay acceptance remain pending",
+      "decision": "D-10"
     }
-  ]
+  ],
+  "current_author_review_version": "1.0.2"
 }
