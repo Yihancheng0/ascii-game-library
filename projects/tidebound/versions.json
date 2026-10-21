@@ -147,5 +147,18 @@
       "author_review_version": "1.0.2",
       "initial_scope": "read handoff and research; no automatic runtime changes"
     }
+  ],
+  "research_studies": [
+    {
+      "version": "0.1.0",
+      "tag": "shore-study-v0.1.0",
+      "title": "Borrow a little light / 借一束光",
+      "commit": "8898c24ef533b91c56e6a56ab347f7abea5c6256",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/shore-study-v0.1.0",
+      "notes": "ideas/tidebound-shore-study.md",
+      "status": "independent_local_review_sample; user acceptance pending",
+      "main_game_version": "v0.6.1",
+      "qa_note": "Offline body/fin clearance, arrival, living wait, shared light controls, recall, pause, replay and save isolation passed. Basic local browser input checked; device performance and user aesthetic acceptance pending."
+    }
   ]
 }
