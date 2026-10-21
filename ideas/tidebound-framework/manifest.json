@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-draft.1",
-  "status": "draft_for_user_review",
+  "version": "1.1.0-draft.1",
+  "status": "integrated_draft_pending_prototype_validation",
   "created_on": "2026-10-20",
   "runtime_baseline": "v0.6.1",
   "runtime_commit": "afc17f9d56bc95423068e7f970eb87e7e170353b",
@@ -32,5 +32,7 @@
     "rules.json",
     "scenarios.json",
     "validate.py"
-  ]
+  ],
+  "updated_on": "2026-10-21",
+  "previous_version": "1.0.0-draft.1"
 }

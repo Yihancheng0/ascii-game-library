@@ -1,5 +1,5 @@
 {
-  "framework_version": "1.0.0-draft.1",
+  "framework_version": "1.1.0-draft.1",
   "baselines": [
     {
       "id": "BL-FISH",
@@ -72,6 +72,19 @@
       "scope": "一次完整两鱼协作",
       "status": "pending_capture_and_review",
       "direction_recognized": false,
+      "formal_acceptance": false,
+      "capture_commit": null,
+      "capture_configuration": null,
+      "evidence": [],
+      "reviewer": null,
+      "reviewed_on": null
+    },
+    {
+      "id": "BL-ESCORT",
+      "reference_id": "REF-FISH",
+      "scope": "完整护送切片：普通鱼、灯鱼、捕食者、岩水同屏；成功、失败、重聚与重试",
+      "status": "pending_capture_and_review",
+      "direction_recognized": true,
       "formal_acceptance": false,
       "capture_commit": null,
       "capture_configuration": null,

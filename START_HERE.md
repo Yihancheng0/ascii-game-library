@@ -1,10 +1,12 @@
 # 给开发 AI 的入口
 
-**借潮而行新线程交接：** [后续研究交接](ideas/tidebound-research-handoff.md)。先继承 D-10 的已认可方向、现有缺陷和证据边界，再按任务读取规范；不重复确认八项原则。
+**本次玩法整合：** [面向作者的说明](ideas/tidebound-gameplay-integration.md)。先做一段精美可靠的带鱼避敌；完整框架已同步更新，归途两种方案保留比较。
+
+**借潮而行新线程交接：** [后续研究交接](ideas/tidebound-research-handoff.md)。先继承 D-10～D-14 的已认可方向、护送核心、现有缺陷和证据边界，再按任务读取规范；不重复确认八项原则。
 
 **给作者看：** [八张审阅卡](ideas/tidebound-human-review.md)。用普通话说明审美与关键交互；八项建议已获方向认可，后续按 D-10 制作样片。具体开放问题和效果仍待验证，不重复询问同一原则。
 
-**借潮而行的当前制作入口：** [整体框架与执行规范](ideas/tidebound-framework/README.md)（1.0.0-draft.1）。先按任务阅读路线取所需章节；规则、参数、基准、场景均有机器索引。本文档草案不代表游戏已实现这些要求；运行版本仍为 v0.6.1。
+**借潮而行的当前制作入口：** [整体框架与执行规范](ideas/tidebound-framework/README.md)（1.1.0-draft.1）。先按任务阅读路线取所需章节；规则、参数、基准、场景均有机器索引。本文档草案不代表游戏已实现这些要求；运行版本仍为 v0.6.1。
 
 固定入口：https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/llms.txt
 仓库：https://github.com/Yihancheng0/ascii-game-library

@@ -1,5 +1,5 @@
 {
-  "framework_version": "1.0.0-draft.1",
+  "framework_version": "1.1.0-draft.1",
   "authority": "Rule prose in owner_file at anchor; index contains no alternative requirements",
   "rules": [
     {
@@ -489,6 +489,123 @@
       "anchor": "PROC-05",
       "scenarios": [
         "SC-DOC"
+      ]
+    },
+    {
+      "id": "ART-07",
+      "owner_file": "03-ART.md",
+      "anchor": "ART-07",
+      "scenarios": [
+        "SC-STYLE",
+        "SC-CHAR",
+        "SC-LAMP"
+      ]
+    },
+    {
+      "id": "WORLD-06",
+      "owner_file": "04-WORLD.md",
+      "anchor": "WORLD-06",
+      "scenarios": [
+        "SC-ROUTE",
+        "SC-TACTICS"
+      ]
+    },
+    {
+      "id": "MOTION-06",
+      "owner_file": "05-MOTION.md",
+      "anchor": "MOTION-06",
+      "scenarios": [
+        "SC-ESCORT",
+        "SC-PREDATOR",
+        "SC-TURN"
+      ]
+    },
+    {
+      "id": "PLAY-06",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-06",
+      "scenarios": [
+        "SC-ESCORT",
+        "SC-PREDATOR",
+        "SC-TACTICS"
+      ]
+    },
+    {
+      "id": "PLAY-07",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-07",
+      "scenarios": [
+        "SC-COMPANION",
+        "SC-RECOVERY"
+      ]
+    },
+    {
+      "id": "PLAY-08",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-08",
+      "scenarios": [
+        "SC-COMPANION",
+        "SC-TACTICS"
+      ]
+    },
+    {
+      "id": "PLAY-09",
+      "owner_file": "06-INTERACTION.md",
+      "anchor": "PLAY-09",
+      "scenarios": [
+        "SC-RETURN",
+        "SC-RECOVERY"
+      ]
+    },
+    {
+      "id": "ENG-09",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-09",
+      "scenarios": [
+        "SC-PREDATOR",
+        "SC-TACTICS",
+        "SC-PAN"
+      ]
+    },
+    {
+      "id": "ENG-10",
+      "owner_file": "07-ENGINE-CONTRACTS.md",
+      "anchor": "ENG-10",
+      "scenarios": [
+        "SC-ESCORT",
+        "SC-RECOVERY",
+        "SC-COMPANION",
+        "SC-RETURN"
+      ]
+    },
+    {
+      "id": "QA-06",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-06",
+      "scenarios": [
+        "SC-STYLE",
+        "SC-FIRSTPLAY",
+        "SC-RECOVERY",
+        "SC-PERF"
+      ]
+    },
+    {
+      "id": "QA-07",
+      "owner_file": "09-ACCEPTANCE.md",
+      "anchor": "QA-07",
+      "scenarios": [
+        "SC-FIRSTPLAY",
+        "SC-TACTICS",
+        "SC-COMPANION"
+      ]
+    },
+    {
+      "id": "PROC-06",
+      "owner_file": "10-PRODUCTION.md",
+      "anchor": "PROC-06",
+      "scenarios": [
+        "SC-DOC",
+        "SC-FIRSTPLAY"
       ]
     }
   ]

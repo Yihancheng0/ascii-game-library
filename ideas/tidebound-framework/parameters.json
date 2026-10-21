@@ -1,5 +1,5 @@
 {
-  "framework_version": "1.0.0-draft.1",
+  "framework_version": "1.1.0-draft.1",
   "parameters": [
     {
       "id": "P-FONT",
@@ -8,7 +8,7 @@
       "target_value": null,
       "unit": null,
       "method": "原鱼与环境同屏近看，验证字宽、基线、重量和缺字",
-      "decision_due": "M2",
+      "decision_due": "E1/E2 涉及资产先校准；其余保留原长期依赖",
       "evidence": [],
       "decision": null
     },
@@ -19,7 +19,7 @@
       "target_value": null,
       "unit": null,
       "method": "固定姿态拖动与多距离对照，检查轮廓跳变",
-      "decision_due": "M2",
+      "decision_due": "E1/E2 涉及资产先校准；其余保留原长期依赖",
       "evidence": [],
       "decision": null
     },
@@ -30,7 +30,7 @@
       "target_value": null,
       "unit": null,
       "method": "原鱼同屏的灰度/缩略图/正常图对照",
-      "decision_due": "M2",
+      "decision_due": "E1/E2 涉及资产先校准；其余保留原长期依赖",
       "evidence": [],
       "decision": null
     },
@@ -41,7 +41,7 @@
       "target_value": null,
       "unit": null,
       "method": "固定光、镜头和姿态检查大形稳定与局部变化",
-      "decision_due": "M2",
+      "decision_due": "E1/E2 涉及资产先校准；其余保留原长期依赖",
       "evidence": [],
       "decision": null
     },
@@ -151,7 +151,7 @@
       "target_value": null,
       "unit": null,
       "method": "实机分项测量，确认目标设备与体验取舍",
-      "decision_due": "M6",
+      "decision_due": "E1 初测预算；E2 首段交付前确认并验证",
       "evidence": [],
       "decision": null
     },
@@ -162,7 +162,7 @@
       "target_value": null,
       "unit": null,
       "method": "脚底、水线、鳍尾接岸的多角度对照",
-      "decision_due": "M1",
+      "decision_due": "E1/E2 涉及资产先校准；其余保留原长期依赖",
       "evidence": [],
       "decision": null
     },
@@ -187,6 +187,83 @@
       "source": "v0.6.1 src/harbor-guide.ts and historical implementation notes",
       "method": "Historical fact only; not a calibrated design target",
       "decision_due": "M4",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-ESCORT-LIGHT",
+      "label": "趋光范围、遮挡与重新聚拢条件",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "固定身体尺度与岩体，比较可见/遮挡/灭灯/重亮；记录玩家理解与稳定跟随",
+      "decision_due": "E1/E2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-SCHOOL",
+      "label": "鱼群数量、间距、速度差与掩护容量",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "在实际字号和设备中试窄口、转向与重聚；不照搬示意图数量",
+      "decision_due": "E1/E2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-PREDATOR",
+      "label": "发现条件、起势、转弯、记忆与恢复",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "等待和诱导对照；亮灭不重置、无屏外偷袭，保持可读反应窗口",
+      "decision_due": "E1/E2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-OUTCOME",
+      "label": "完成阈值、损失表现与重试位置",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "比较可理解失败与重试负担；永久损失另由 O-05 决定",
+      "decision_due": "E2",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-AFTERGLOW",
+      "label": "余辉充光、衰减与吸引阈值",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "同关无伙伴/有伙伴与遮挡停驻比较，检验临时集合收益及暴露代价",
+      "decision_due": "E3",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-COMPANION",
+      "label": "功能伙伴携带上限与通用意图",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "先比较灯鱼加至多一个伙伴方案，普通护送鱼独立；检验输入负担与策略取舍",
+      "decision_due": "E3",
+      "evidence": [],
+      "decision": null
+    },
+    {
+      "id": "P-INPUT-CAMERA",
+      "label": "首段输入、反应与镜头舒适性",
+      "status": "pending_calibration",
+      "target_value": null,
+      "unit": null,
+      "method": "移动/急转/暂停/拖动/跟随切换实机测试，记录延迟与抖动来源",
+      "decision_due": "E1/E2",
       "evidence": [],
       "decision": null
     }

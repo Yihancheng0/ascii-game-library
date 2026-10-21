@@ -1005,7 +1005,7 @@
     "kind": "design_idea",
     "status": "reference_note",
     "origin": "用户要求先写严密长篇框架，并确认原鱼气质、岛鱼上的人类建筑植物、体型候选对照三项方向",
-    "summary_zh": "13 章制作规范草案：形体、字符、受光、动作、世界、交互、公共系统、对象卡、验收、任务模板和迁移；保留原鱼气质，以证据约束后续模型。仅文档，非游戏功能发布。",
+    "summary_zh": "13 章完整规范整合护送核心：带鱼避敌、安全抵达、伙伴保留、新旧方法与两种归途；新增同屏美术、感知记忆和可靠性门槛。60 条规则；文档更新，运行版本不变。",
     "tags": [
       "ASCII",
       "美术框架",
@@ -1020,7 +1020,7 @@
       "framework",
       "art direction"
     ],
-    "search_text": "整体框架 严格规则 原鱼 美感 贴纸 贴图 字符 受光 动画 岛鱼结构 人类建筑 灯鱼 大海域 交互 引导 模型执行 验收 参数 基准 48条规则 13章 framework art motion architecture",
+    "search_text": "整体框架 严格规则 ASCII 护送 灯鱼 余辉鱼 捕食者 岩体 遮挡 感知 记忆 伙伴 留居 迁徙 原鱼 美感 贴图 字符 受光 动画 稳定 60条规则 13章 framework escort",
     "document_path": "ideas/tidebound-framework/README.md",
     "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
     "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
@@ -1032,9 +1032,10 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20",
-    "framework_version": "1.0.0-draft.1",
+    "framework_version": "1.1.0-draft.1",
     "implementation_status": "documentation_only; visual baselines and proposed systems pending",
-    "implementation_note": "User direction choices are confirmed; detailed framework remains a draft for review. No runtime change, no new aesthetic acceptance; third-party videos are not distributed."
+    "implementation_note": "Core direction integrated; specific control, loadout, species and parameters remain proposed/pending. No runtime modification or new game acceptance in this release.",
+    "updated_on": "2026-10-21"
   },
   {
     "id": "design:tidebound-human-review",
@@ -1072,7 +1073,7 @@
     "kind": "design_idea",
     "status": "reference_note",
     "origin": "用户要求新开线程继续研究，并准备必要记忆与交接",
-    "summary_zh": "新线程最小上下文：八项建议方向认可、当前版本、K-01 等未解决问题、真实证据、参考材料、待定项和后续研究次序；初始只读研究，不自动开发。",
+    "summary_zh": "交接 1.1：护送核心、D-10～D-14、E0–E5、全部框架阅读路径、现存小样与未提交工作边界；当前任务查阅学习，非自动开发。",
     "tags": [
       "交接",
       "记忆",
@@ -1093,6 +1094,41 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20",
-    "implementation_status": "handoff_only; runtime unchanged; new thread starts with reading and research"
+    "implementation_status": "handoff_only; runtime unchanged; new thread starts with reading and research",
+    "updated_on": "2026-10-21"
+  },
+  {
+    "id": "design:tidebound-gameplay-integration",
+    "name": "护送鱼群核心与精美可靠的首段制作",
+    "kind": "design_idea",
+    "status": "reference_note",
+    "origin": "用户要求将当前玩法整合到原长框架，并附说明交给已建研究线程学习",
+    "summary_zh": "一片水域、灯鱼、鱼群、捕食者；旧方法仍有效、特殊鱼可成为后续伙伴；留居/迁徙先比较。艺术与可靠性为硬门槛。",
+    "tags": [
+      "护送",
+      "灯鱼",
+      "余辉鱼",
+      "伙伴",
+      "捕食者",
+      "感知",
+      "ASCII",
+      "首段",
+      "稳定",
+      "交接"
+    ],
+    "search_text": "护送 鱼群 灯鱼 余辉鱼 捕食者 留居 迁徙 伙伴 新旧解法 同屏 风格 可靠 稳定 E0 E5",
+    "document_path": "ideas/tidebound-gameplay-integration.md",
+    "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-gameplay-integration.md",
+    "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-gameplay-integration.md",
+    "source_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-gameplay-integration.md",
+    "source_status": "editorial_design_note",
+    "license": {
+      "id": "MIT (original notes only)",
+      "evidence_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/LICENSE",
+      "reuse": "original_notes_only; third_party_works_reference_only"
+    },
+    "recorded_on": "2026-10-21",
+    "implementation_status": "integrated_design_and_handoff_only; no new gameplay implementation or acceptance",
+    "updated_on": "2026-10-21"
   }
 ]

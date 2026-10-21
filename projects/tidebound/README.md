@@ -4,7 +4,7 @@
 
 作者先读 [八张审阅卡](../../ideas/tidebound-human-review.md)：每次讨论一个主题，不必通读工程规范。八张卡的建议均获用户方向认可，后续直接按 D-10 执行；第 01 卡保留简单优先的疏朗取向。开放问题、具体造型和效果仍待样片，不再重复询问同一原则。
 
-**当前规范：** [整体制作框架 1.0.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
+**当前规范：** [整体制作框架 1.1.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
 
 游戏代码：[Yihancheng0/tidebound-ascii](https://github.com/Yihancheng0/tidebound-ascii)（私有，需要仓库权限）。
 
@@ -46,10 +46,13 @@
 
 新版使用独立 v2 存档，保留 v1 和历史档。`?harborDemo=1` 是实际输入演示，不写正常档。主画面删除浮空名字、方向数字与目标圈。原鱼不改，新的港湾模型为项目程序几何，不声称导入未授权的商业游戏资产。
 
-离线行为、完整输入流程和画布画面已自查。浏览器工具当前在应用设置中关闭；未完成最终设备帧率、DOM 布局或真人无陪同试玩。自动控制器的约 82 秒模拟流程不等于真人时长。旧六章与广阔多海域仍不是本轮精修范围。
+离线行为、完整输入流程和画布画面已自查。该版本记录时浏览器工具在应用设置中关闭；后续独立样片检查范围见其报告，主版本仍未完成最终设备帧率、DOM 布局或真人无陪同试玩。自动控制器的约 82 秒模拟流程不等于真人时长。旧六章与广阔多海域仍不是本轮精修范围。
 
 v0.6.1 修正水下鱼覆盖船体、实体灯前后排序与安置时叠灯架。锁鳞颌部有厚度和真实开口，眼齿随动；修复缝线读档后保留。初次提示不提前消失，后续停留十二秒恢复。像素回归含旧顺序负向对照；没有把离线检查写成浏览器或用户美术验收。
 
 ## 规范发布记录
 
-[framework-v1.0.0-draft.1 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.0.0-draft.1/docs/framework) · 提交 2809dfe17fe419304baa17b27fed86e461dbf91a。公共镜像为原创文档逐文件同步，详细状态见版本索引；运行版本仍为 v0.6.1。
+[当前 framework-v1.1.0-draft.1 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.1.0-draft.1/docs/framework) · 提交 11979c9a55feb6b6898a917acb155d36c4020f17。[护送整合说明](../../ideas/tidebound-gameplay-integration.md) 与交接 1.1 同版发布。60 条规则、25 场景、24 参数记录、7 待建立基准；新运行检查未执行。本次只更新规范，不包括已有未提交玩法小样。
+
+
+[framework-v1.0.0-draft.1 历史主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.0.0-draft.1/docs/framework) · 提交 2809dfe17fe419304baa17b27fed86e461dbf91a。公共镜像为原创文档逐文件同步，详细状态见版本索引；运行版本仍为 v0.6.1。
