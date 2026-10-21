@@ -239,6 +239,18 @@
       "status": "independent_local_review_sample; user acceptance pending",
       "main_game_version": "v0.6.1",
       "qa_note": "Offline body/fin clearance, arrival, living wait, shared light controls, recall, pause, replay and save isolation passed. Basic local browser input checked; device performance and user aesthetic acceptance pending."
+    },
+    {
+      "version": "0.1.0",
+      "tag": "cove-study-v0.1.0",
+      "title": "Glimmer between the rocks / 岩间微光",
+      "commit": "34550ebe74d89256b0da69a09afe840495b60234",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-study-v0.1.0",
+      "notes": "ideas/tidebound-cove-study.md",
+      "status": "independent_E1_local_review_sample; browser/device and user acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline DOM input/native Canvas: 14862 fixed steps, 572 full-body frames; six-fish gathering, detour, light/clue/regroup, interruption and legacy-save isolation passed. Typecheck and existing behavior checks passed. Browser control disabled by settings; no browser FPS or user art acceptance claimed. Predator patrol only; full E2 escort not implemented."
     }
   ]
 }
