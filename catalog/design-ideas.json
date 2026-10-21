@@ -1032,7 +1032,7 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20",
-    "framework_version": "1.1.0-draft.1",
+    "framework_version": "1.1.0-draft.2",
     "implementation_status": "documentation_only; visual baselines and proposed systems pending",
     "implementation_note": "Core direction integrated; specific control, loadout, species and parameters remain proposed/pending. No runtime modification or new game acceptance in this release.",
     "updated_on": "2026-10-21"
@@ -1073,7 +1073,7 @@
     "kind": "design_idea",
     "status": "reference_note",
     "origin": "用户要求新开线程继续研究，并准备必要记忆与交接",
-    "summary_zh": "交接 1.1：护送核心、D-10～D-14、E0–E5、全部框架阅读路径、现存小样与未提交工作边界；当前任务查阅学习，非自动开发。",
+    "summary_zh": "交接 1.1.1：护送核心、D-10～D-14、E0–E5、全部框架阅读路径、现存小样与未提交工作边界；当前任务查阅学习，非自动开发。",
     "tags": [
       "交接",
       "记忆",

@@ -1,5 +1,5 @@
 {
-  "framework_version": "1.1.0-draft.1",
+  "framework_version": "1.1.0-draft.2",
   "scope": "新规范场景定义；本轮除文档校验外未执行游戏检查",
   "scenarios": [
     {

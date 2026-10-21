@@ -1,5 +1,5 @@
 {
-  "framework_version": "1.1.0-draft.1",
+  "framework_version": "1.1.0-draft.2",
   "parameters": [
     {
       "id": "P-FONT",
@@ -51,10 +51,11 @@
       "status": "pending_calibration",
       "target_value": null,
       "unit": null,
-      "method": "水面/湿岩/船体同时受光的实际场景",
-      "decision_due": "M2",
+      "method": "E1 灯鱼、水面与湿岩同屏受光；E4 接入船体后增加船侧对照；不要求首段先做船",
+      "decision_due": "E1 同屏灯/岩/水校准，E2 随实际护送验证；船体受光在 E4 接入时复验",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M2"
     },
     {
       "id": "P-BODY",
@@ -63,9 +64,10 @@
       "target_value": null,
       "unit": null,
       "method": "全身左右转弯，逐帧检查连接",
-      "decision_due": "M1",
+      "decision_due": "E1 主体完整性与转向检查，E2 实际追捕/避岸复验",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M1"
     },
     {
       "id": "P-MASS",
@@ -74,9 +76,10 @@
       "target_value": null,
       "unit": null,
       "method": "同一路径尺寸对照与原鱼基准比较",
-      "decision_due": "M2",
+      "decision_due": "E1 普通鱼与捕食者的体型运动对照，E2 操作复验",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M2"
     },
     {
       "id": "P-WAKE",
@@ -85,9 +88,10 @@
       "target_value": null,
       "unit": null,
       "method": "巡游/冲刺/减速和镜头拖动对照",
-      "decision_due": "M2",
+      "decision_due": "E1 巡游/冲刺/减速与拖镜头对照，E2 实际输入复验",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M2"
     },
     {
       "id": "P-CAMERA",
@@ -96,9 +100,10 @@
       "target_value": null,
       "unit": null,
       "method": "固定路线与相机/世界坐标诊断",
-      "decision_due": "M1",
+      "decision_due": "E1 确定单场景镜头方案，E2 实机首段交付前复验",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M1"
     },
     {
       "id": "P-BREATH",
@@ -107,9 +112,10 @@
       "target_value": null,
       "unit": null,
       "method": "同一岛鱼地标、水线、附着物的完整周期",
-      "decision_due": "M3",
+      "decision_due": "E4 岛鱼进入制作时，完整结构与呼吸样片定稿前",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M3"
     },
     {
       "id": "P-HINT",
@@ -118,9 +124,10 @@
       "target_value": null,
       "unit": null,
       "method": "记录首次玩家误解、停滞点与恢复路径",
-      "decision_due": "M4",
+      "decision_due": "E2 首次玩家无指导操作前；E3 新伙伴引导另测",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M4"
     },
     {
       "id": "P-DAY",
@@ -129,9 +136,10 @@
       "target_value": null,
       "unit": null,
       "method": "安静观察与事件前后片段对照",
-      "decision_due": "M5",
+      "decision_due": "E5 对应大型事件立项后、进入可玩版前",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M5"
     },
     {
       "id": "P-WEATHER",
@@ -140,9 +148,10 @@
       "target_value": null,
       "unit": null,
       "method": "多系统响应，低闪烁信息等价检查",
-      "decision_due": "M5",
+      "decision_due": "E5 对应天气立项后、进入可玩版前",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M5"
     },
     {
       "id": "P-PERF",
@@ -173,9 +182,10 @@
       "target_value": null,
       "unit": null,
       "method": "边界往返、远坐标、内存和帧耗时测量",
-      "decision_due": "M5",
+      "decision_due": "E5 流式海域立项后、跨区可玩版交付前",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M5"
     },
     {
       "id": "P-HINT-LEGACY",
@@ -186,9 +196,10 @@
       "unit": "seconds",
       "source": "v0.6.1 src/harbor-guide.ts and historical implementation notes",
       "method": "Historical fact only; not a calibrated design target",
-      "decision_due": "M4",
+      "decision_due": "仅为历史事实，无当前冻结期限；不作为 E2 提示目标",
       "evidence": [],
-      "decision": null
+      "decision": null,
+      "historical_decision_due": "M4"
     },
     {
       "id": "P-ESCORT-LIGHT",

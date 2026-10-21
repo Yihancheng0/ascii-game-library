@@ -78,7 +78,7 @@
     }
   ],
   "current_status": "development_preview; final browser/device and user aesthetic acceptance pending",
-  "current_framework_version": "1.1.0-draft.1",
+  "current_framework_version": "1.1.0-draft.2",
   "framework_versions": [
     {
       "version": "1.0.0-draft.1",
@@ -113,6 +113,24 @@
       "visual_baselines": 7,
       "formal_visual_baselines_accepted": 0,
       "qa_note": "Canonical and mirror structure/link/state validation passed; original notes only. Existing uncommitted runtime work preserved; no new runtime/device/playtest/aesthetic acceptance. Escort scenarios remain not_run."
+    },
+    {
+      "version": "1.1.0-draft.2",
+      "tag": "framework-1.1.0-draft.2",
+      "status": "integrated_draft_pending_prototype_validation",
+      "runtime_changed": false,
+      "runtime_version": "v0.6.1",
+      "canonical_commit": "398bd75b8d10f00aa05f1b7df1e6114428d98092",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/framework-1.1.0-draft.2/docs/framework",
+      "mirror_path": "ideas/tidebound-framework",
+      "entry_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-framework/README.md",
+      "chapters": 13,
+      "rules": 60,
+      "scenarios": 25,
+      "parameter_records": 24,
+      "visual_baselines": 7,
+      "formal_visual_baselines_accepted": 0,
+      "qa_note": "Documentation validation and receiving-thread full read completed. Draft.2 clarifies current E-stage parameter deadlines and stale root/implementation entry points; no runtime changes or new game acceptance."
     }
   ],
   "author_review_guides": [
@@ -151,7 +169,7 @@
     }
   ],
   "current_author_review_version": "1.0.2",
-  "current_research_handoff_version": "1.1.0",
+  "current_research_handoff_version": "1.1.1",
   "research_handoffs": [
     {
       "version": "1.0.0",
@@ -175,6 +193,25 @@
       "runtime_changed": false,
       "runtime_version": "v0.6.1",
       "framework_version": "1.1.0-draft.1",
+      "author_review_version": "1.0.2",
+      "initial_scope": "Read integrated framework, review understanding and current implementation gaps; no automatic runtime edits",
+      "decisions": [
+        "D-11",
+        "D-12",
+        "D-13",
+        "D-14"
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "tag": "framework-1.1.0-draft.2",
+      "canonical_commit": "398bd75b8d10f00aa05f1b7df1e6114428d98092",
+      "canonical_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/framework-1.1.0-draft.2/docs/RESEARCH_HANDOFF.md",
+      "mirror_path": "ideas/tidebound-research-handoff.md",
+      "explanation_path": "ideas/tidebound-gameplay-integration.md",
+      "runtime_changed": false,
+      "runtime_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
       "author_review_version": "1.0.2",
       "initial_scope": "Read integrated framework, review understanding and current implementation gaps; no automatic runtime edits",
       "decisions": [

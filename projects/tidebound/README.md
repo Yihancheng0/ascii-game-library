@@ -4,7 +4,7 @@
 
 作者先读 [八张审阅卡](../../ideas/tidebound-human-review.md)：每次讨论一个主题，不必通读工程规范。八张卡的建议均获用户方向认可，后续直接按 D-10 执行；第 01 卡保留简单优先的疏朗取向。开放问题、具体造型和效果仍待样片，不再重复询问同一原则。
 
-**当前规范：** [整体制作框架 1.1.0-draft.1](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
+**当前规范：** [整体制作框架 1.1.0-draft.2](../../ideas/tidebound-framework/README.md)。先读角色阅读路线，再取本任务所需规则、对象卡和场景。[决策与待定项](../../ideas/tidebound-framework/12-DECISIONS.md) 记录最新用户选择；[现状与迁移](../../ideas/tidebound-framework/11-MIGRATION.md) 区分现有代码与目标契约。此更新只改文档，游戏运行版本仍为 v0.6.1。
 
 游戏代码：[Yihancheng0/tidebound-ascii](https://github.com/Yihancheng0/tidebound-ascii)（私有，需要仓库权限）。
 
@@ -52,7 +52,10 @@ v0.6.1 修正水下鱼覆盖船体、实体灯前后排序与安置时叠灯架�
 
 ## 规范发布记录
 
-[当前 framework-v1.1.0-draft.1 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.1.0-draft.1/docs/framework) · 提交 11979c9a55feb6b6898a917acb155d36c4020f17。[护送整合说明](../../ideas/tidebound-gameplay-integration.md) 与交接 1.1 同版发布。60 条规则、25 场景、24 参数记录、7 待建立基准；新运行检查未执行。本次只更新规范，不包括已有未提交玩法小样。
+[当前 framework-v1.1.0-draft.2 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.1.0-draft.2/docs/framework) · 提交 398bd75b8d10f00aa05f1b7df1e6114428d98092。接收复核后统一参数 E 阶段期限与实现入口；交接 1.1.1，玩法方向与待验状态不变。
+
+
+[首轮整合 framework-v1.1.0-draft.1 主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.1.0-draft.1/docs/framework) · 提交 11979c9a55feb6b6898a917acb155d36c4020f17。[护送整合说明](../../ideas/tidebound-gameplay-integration.md) 与交接 1.1 同版发布。60 条规则、25 场景、24 参数记录、7 待建立基准；新运行检查未执行。本次只更新规范，不包括已有未提交玩法小样。
 
 
 [framework-v1.0.0-draft.1 历史主本](https://github.com/Yihancheng0/tidebound-ascii/tree/framework-v1.0.0-draft.1/docs/framework) · 提交 2809dfe17fe419304baa17b27fed86e461dbf91a。公共镜像为原创文档逐文件同步，详细状态见版本索引；运行版本仍为 v0.6.1。

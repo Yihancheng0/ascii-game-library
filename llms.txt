@@ -3,7 +3,7 @@
 
 - [Tidebound research handoff](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-research-handoff.md): confirmed D-10 to D-14 directions, escort core and E0–E5 scope, current runtime, unresolved defects, references, verification boundaries and read/review scope of this handoff; further development needs user instructions.
 
-- [Tidebound production framework](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-framework/README.md): current draft 1.1.0-draft.1, role-based reading routes, 13 chapters, rules, object specs, calibration states and evidence gates. Documentation only; runtime stays v0.6.1. Do not treat proposed systems or pending visual baselines as implemented or accepted.
+- [Tidebound production framework](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-framework/README.md): current draft 1.1.0-draft.2, role-based reading routes, 13 chapters, rules, object specs, calibration states and evidence gates. Documentation only; runtime stays v0.6.1. Do not treat proposed systems or pending visual baselines as implemented or accepted.
 > 中文开发参考、双语标签、可读源码、逐项授权来源。Updated: 2026-10-20.
 
 - [Start here](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/START_HERE.md): AI retrieval procedure and examples.
