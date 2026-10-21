@@ -2,7 +2,7 @@
   "project": "Tidebound ASCII / 借潮而行",
   "code_repository": "https://github.com/Yihancheng0/tidebound-ascii",
   "visibility": "private",
-  "current_version": "v0.5.1",
+  "current_version": "v0.6.0",
   "versions": [
     {
       "version": "v0.3.0",
@@ -49,7 +49,20 @@
       "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.5.1/docs/REVIEW-v0.5.md",
       "qa_note": "Rules, save isolation, continuous camera and actual-engine input flow checked offline. No browser device or unaided user acceptance. Later six chapters remain v0.4 prototype.",
       "commit": "5c4b045c15bf7e73c8ad63b5f7ea00909c726eba"
+    },
+    {
+      "version": "v0.6.0",
+      "commit": "3f9fcbb46438cfa8c76e728059b6cf09249d5176",
+      "role": "harbor geometry and complete lamp-needle gill encounter",
+      "status": "development_preview",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.6.0",
+      "release_url": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.0",
+      "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.0/docs/REVIEW-v0.6.md",
+      "story": "ideas/tidebound-story.md",
+      "art": "ideas/tidebound-art.md",
+      "production_gates": "ideas/tidebound-production-gates.md",
+      "qa_note": "Type/build/behavior, full-body clearance, v2 save and actual-input offline journey checked. 84-second 20fps offline capture; browser performance, DOM and user aesthetic acceptance pending. Historical six chapters remain separate."
     }
   ],
-  "current_status": "development_preview; browser/user aesthetic acceptance pending"
+  "current_status": "development_preview; final browser/device and user aesthetic acceptance pending"
 }

@@ -43,4 +43,4 @@ Python 3.10+；`python scripts/search.py --help`。查询结果包含链接和�
 
 本项目后续对接先读 [借潮而行版本入口](projects/tidebound/README.md)，再查 `projects/tidebound/versions.json`。代码保存在独立私有仓库；本库保存原创剧情、美术约束、参考来源和版本链接。不要把剧情候选或素材库其他鱼种当成已经实装。
 
-借潮而行当前开发版本为 v0.5，新增 [港湾开场制作标准](ideas/tidebound-opening-standard.md)。自动流程通过不等于真人/美术验收通过；先查版本审查与边界。
+借潮而行当前开发版本为 v0.6，新增 [严格制作门槛](ideas/tidebound-production-gates.md)，保留 [开场制作标准](ideas/tidebound-opening-standard.md)。自动流程通过不等于真人/美术验收通过；先查版本审查与边界。

@@ -32,3 +32,5 @@ python scripts/search.py 镜鱼 --kind fish_combo
 [六章剧情与伙伴安置](tidebound-story.md) · [美术与天气适配](tidebound-art.md) · [代码版本、审查与交接](../projects/tidebound/README.md)。这些笔记保留设计边界，实际代码与演示见私有开发版本。
 
 [港湾开场制作标准与未验收项](tidebound-opening-standard.md)（v0.5 开发预览，后续六章未整体重制）。
+
+- [v0.6 港湾严格制作门槛](tidebound-production-gates.md)：原鱼不变、全身避岸、实体器官交互与分开验收。

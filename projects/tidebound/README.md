@@ -2,11 +2,11 @@
 
 游戏代码：[Yihancheng0/tidebound-ascii](https://github.com/Yihancheng0/tidebound-ascii)（私有，需要仓库权限）。
 
-当前开发预览为 [v0.5.1 港湾开场重做](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.5.1)，先读 [开场制作标准](../../ideas/tidebound-opening-standard.md)。下面的六章是 v0.4 历史实现，不代表已按新版美术标准重制。
+当前开发样片为 [v0.6.0 港湾与鳃湾](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.0)。先读 [严格制作门槛](../../ideas/tidebound-production-gates.md)、[本版自查](https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.0/docs/REVIEW-v0.6.md)。新增几何港湾、连续小船、全身避岸和灯鱼/针尾配合解除一只锁鳞。没有自动接回旧六章；浏览器设备和用户美术验收待完成。
 
 原鱼基于 ascii-sharks，上游没有识别到明确许可证，因此不把游戏代码按本素材库的 MIT 授权公开。新增天气研究 ASCII Magic 的四个 MIT 模块，保留授权；详见美术笔记。
 
-## 本次新增与边界
+## 历史 v0.4 内容与边界
 
 六章小体量迁徙事件、十二目标、六种伙伴、家园安置、灯光/缝合/回声配合、活帆推进、雨与扫光、岛鱼启程。更多鱼、居民日程、分支结局、经济、真实流场、基因与繁殖尚未实现。
 
@@ -24,7 +24,7 @@
 
 `v0.3.0` 是之前“借光出湾”的原样归档，含当时的动作缺陷。`v0.4.0` 是本次迁徙扩展。查历史请使用 tag，不要把旧预览当成最新画面。
 
-## v0.5 当前开发预览
+## 历史 v0.5 开发预览
 
 [代码与发布包](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.5.1) · [开场制作标准](../../ideas/tidebound-opening-standard.md) · [本版自查](https://github.com/Yihancheng0/tidebound-ascii/blob/v0.5.1/docs/REVIEW-v0.5.md)
 
@@ -33,3 +33,11 @@
 这是开发预览，尚未得到用户的新美术确认。规则与离线实际引擎流程已检查，浏览器窗口因 URL 识别限制无法操作；不能声称完成真人/设备/排版验收，也不能把自动演示时长当成“五分钟真人玩法”。后续六章仍是旧版事件原型，没有整体重制。
 
 无参数与 `?harbor=1` 进入新版独立档；`?harborDemo=1` 临时演示；`?legacy=1` 恢复旧档。`v0.3.0` / `v0.4.0` 标签保留。故事和风格笔记随当前开发版本更新，历史以对应代码 tag 的文档为准。
+
+## v0.6 当前入口与玩法
+
+无参数 / `?harbor=1`：救灯鱼→点亮实体航灯→引开巨鱼→返港上岸读图→邀请针尾→灯鱼引锁鳞抬颌→针尾缝合→鳃流恢复。结束后回港可点击实体灯架安置/接回灯鱼；E 上下船，H 海图与柔和天气。
+
+新版使用独立 v2 存档，保留 v1 和历史档。`?harborDemo=1` 是实际输入演示，不写正常档。主画面删除浮空名字、方向数字与目标圈。原鱼不改，新的港湾模型为项目程序几何，不声称导入未授权的商业游戏资产。
+
+离线行为、完整输入流程和画布画面已自查。浏览器工具当前在应用设置中关闭；未完成最终设备帧率、DOM 布局或真人无陪同试玩。自动控制器的约 82 秒模拟流程不等于真人时长。旧六章与广阔多海域仍不是本轮精修范围。
