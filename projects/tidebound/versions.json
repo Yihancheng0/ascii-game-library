@@ -2,7 +2,7 @@
   "project": "Tidebound ASCII / 借潮而行",
   "code_repository": "https://github.com/Yihancheng0/tidebound-ascii",
   "visibility": "private",
-  "current_version": "v0.6.0",
+  "current_version": "v0.6.1",
   "versions": [
     {
       "version": "v0.3.0",
@@ -62,6 +62,19 @@
       "art": "ideas/tidebound-art.md",
       "production_gates": "ideas/tidebound-production-gates.md",
       "qa_note": "Type/build/behavior, full-body clearance, v2 save and actual-input offline journey checked. 84-second 20fps offline capture; browser performance, DOM and user aesthetic acceptance pending. Historical six chapters remain separate."
+    },
+    {
+      "version": "v0.6.1",
+      "commit": "afc17f9d56bc95423068e7f970eb87e7e170353b",
+      "role": "water occlusion, articulated jaw readability and recoverable instruction hints",
+      "status": "development_preview",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/v0.6.1",
+      "release_url": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.1",
+      "review_url": "https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.1/docs/REVIEW-v0.6.1.md",
+      "story": "ideas/tidebound-story.md",
+      "art": "ideas/tidebound-art.md",
+      "production_gates": "ideas/tidebound-production-gates.md",
+      "qa_note": "Actual-engine overlap preserves 1432 opaque hull pixels; replaying former order corrupts 889 pixels. Type/build/behavior/save and input journey checked offline. Browser/device and user aesthetic acceptance remain pending. No later chapter expansion."
     }
   ],
   "current_status": "development_preview; final browser/device and user aesthetic acceptance pending"

@@ -973,7 +973,7 @@
     "kind": "design_idea",
     "status": "reference_note",
     "origin": "用户投诉 v0.4 体验后授权重做开场，并允许浏览器不可用时先继续开发",
-    "summary_zh": "保留原鱼；几何港湾、全身避岸、灯鱼引颌与针尾缝合。离线自查通过不代表美术或浏览器验收。",
+    "summary_zh": "保留原鱼；几何港湾、全身避岸、灯鱼引颌与针尾缝合。补充水下遮挡、颌部厚度/负空间、持久修复痕迹与提示恢复门槛。离线自查不代表美术或浏览器验收。",
     "tags": [
       "harbor",
       "ASCII",
@@ -983,7 +983,7 @@
       "鳃湾",
       "production gates"
     ],
-    "search_text": "港湾 v0.6 几何美术限制 灯鱼 针尾鱼 锁鳞 鳃湾 全身碰撞 开颌 缝合 制作门槛 harbor art direction production gates",
+    "search_text": "港湾 v0.6 几何美术限制 灯鱼 针尾鱼 锁鳞 鳃湾 全身碰撞 开颌 缝合 制作门槛 harbor art direction production gates v0.6.1 遮挡 负空间 提示恢复 occlusion articulated jaws",
     "document_path": "ideas/tidebound-production-gates.md",
     "document_url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-production-gates.md",
     "url": "https://github.com/Yihancheng0/ascii-game-library/blob/main/ideas/tidebound-production-gates.md",
@@ -995,7 +995,7 @@
       "reuse": "original_notes_only; third_party_works_reference_only"
     },
     "recorded_on": "2026-10-20",
-    "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.5.1",
+    "implementation_evidence": "https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.1",
     "implementation_note": "Development preview. Offline actual engine checks only; browser and user aesthetic acceptance pending.",
     "implementation_status": "development_preview_pending_user_acceptance"
   }

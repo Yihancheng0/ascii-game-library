@@ -2,7 +2,7 @@
 
 游戏代码：[Yihancheng0/tidebound-ascii](https://github.com/Yihancheng0/tidebound-ascii)（私有，需要仓库权限）。
 
-当前开发样片为 [v0.6.0 港湾与鳃湾](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.0)。先读 [严格制作门槛](../../ideas/tidebound-production-gates.md)、[本版自查](https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.0/docs/REVIEW-v0.6.md)。新增几何港湾、连续小船、全身避岸和灯鱼/针尾配合解除一只锁鳞。没有自动接回旧六章；浏览器设备和用户美术验收待完成。
+当前开发样片为 [v0.6.1 港湾遮挡与动作可读性](https://github.com/Yihancheng0/tidebound-ascii/releases/tag/v0.6.1)。先读 [严格制作门槛](../../ideas/tidebound-production-gates.md)、[本版自查](https://github.com/Yihancheng0/tidebound-ascii/blob/v0.6.1/docs/REVIEW-v0.6.1.md)。新增几何港湾、连续小船、全身避岸和灯鱼/针尾配合解除一只锁鳞。没有自动接回旧六章；浏览器设备和用户美术验收待完成。
 
 原鱼基于 ascii-sharks，上游没有识别到明确许可证，因此不把游戏代码按本素材库的 MIT 授权公开。新增天气研究 ASCII Magic 的四个 MIT 模块，保留授权；详见美术笔记。
 
@@ -41,3 +41,5 @@
 新版使用独立 v2 存档，保留 v1 和历史档。`?harborDemo=1` 是实际输入演示，不写正常档。主画面删除浮空名字、方向数字与目标圈。原鱼不改，新的港湾模型为项目程序几何，不声称导入未授权的商业游戏资产。
 
 离线行为、完整输入流程和画布画面已自查。浏览器工具当前在应用设置中关闭；未完成最终设备帧率、DOM 布局或真人无陪同试玩。自动控制器的约 82 秒模拟流程不等于真人时长。旧六章与广阔多海域仍不是本轮精修范围。
+
+v0.6.1 修正水下鱼覆盖船体、实体灯前后排序与安置时叠灯架。锁鳞颌部有厚度和真实开口，眼齿随动；修复缝线读档后保留。初次提示不提前消失，后续停留十二秒恢复。像素回归含旧顺序负向对照；没有把离线检查写成浏览器或用户美术验收。
