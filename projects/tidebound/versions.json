@@ -262,7 +262,20 @@
       "status": "independent_E2_escort_research; browser/device and user acceptance pending",
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
-      "qa_note": "Offline DOM/native Canvas: 13801 fixed-step calls, 1690 pose frames; two played-through strategies, exposed crossing/flashing controls, telegraph/contact, darkness memory, unique arrivals, settled observation, interruption/retry and old-save isolation passed. E1 regression, typecheck, existing behavior and document checks passed. No actual browser/device or first-player/fun acceptance claimed."
+      "qa_note": "Offline DOM/native Canvas: 13801 fixed-step calls, 1690 pose frames; two played-through strategies, exposed crossing/flashing controls, telegraph/contact, darkness memory, unique arrivals, settled observation, interruption/retry and old-save isolation passed. E1 regression, typecheck, existing behavior and document checks passed. No actual browser/device or first-player/fun acceptance claimed.",
+      "feedback_status": "User reported environment, rapid-click responsiveness and predator/light readability problems; revised in 0.2.0. Historical offline flow checks do not imply experience acceptance."
+    },
+    {
+      "version": "0.2.0",
+      "tag": "cove-escort-v0.2.0",
+      "title": "A short crossing / 护送细节修订",
+      "commit": "8c763273c8d12d36b71eddd53367c6b593627c7a",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.2.0",
+      "notes": "ideas/tidebound-cove-refinement.md",
+      "status": "feedback_driven_revision; browser/device, responsiveness, art and fun acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline actual DOM/native Canvas: 13766 step calls, 1788 pose frames; rapid clicks, light-only school/predator controls, real pursuit, LOS/memory and retreat recovery, two strategies and negative inputs passed. E1/type/behavior/save/document regression passed. Same-pose environment comparison reviewed; overall darkness remains subject to feedback. No browser FPS or user acceptance claimed."
     }
   ]
 }

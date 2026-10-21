@@ -1,3 +1,4 @@
+- [Cove escort detail revision 0.2.0](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-cove-refinement.md): feedback-driven rock, click response, light behavior and predator pursuit/recovery revision. Offline controls passed; device and user acceptance pending.
 # ASCII 游戏素材与灵感库 / ASCII Game Library
 - [Escort integration explained](https://raw.githubusercontent.com/Yihancheng0/ascii-game-library/main/ideas/tidebound-gameplay-integration.md): small polished escort slice, reusable companions, old/new strategies, two return outcomes and strict shared ASCII visual/interaction gates. Documentation only.
 
