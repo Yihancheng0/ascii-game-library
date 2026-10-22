@@ -322,10 +322,22 @@
       "commit": "69e47e7940fa2ae4cc5fee7a6aa078e8d94dfcc6",
       "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.4.2",
       "notes": "ideas/tidebound-cove-shell.md",
-      "status": "first_concept_to_glyph_form_study; device and user art/fun acceptance pending",
+      "status": "user_art_and_motion_rejected; superseded_by_cove-escort-v0.5.0; device_pending",
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
-      "qa_note": "Built-in original concept only, not runtime image or claimed external 3D generation. Shared procedural geometry/light/material, unchanged footprints, 12437 height samples, multiple light poses and native views passed; full escort 14162 steps/1917 poses, micro 998 steps/236 poses, E1 and existing behavior/save regressions passed. Concept overhangs/caves not implemented; no device or user acceptance claimed."
+      "qa_note": "Built-in original concept only, not runtime image or claimed external 3D generation. Shared procedural geometry/light/material, unchanged footprints, 12437 height samples, multiple light poses and native views passed; full escort 14162 steps/1917 poses, micro 998 steps/236 poses, E1 and existing behavior/save regressions passed. Concept overhangs/caves not implemented; no device or user acceptance claimed. Later user review rejected the visual quality and predator motion; offline passes are retained only as technical evidence."
+    },
+    {
+      "version": "0.5.0",
+      "tag": "cove-escort-v0.5.0",
+      "title": "Visual and predator motion revision / 基础画面与大鱼动作修订",
+      "commit": "4e9b8f2cf61159b978257cdec3c0d4dbf18cdf7b",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.5.0",
+      "notes": "ideas/tidebound-cove-quality.md",
+      "status": "art_in_repair; device and user motion/art/fun acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline two-route escort/negative controls, micro input, actual Canvas frames, shared geometry/light, 22-second continuous-motion check, E1 and behavior/save regressions passed. Fullscreen invocation mocked only; concept overhang/cave structure not implemented. Prior art rejection retained; no aesthetic or performance acceptance claimed."
     }
   ]
 }
