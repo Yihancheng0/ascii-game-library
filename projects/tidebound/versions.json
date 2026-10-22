@@ -302,6 +302,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "Offline actual DOM/native Canvas: 14162 steps and 1917 pose frames, two strategies, negative crossings, interruption/retry and save isolation passed. Native viewport pixels, transparent compositing, noninteger zoom/anchored sampling, light-only controls and hidden-target-independent multi-second search passed; E1 14862 steps/572 poses and existing type/behavior/save regression passed. Browser/device and user acceptance pending."
+    },
+    {
+      "version": "0.4.1",
+      "tag": "cove-escort-v0.4.1",
+      "title": "Fine movement / 细微走位",
+      "commit": "d036f2354fdf75183bb1f8ec513919a403624a3d",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.4.1",
+      "notes": "ideas/tidebound-cove-micro.md",
+      "status": "feedback_driven_control_revision; device feel and user acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "998 offline DOM input steps/236 native Canvas pose frames: WD/WA direction change, 48 rapid W/S reversals, 36 near-pointer reversals, opposite-key overlap/release, subframe taps, tiny targets and full-body coast checks passed. Full escort strategies/failure, presentation/perception, E1 and existing behavior/save regression passed; no browser input-to-display latency or user acceptance claimed."
     }
   ]
 }
