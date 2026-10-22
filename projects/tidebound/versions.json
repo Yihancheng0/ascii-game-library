@@ -314,6 +314,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "998 offline DOM input steps/236 native Canvas pose frames: WD/WA direction change, 48 rapid W/S reversals, 36 near-pointer reversals, opposite-key overlap/release, subframe taps, tiny targets and full-body coast checks passed. Full escort strategies/failure, presentation/perception, E1 and existing behavior/save regression passed; no browser input-to-display latency or user acceptance claimed."
+    },
+    {
+      "version": "0.4.2",
+      "tag": "cove-escort-v0.4.2",
+      "title": "Tidal shell form study / 潮壳湾形体试验",
+      "commit": "69e47e7940fa2ae4cc5fee7a6aa078e8d94dfcc6",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.4.2",
+      "notes": "ideas/tidebound-cove-shell.md",
+      "status": "first_concept_to_glyph_form_study; device and user art/fun acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Built-in original concept only, not runtime image or claimed external 3D generation. Shared procedural geometry/light/material, unchanged footprints, 12437 height samples, multiple light poses and native views passed; full escort 14162 steps/1917 poses, micro 998 steps/236 poses, E1 and existing behavior/save regressions passed. Concept overhangs/caves not implemented; no device or user acceptance claimed."
     }
   ]
 }
