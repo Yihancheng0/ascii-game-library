@@ -338,6 +338,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "Offline two-route escort/negative controls, micro input, actual Canvas frames, shared geometry/light, 22-second continuous-motion check, E1 and behavior/save regressions passed. Fullscreen invocation mocked only; concept overhang/cave structure not implemented. Prior art rejection retained; no aesthetic or performance acceptance claimed."
+    },
+    {
+      "version": "0.5.1",
+      "tag": "cove-escort-v0.5.1",
+      "title": "Shoal, light and attack feedback / 鱼群、灯光与攻击反馈",
+      "commit": "ae1e18504e862921983c0a220905fb6382c0fd41",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.5.1",
+      "notes": "ideas/tidebound-cove-readability.md",
+      "status": "feedback_readability_revision; whole-scene art and device/user acceptance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline two-route flow, negative crossing/retry, micro input, actual rendered-body coverage, geometric windup, contact scatter, remembered school slots, light-only materials, 120-second patrol and safe-target fixtures passed; E1 and behavior/save regression retained. Ordinary browser input observed; fullscreen, performance and complete device flow not accepted. No whole-scene art completion claimed."
     }
   ]
 }
