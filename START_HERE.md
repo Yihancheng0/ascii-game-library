@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**当前公开修订：[避险、接回与歇脚湾0.9.0](ideas/tidebound-cove-regroup.md)**。[同一试玩](https://yihancheng0.github.io/tidebound-play/)已更新：小鱼有限侧避、实际受袭后可回接，灯鱼受击仍失败；六鱼安定后跟随原小鱼、灯照旧航迹完成当前段收尾。第二张地图未制作。真实敌人活动的回接与隔离时机往返检查分开，匿名下载完整护送/收尾通过；设备/用户趣味与整体美术待体验。以下为历史。
+
 **当前公开修订：[跟手移动与鱼身动作 0.8.0](ideas/tidebound-cove-agility.md)**。[固定试玩](https://yihancheng0.github.io/tidebound-play/)已更新；反向位移先响应、鱼身快速转弯，捕食者阶段摆幅与同源水纹。新旧对照/真实闪避/完整护送和匿名下载检查通过；实机手感、美感仍待作者体验，不扩后续章节。以下为历史。
 
 **公开试玩已上线：** [借潮而行 0.7.0](https://yihancheng0.github.io/tidebound-play/)，无需登录 GPT/GitHub，不依赖本机服务。用户已澄清作者身份并授权公开，旧的申请等待已撤销。匿名三入口及下载版完整护送通过；后续更新同一网址，详见 [交付记录](ideas/tidebound-delivery.md)。
