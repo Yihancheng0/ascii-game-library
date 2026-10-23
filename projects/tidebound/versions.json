@@ -350,6 +350,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "Offline two-route flow, negative crossing/retry, micro input, actual rendered-body coverage, geometric windup, contact scatter, remembered school slots, light-only materials, 120-second patrol and safe-target fixtures passed; E1 and behavior/save regression retained. Ordinary browser input observed; fullscreen, performance and complete device flow not accepted. No whole-scene art completion claimed."
+    },
+    {
+      "version": "0.6.0",
+      "tag": "cove-escort-v0.6.0",
+      "title": "Estuary, forward swimming and individual arrival / 水域、转身与停靠",
+      "commit": "997af640a76a760144f296260f896803f4c36daa",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.6.0",
+      "notes": "ideas/tidebound-cove-estuary.md",
+      "status": "runtime_expansion_and_movement_revision; art, difficulty, feel and device performance pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "New-world patrol, short taps/held reverse, named neutral turning/light-memory fixture, two actual crossings and negative shortcut, rendered coverage, zoom/viewport, legacy behavior/save and E1 checks passed. Ordinary Chrome controls and full watch flow showed six arrived. No fullscreen, performance or user quality acceptance claimed."
     }
   ]
 }
