@@ -362,6 +362,18 @@
       "main_game_version": "v0.6.1",
       "framework_version": "1.1.0-draft.2",
       "qa_note": "New-world patrol, short taps/held reverse, named neutral turning/light-memory fixture, two actual crossings and negative shortcut, rendered coverage, zoom/viewport, legacy behavior/save and E1 checks passed. Ordinary Chrome controls and full watch flow showed six arrived. No fullscreen, performance or user quality acceptance claimed."
+    },
+    {
+      "version": "0.7.0",
+      "tag": "cove-escort-v0.7.0",
+      "title": "Anatomy, local view and encounter / 鱼体、局部视野与遭遇",
+      "commit": "6ea107c69f3949515d600ac03d7e6ac7ee7a5582",
+      "tag_url": "https://github.com/Yihancheng0/tidebound-ascii/tree/cove-escort-v0.7.0",
+      "notes": "ideas/tidebound-cove-encounter.md",
+      "status": "native_anatomy_and_encounter_revision; current browser unavailable, user art/feel/difficulty pending",
+      "main_game_version": "v0.6.1",
+      "framework_version": "1.1.0-draft.2",
+      "qa_note": "Offline actual encounter with pursuit/charge then six arrivals, alternative patrol timing, shortcut failure, local zoom/peek, cue timing, native body/fin coverage, three poses/views, taps, viewport and save checks. Legacy behavior/save and old-scene pixel comparisons passed. Current browser control disabled in application settings, no bypass and no device acceptance claimed."
     }
   ]
 }
