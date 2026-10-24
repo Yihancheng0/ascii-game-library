@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**当前局部修订：[浅湾跟随0.13.1](ideas/tidebound-reef-follow.md)**。[打开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。修正环境样片误用终点规则造成六鱼永久停靠，现可带鱼往返；正式两节通关规则保留。同输入离湾/9点绕礁往返、匿名下载和Chrome基本输入已验证，完整浏览器离湾与本版FPS未测。以下为历史。
+
 **当前局部修订：[减密与性能0.13.0](ideas/tidebound-reef-performance.md)**。[同一公开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。作者报告过密和严重卡顿，新版减少重复装饰并复用原生字形/真实受光；原鱼清晰度与两节保留。匿名下载、几何/像素回归和Chrome实际短样本通过；浏览器render函数中位458.5→7.3ms，不等于FPS保证，用户效果待反馈。以下为历史。
 
 **当前局部样片：[主礁接浅庭0.12.1](ideas/tidebound-reef-atelier.md)**。[直接打开](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。用户否定此前实景与概念的差距，本轮先做手工薄层礁檐/支撑湿壁/水下台阶和扎根分枝植物，以正常游戏视距、共同照明与原鱼操作审阅；不替换现有两节或宣布近乎还原概念。22实际帧、根部/实体/光照/输入/安定后持续运行与原两节状态/像素对照通过。效果仍待作者审阅。以下为历史。
