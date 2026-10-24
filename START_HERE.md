@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**当前局部修订：[减密与性能0.13.0](ideas/tidebound-reef-performance.md)**。[同一公开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。作者报告过密和严重卡顿，新版减少重复装饰并复用原生字形/真实受光；原鱼清晰度与两节保留。匿名下载、几何/像素回归和Chrome实际短样本通过；浏览器render函数中位458.5→7.3ms，不等于FPS保证，用户效果待反馈。以下为历史。
+
 **当前局部样片：[主礁接浅庭0.12.1](ideas/tidebound-reef-atelier.md)**。[直接打开](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。用户否定此前实景与概念的差距，本轮先做手工薄层礁檐/支撑湿壁/水下台阶和扎根分枝植物，以正常游戏视距、共同照明与原鱼操作审阅；不替换现有两节或宣布近乎还原概念。22实际帧、根部/实体/光照/输入/安定后持续运行与原两节状态/像素对照通过。效果仍待作者审阅。以下为历史。
 
 **当前公开修订：[眠潮庭通行与鱼群0.11.0](ideas/tidebound-garden-routes.md)**。[第二节直达](https://yihancheng0.github.io/tidebound-play/?chapter=2)。用户否定0.10.0的假通道/卡鱼/路线失衡，新版改为实体周岸、相连主岬角与两条返回水道，修真实灯线索、贴岸脱困和整身变形。20处冻结对照、新72实际帧、实际遭遇/闪避接回、第一节回归与匿名下载两节6/6通过；Chrome公开版第二节6/6、版本/输入/章节切换已验证。实际美术仍未达到概念精细度，设备FPS与用户趣味/效果待验收。以下为历史。
