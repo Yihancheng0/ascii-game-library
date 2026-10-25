@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**当前环境试验：[精绘水境0.15.0](ideas/tidebound-painted-water.md)**。[直接试玩](https://yihancheng0.github.io/tidebound-play/?encounter=reef-rescue&art=painted)。作者明确放宽场景必须ASCII的限制；现有玩法/字符鱼保留，环境换为实际使用的精绘图像与独立水光、局部遮挡灯光。原生15帧、完整两走法、旧四模式状态像素通过。匿名下载、Chrome实际新环境/操作/双向切换已验证。固定俯视2.5D，未声称Blender/自由3D/GS、持续FPS或作者美术验收。以下为历史。
+
 **当前短遭遇：[礁后接鱼0.14.0](ideas/tidebound-reef-rescue.md)**。[直接试玩](https://yihancheng0.github.io/tidebound-play/?encounter=reef-rescue)。自审后修正固定等待、重复诱导和无效巡游；实际留鱼/诱导/回接与可读觅食机会形成紧凑过程。两种活动敌人走法、正反例和旧三模式像素回归通过，匿名公开与Chrome基本操作已验证。制作判断为这一小段值得保留，暂停扩张；不等于全游戏、外部观众或作者趣味验收。以下为历史。
 
 **当前局部修订：[浅湾跟随0.13.1](ideas/tidebound-reef-follow.md)**。[打开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。修正环境样片误用终点规则造成六鱼永久停靠，现可带鱼往返；正式两节通关规则保留。同输入离湾/9点绕礁往返、匿名下载和Chrome基本输入已验证，完整浏览器离湾与本版FPS未测。以下为历史。
