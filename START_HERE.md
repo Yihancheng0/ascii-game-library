@@ -1,5 +1,7 @@
 # 给开发 AI 的入口
 
+**当前短遭遇：[礁后接鱼0.14.0](ideas/tidebound-reef-rescue.md)**。[直接试玩](https://yihancheng0.github.io/tidebound-play/?encounter=reef-rescue)。自审后修正固定等待、重复诱导和无效巡游；实际留鱼/诱导/回接与可读觅食机会形成紧凑过程。两种活动敌人走法、正反例和旧三模式像素回归通过，匿名公开与Chrome基本操作已验证。制作判断为这一小段值得保留，暂停扩张；不等于全游戏、外部观众或作者趣味验收。以下为历史。
+
 **当前局部修订：[浅湾跟随0.13.1](ideas/tidebound-reef-follow.md)**。[打开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。修正环境样片误用终点规则造成六鱼永久停靠，现可带鱼往返；正式两节通关规则保留。同输入离湾/9点绕礁往返、匿名下载和Chrome基本输入已验证，完整浏览器离湾与本版FPS未测。以下为历史。
 
 **当前局部修订：[减密与性能0.13.0](ideas/tidebound-reef-performance.md)**。[同一公开样片](https://yihancheng0.github.io/tidebound-play/?chapter=2&study=reef)。作者报告过密和严重卡顿，新版减少重复装饰并复用原生字形/真实受光；原鱼清晰度与两节保留。匿名下载、几何/像素回归和Chrome实际短样本通过；浏览器render函数中位458.5→7.3ms，不等于FPS保证，用户效果待反馈。以下为历史。
